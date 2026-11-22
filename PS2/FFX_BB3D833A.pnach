@@ -29,7 +29,7 @@ gametitle=Final Fantasy X (NTSC-U) (SLUS-20312) [BB3D833A]
 //patch=1,EE,00316F61,extended,000000FF
 
 // Al Bhed Dialogue Translated
-//patch=1,EE,20319FF0,extended,03FFFFFF
+patch=1,EE,20319FF0,extended,03FFFFFF
 
 // Break 99,999 Damage Limit On Some Items & Special Attacks
 // Note: This effects certain item-based and special attacks.
@@ -39,7 +39,7 @@ gametitle=Final Fantasy X (NTSC-U) (SLUS-20312) [BB3D833A]
 //patch=1,EE,201C133C,extended,3C030099
 
 // Break Damage (9999 Limit)
-//patch=1,EE,201C1334,extended,3C0B0099
+patch=1,EE,201C1334,extended,3C0B0099
 
 // Break Damage Limit (All Characters)
 //patch=1,EE,201C1354,extended,3C0B3B9A
@@ -94,21 +94,21 @@ gametitle=Final Fantasy X (NTSC-U) (SLUS-20312) [BB3D833A]
 //patch=1,EE,10BA85B8,extended,00000110
 
 // Infinite Gil
-//patch=1,EE,2031A028,extended,05F5E0FF
+patch=1,EE,2031A028,extended,05F5E0FF
 
 // Infinite HP (In-Battle) Fixed
-//patch=1,EE,201C86D0,extended,1040000C
-//patch=1,EE,201C86D8,extended,3C020002
-//patch=1,EE,201C86DC,extended,244249F0
-//patch=1,EE,201C86E0,extended,AC62027C
+patch=1,EE,201C86D0,extended,1040000C
+patch=1,EE,201C86D8,extended,3C020002
+patch=1,EE,201C86DC,extended,244249F0
+patch=1,EE,201C86E0,extended,AC62027C
 
 // Infinite Item Usage
 //patch=1,EE,101BECEA,extended,0000A266
 //patch=1,EE,201BECA4,extended,24020064
 
 // Infinite MP (In-Battle)
-//patch=1,EE,201C86EC,extended,2402270F
-//patch=1,EE,201C86F0,extended,AC620280
+patch=1,EE,201C86EC,extended,2402270F
+patch=1,EE,201C86F0,extended,AC620280
 
 // Max HP/MP/Limit Break (All Characters)
 //patch=1,EE,201BE130,extended,AFC60004
@@ -121,15 +121,15 @@ gametitle=Final Fantasy X (NTSC-U) (SLUS-20312) [BB3D833A]
 //patch=1,EE,201BD978,extended,AC410010
 
 // No Random Battles
-//patch=1,EE,00314227,extended,00000000
+patch=1,EE,00314227,extended,00000000
 
 // Quick Overdrive Gain
 // Note: Set your overdrive mode to 'Ally' for an overdrive on every turn.
-//patch=1,EE,201E1848,extended,240400FF
+patch=1,EE,201E1848,extended,240400FF
 
 // S Level 98 (All Characters)
-//patch=1,EE,201BC1D0,extended,0080102D
-//patch=1,EE,201BD8C0,extended,0806F066
+patch=1,EE,201BC1D0,extended,0080102D
+patch=1,EE,201BD8C0,extended,0806F066
 
 // ============================================================================
 // Active Party
@@ -4645,14 +4645,14 @@ gametitle=Final Fantasy X (NTSC-U) (SLUS-20312) [BB3D833A]
 //patch=1,EE,0031664D,extended,00000001
 
 // All Overdrives
-//patch=1,EE,2031A04C,extended,FFFFFFFF
-//patch=1,EE,2031A050,extended,FFFFFFFF
-//patch=1,EE,2031A054,extended,FFFFFFFF
+patch=1,EE,2031A04C,extended,FFFFFFFF
+patch=1,EE,2031A050,extended,FFFFFFFF
+patch=1,EE,2031A054,extended,FFFFFFFF
 
 // Always Win Blitzball
-//patch=1,EE,0031791E,extended,00000063
-//patch=1,EE,00317981,extended,00000063
-//patch=1,EE,0031791F,extended,00000000
+patch=1,EE,0031791E,extended,00000063
+patch=1,EE,00317981,extended,00000063
+patch=1,EE,0031791F,extended,00000000
 
 // End Sequence (Press Select While Save Loads)
 //patch=1,EE,D076EC02,extended,0000FFFE
@@ -4900,106 +4900,106 @@ gametitle=Final Fantasy X (NTSC-U) (SLUS-20312) [BB3D833A]
 // ============================================================================
 
 // 99 Items (A)
-//patch=1,EE,2031A3AC,extended,63636363
-//patch=1,EE,2031A3B0,extended,63636363
-//patch=1,EE,2031A3B4,extended,63636363
-//patch=1,EE,2031A3B8,extended,63636363
-//patch=1,EE,2031A3BC,extended,63636363
-//patch=1,EE,2031A3C0,extended,63636363
-//patch=1,EE,2031A3C4,extended,63636363
-//patch=1,EE,2031A3C8,extended,63636363
-//patch=1,EE,2031A3CC,extended,63636363
-//patch=1,EE,2031A3D0,extended,63636363
-//patch=1,EE,2031A3D4,extended,63636363
+patch=1,EE,2031A3AC,extended,63636363
+patch=1,EE,2031A3B0,extended,63636363
+patch=1,EE,2031A3B4,extended,63636363
+patch=1,EE,2031A3B8,extended,63636363
+patch=1,EE,2031A3BC,extended,63636363
+patch=1,EE,2031A3C0,extended,63636363
+patch=1,EE,2031A3C4,extended,63636363
+patch=1,EE,2031A3C8,extended,63636363
+patch=1,EE,2031A3CC,extended,63636363
+patch=1,EE,2031A3D0,extended,63636363
+patch=1,EE,2031A3D4,extended,63636363
 
 // 99 Items (B)
-//patch=1,EE,2031A3D8,extended,63636363
-//patch=1,EE,2031A3DC,extended,63636363
-//patch=1,EE,2031A3E0,extended,63636363
-//patch=1,EE,2031A3E4,extended,63636363
-//patch=1,EE,2031A3E8,extended,63636363
-//patch=1,EE,2031A3EC,extended,63636363
-//patch=1,EE,2031A3F0,extended,63636363
-//patch=1,EE,2031A3F4,extended,63636363
-//patch=1,EE,2031A3F8,extended,63636363
+patch=1,EE,2031A3D8,extended,63636363
+patch=1,EE,2031A3DC,extended,63636363
+patch=1,EE,2031A3E0,extended,63636363
+patch=1,EE,2031A3E4,extended,63636363
+patch=1,EE,2031A3E8,extended,63636363
+patch=1,EE,2031A3EC,extended,63636363
+patch=1,EE,2031A3F0,extended,63636363
+patch=1,EE,2031A3F4,extended,63636363
+patch=1,EE,2031A3F8,extended,63636363
 
 // 99 Items (C)
-//patch=1,EE,2031A3FC,extended,63636363
-//patch=1,EE,2031A400,extended,63636363
-//patch=1,EE,2031A404,extended,63636363
-//patch=1,EE,2031A408,extended,63636363
-//patch=1,EE,2031A40C,extended,63636363
-//patch=1,EE,2031A410,extended,63636363
-//patch=1,EE,2031A414,extended,63636363
-//patch=1,EE,2031A418,extended,63636363
+patch=1,EE,2031A3FC,extended,63636363
+patch=1,EE,2031A400,extended,63636363
+patch=1,EE,2031A404,extended,63636363
+patch=1,EE,2031A408,extended,63636363
+patch=1,EE,2031A40C,extended,63636363
+patch=1,EE,2031A410,extended,63636363
+patch=1,EE,2031A414,extended,63636363
+patch=1,EE,2031A418,extended,63636363
 
 // Have All Items (1 - 6)
-//patch=1,EE,2031A1AC,extended,20012000
-//patch=1,EE,2031A1B0,extended,20032002
-//patch=1,EE,2031A1B4,extended,20052004
-//patch=1,EE,2031A1B8,extended,20072006
-//patch=1,EE,2031A1BC,extended,20092008
-//patch=1,EE,2031A1C0,extended,200B200A
-//patch=1,EE,2031A1C4,extended,200D200C
-//patch=1,EE,2031A1C8,extended,200F200E
-//patch=1,EE,2031A1CC,extended,20112010
-//patch=1,EE,2031A1D0,extended,20132012
+patch=1,EE,2031A1AC,extended,20012000
+patch=1,EE,2031A1B0,extended,20032002
+patch=1,EE,2031A1B4,extended,20052004
+patch=1,EE,2031A1B8,extended,20072006
+patch=1,EE,2031A1BC,extended,20092008
+patch=1,EE,2031A1C0,extended,200B200A
+patch=1,EE,2031A1C4,extended,200D200C
+patch=1,EE,2031A1C8,extended,200F200E
+patch=1,EE,2031A1CC,extended,20112010
+patch=1,EE,2031A1D0,extended,20132012
 
 // Have All Items (2 - 6)
-//patch=1,EE,2031A1D4,extended,20152014
-//patch=1,EE,2031A1D8,extended,20172016
-//patch=1,EE,2031A1DC,extended,20192018
-//patch=1,EE,2031A1E0,extended,201B201A
-//patch=1,EE,2031A1E4,extended,201D201C
-//patch=1,EE,2031A1E8,extended,201F201E
-//patch=1,EE,2031A1EC,extended,20212020
-//patch=1,EE,2031A1F0,extended,20232022
-//patch=1,EE,2031A1F4,extended,20252024
-//patch=1,EE,2031A1F8,extended,20272026
+patch=1,EE,2031A1D4,extended,20152014
+patch=1,EE,2031A1D8,extended,20172016
+patch=1,EE,2031A1DC,extended,20192018
+patch=1,EE,2031A1E0,extended,201B201A
+patch=1,EE,2031A1E4,extended,201D201C
+patch=1,EE,2031A1E8,extended,201F201E
+patch=1,EE,2031A1EC,extended,20212020
+patch=1,EE,2031A1F0,extended,20232022
+patch=1,EE,2031A1F4,extended,20252024
+patch=1,EE,2031A1F8,extended,20272026
 
 // Have All Items (3 - 6)
-//patch=1,EE,2031A1FC,extended,20292028
-//patch=1,EE,2031A200,extended,202B202A
-//patch=1,EE,2031A204,extended,202D202C
-//patch=1,EE,2031A208,extended,202F202E
-//patch=1,EE,2031A20C,extended,20312030
-//patch=1,EE,2031A210,extended,20332032
-//patch=1,EE,2031A214,extended,20352034
-//patch=1,EE,2031A218,extended,20372036
-//patch=1,EE,2031A21C,extended,20392038
-//patch=1,EE,2031A220,extended,203B203A
+patch=1,EE,2031A1FC,extended,20292028
+patch=1,EE,2031A200,extended,202B202A
+patch=1,EE,2031A204,extended,202D202C
+patch=1,EE,2031A208,extended,202F202E
+patch=1,EE,2031A20C,extended,20312030
+patch=1,EE,2031A210,extended,20332032
+patch=1,EE,2031A214,extended,20352034
+patch=1,EE,2031A218,extended,20372036
+patch=1,EE,2031A21C,extended,20392038
+patch=1,EE,2031A220,extended,203B203A
 
 // Have All Items (4 - 6)
-//patch=1,EE,2031A224,extended,203D203C
-//patch=1,EE,2031A228,extended,203F203E
-//patch=1,EE,2031A22C,extended,20412040
-//patch=1,EE,2031A230,extended,20432042
-//patch=1,EE,2031A234,extended,20452044
-//patch=1,EE,2031A238,extended,20472046
-//patch=1,EE,2031A23C,extended,20492048
-//patch=1,EE,2031A240,extended,204B204A
-//patch=1,EE,2031A244,extended,204D204C
-//patch=1,EE,2031A248,extended,204F204E
+patch=1,EE,2031A224,extended,203D203C
+patch=1,EE,2031A228,extended,203F203E
+patch=1,EE,2031A22C,extended,20412040
+patch=1,EE,2031A230,extended,20432042
+patch=1,EE,2031A234,extended,20452044
+patch=1,EE,2031A238,extended,20472046
+patch=1,EE,2031A23C,extended,20492048
+patch=1,EE,2031A240,extended,204B204A
+patch=1,EE,2031A244,extended,204D204C
+patch=1,EE,2031A248,extended,204F204E
 
 // Have All Items (5 - 6)
-//patch=1,EE,2031A24C,extended,20512050
-//patch=1,EE,2031A250,extended,20532052
-//patch=1,EE,2031A254,extended,20552054
-//patch=1,EE,2031A258,extended,20572056
-//patch=1,EE,2031A25C,extended,20592058
-//patch=1,EE,2031A260,extended,205B205A
-//patch=1,EE,2031A264,extended,205D205C
-//patch=1,EE,2031A268,extended,205F205E
-//patch=1,EE,2031A26C,extended,20612060
-//patch=1,EE,2031A270,extended,20632062
+patch=1,EE,2031A24C,extended,20512050
+patch=1,EE,2031A250,extended,20532052
+patch=1,EE,2031A254,extended,20552054
+patch=1,EE,2031A258,extended,20572056
+patch=1,EE,2031A25C,extended,20592058
+patch=1,EE,2031A260,extended,205B205A
+patch=1,EE,2031A264,extended,205D205C
+patch=1,EE,2031A268,extended,205F205E
+patch=1,EE,2031A26C,extended,20612060
+patch=1,EE,2031A270,extended,20632062
 
 // Have All Items (6 - 6)
-//patch=1,EE,2031A274,extended,20652064
-//patch=1,EE,2031A278,extended,20672066
-//patch=1,EE,2031A27C,extended,20692068
-//patch=1,EE,2031A280,extended,206B206A
-//patch=1,EE,2031A284,extended,206D206C
-//patch=1,EE,2031A288,extended,206F206E
+patch=1,EE,2031A274,extended,20652064
+patch=1,EE,2031A278,extended,20672066
+patch=1,EE,2031A27C,extended,20692068
+patch=1,EE,2031A280,extended,206B206A
+patch=1,EE,2031A284,extended,206D206C
+patch=1,EE,2031A288,extended,206F206E
 
 // ============================================================================
 // Item Modifier Codes
@@ -6233,7 +6233,7 @@ gametitle=Final Fantasy X (NTSC-U) (SLUS-20312) [BB3D833A]
 //patch=1,EE,1031639A,extended,00000000
 
 // Thunder Plains Lightning Dodged 200 Times After Dodged Once
-//patch=1,EE,103166E0,extended,000000C8
+patch=1,EE,103166E0,extended,000000C8
 
 // Yojimbo In Party
 //patch=1,EE,0031C0F0,extended,00000001
