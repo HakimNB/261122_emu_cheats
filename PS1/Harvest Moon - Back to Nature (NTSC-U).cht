@@ -1,0 +1,1029 @@
+cheats = 257
+
+cheat0_desc = "2P D-Pad For Time"
+cheat0_code = "D005E8AC 1000+80070CF8 0006+D005E8AC 2000+80070CF8 000C+D005E8AC 4000+80070CF8 0011+D005E8AC 8000+80070CF8 0015"
+cheat0_enable = false
+
+cheat1_desc = "All Item Shipped"
+cheat1_code = "800711C4 03E7+800711C6 03E7+800711C8 03E7+800711CA 03E7+800711CC 03E7+800711CE 03E7+800711D0 03E7+800711D2 03E7+800711D4 03E7+800711D6 03E7+800711D8 03E7+800711DA 03E7+800711DC 03E7+800711DE 03E7+800711E0 03E7+800711E2 03E7+800711E4 03E7+800711E6 03E7+800711E8 03E7+800711EA 03E7+800711EC 03E7"
+cheat1_enable = false
+
+cheat2_desc = "Chicken Feed boxs alway full"
+cheat2_code = "8007130E 0101+80071310 0101+80071312 0101+80071314 0101+80071316 0101"
+cheat2_enable = false
+
+cheat3_desc = "Chicken Feed Boxs Always Full"
+cheat3_code = "8007130E 0101+80071310 0101+80071312 0101+80071314 0101+80071316 0101"
+cheat3_enable = false
+
+cheat4_desc = "Cow and Sheep feed boxs alway full"
+cheat4_code = "800712F8 0101+800712FA 0101+800712FC 0101+800712FE 0101+80071300 0101+80071302 0101+80071304 0101+80071306 0101+80071308 0101+8007130A 0101+8007130C 0101"
+cheat4_enable = false
+
+cheat5_desc = "Cow And Sheep Feedboxs Always Full"
+cheat5_code = "800712F8 0101+800712FA 0101+800712FC 0101+800712FE 0101+80071300 0101+80071302 0101+80071304 0101+80071306 0101+80071308 0101+8007130A 0101+8007130C 0101"
+cheat5_enable = false
+
+cheat6_desc = "Day Modifier"
+cheat6_code = "D01231F4 0000+80070CF4 001E"
+cheat6_enable = false
+
+cheat7_desc = "Dog Never Tire"
+cheat7_code = "30075A10 0013"
+cheat7_enable = false
+
+cheat8_desc = "Dog never tires"
+cheat8_code = "30075A10 0013"
+cheat8_enable = false
+
+cheat9_desc = "Fish Food"
+cheat9_code = "800759E0 0001"
+cheat9_enable = false
+
+cheat10_desc = "Fish Food"
+cheat10_code = "800759E0 0001"
+cheat10_enable = false
+
+cheat11_desc = "Have a Horse"
+cheat11_code = "8004FA88 14AF"
+cheat11_enable = false
+
+cheat12_desc = "Have A Horse"
+cheat12_code = "80075AD4 015F"
+cheat12_enable = false
+
+cheat13_desc = "Have A Horse (Alt)"
+cheat13_code = "8004FA88 14AF"
+cheat13_enable = false
+
+cheat14_desc = "Have all kind of ore on every mine floor (near water fall)"
+cheat14_code = "3012D110 0009"
+cheat14_enable = false
+
+cheat15_desc = "Have All Kind of Ore On Every Mine Floor (Near Waterfall)"
+cheat15_code = "3012D110 0009"
+cheat15_enable = false
+
+cheat16_desc = "Have all Utensils"
+cheat16_code = "30070D04 00FF"
+cheat16_enable = false
+
+cheat17_desc = "Have All Utensils"
+cheat17_code = "30070D04 00FF"
+cheat17_enable = false
+
+cheat18_desc = "Have Horse"
+cheat18_code = "80075AD4 015F"
+cheat18_enable = false
+
+cheat19_desc = "Have hothouse"
+cheat19_code = "30070D0C 0001"
+cheat19_enable = false
+
+cheat20_desc = "Have Hothouse"
+cheat20_code = "30070D0C 0001"
+cheat20_enable = false
+
+cheat21_desc = "Have inf Stone"
+cheat21_code = "80071F5C 003A"
+cheat21_enable = false
+
+cheat22_desc = "Have Infinite Stone"
+cheat22_code = "80071F5C 003A"
+cheat22_enable = false
+
+cheat23_desc = "Have Maxed Power Fruit"
+cheat23_code = "800712BC 000A"
+cheat23_enable = false
+
+cheat24_desc = "Inf bamboo to pick:(Only in Spring)"
+cheat24_code = "8004FAE8 04A3+8004FAD0 04A3+8004FAB8 04A3"
+cheat24_enable = false
+
+cheat25_desc = "Infinite Bamboo To Pick (Only In Spring)"
+cheat25_code = "8004FAE8 04A3+8004FAD0 04A3+8004FAB8 04A3"
+cheat25_enable = false
+
+cheat26_desc = "Infinite Blue Grass to pick"
+cheat26_code = "8004FA88 014A"
+cheat26_enable = false
+
+cheat27_desc = "Infinite Lumber Cheat"
+cheat27_code = "80070D38 03E7"
+cheat27_enable = false
+
+cheat28_desc = "Infinite Medals"
+cheat28_code = "80071A60 FFFF"
+cheat28_enable = false
+
+cheat29_desc = "Infinite Money"
+cheat29_code = "800573F0 FFFF+80071A5C FFFF"
+cheat29_enable = false
+
+cheat30_desc = "Infinite Money"
+cheat30_code = "80071A5C FFFF"
+cheat30_enable = false
+
+cheat31_desc = "Item in Hand Slot"
+cheat31_code = "80071A8E 0063"
+cheat31_enable = false
+
+cheat32_desc = "Item in Hand Slot Modifier"
+cheat32_code = "80071A8A 0000"
+cheat32_enable = false
+
+cheat33_desc = "Max Affection Cow 1"
+cheat33_code = "80074A0A 010E"
+cheat33_enable = false
+
+cheat34_desc = "Max Affection Cow 10"
+cheat34_code = "80075082 010E"
+cheat34_enable = false
+
+cheat35_desc = "Max Affection Cow 11"
+cheat35_code = "8007513A 010E"
+cheat35_enable = false
+
+cheat36_desc = "Max Affection Cow 12"
+cheat36_code = "800751F2 010E"
+cheat36_enable = false
+
+cheat37_desc = "Max Affection Cow 13"
+cheat37_code = "800752AA 010E"
+cheat37_enable = false
+
+cheat38_desc = "Max Affection Cow 14"
+cheat38_code = "80075362 010E"
+cheat38_enable = false
+
+cheat39_desc = "Max Affection Cow 15"
+cheat39_code = "8007541A 010E"
+cheat39_enable = false
+
+cheat40_desc = "Max Affection Cow 16"
+cheat40_code = "800754D2 010E"
+cheat40_enable = false
+
+cheat41_desc = "Max Affection Cow 17"
+cheat41_code = "8007558A 010E"
+cheat41_enable = false
+
+cheat42_desc = "Max Affection Cow 18"
+cheat42_code = "80075642 010E"
+cheat42_enable = false
+
+cheat43_desc = "Max Affection Cow 19"
+cheat43_code = "800756FA 010E"
+cheat43_enable = false
+
+cheat44_desc = "Max Affection Cow 2"
+cheat44_code = "80074AC2 010E"
+cheat44_enable = false
+
+cheat45_desc = "Max Affection Cow 20"
+cheat45_code = "800757B2 010E"
+cheat45_enable = false
+
+cheat46_desc = "Max Affection Cow 3"
+cheat46_code = "80074B7A 010E"
+cheat46_enable = false
+
+cheat47_desc = "Max Affection Cow 4"
+cheat47_code = "80074C32 010E"
+cheat47_enable = false
+
+cheat48_desc = "Max Affection Cow 5"
+cheat48_code = "80074CEA 010E"
+cheat48_enable = false
+
+cheat49_desc = "Max Affection Cow 6"
+cheat49_code = "80074DA2 010E"
+cheat49_enable = false
+
+cheat50_desc = "Max Affection Cow 7"
+cheat50_code = "80074E5A 010E"
+cheat50_enable = false
+
+cheat51_desc = "Max Affection Cow 8"
+cheat51_code = "80074F12 010E"
+cheat51_enable = false
+
+cheat52_desc = "Max Affection Cow 9"
+cheat52_code = "80074FCA 010E"
+cheat52_enable = false
+
+cheat53_desc = "Max Amount Shipped All<BR>(Caetla Only)"
+cheat53_code = "50001502 0000+800711C4 03E7"
+cheat53_enable = false
+
+cheat54_desc = "Max Amount Shipped<BR>(Cheat Device 2.2 Or Higher Needed!"
+cheat54_code = "50001502 0000+800711C4 03E7"
+cheat54_enable = false
+
+cheat55_desc = "Max Chicken Feed"
+cheat55_code = "80070D40 03E7"
+cheat55_enable = false
+
+cheat56_desc = "Max Earnings"
+cheat56_code = "800711FC 967F+800711FE 0098"
+cheat56_enable = false
+
+cheat57_desc = "Max Extension Cow & Sheep Barn"
+cheat57_code = "30070D08 0002"
+cheat57_enable = false
+
+cheat58_desc = "Max extension cow&amp;sheep barn"
+cheat58_code = "30070D08 0002"
+cheat58_enable = false
+
+cheat59_desc = "Max extension hen house"
+cheat59_code = "30070D0A 0002"
+cheat59_enable = false
+
+cheat60_desc = "Max Extension Hen House"
+cheat60_code = "30070D0A 0002"
+cheat60_enable = false
+
+cheat61_desc = "Max extension Own home"
+cheat61_code = "30070D06 0002"
+cheat61_enable = false
+
+cheat62_desc = "Max Extension Own Home"
+cheat62_code = "30070D06 0002"
+cheat62_enable = false
+
+cheat63_desc = "Max Fish Food"
+cheat63_code = "80070D3E 03E7"
+cheat63_enable = false
+
+cheat64_desc = "Max Fodder"
+cheat64_code = "80070D3A 03E7"
+cheat64_enable = false
+
+cheat65_desc = "Max Hearts Barn Animal 1"
+cheat65_code = "30074A0A 00FF"
+cheat65_enable = false
+
+cheat66_desc = "Max Hearts Barn Animal 2"
+cheat66_code = "30074AC2 00FF"
+cheat66_enable = false
+
+cheat67_desc = "Max Hearts Chicken 1"
+cheat67_code = "30074302 00FF"
+cheat67_enable = false
+
+cheat68_desc = "Max Hearts Chicken 2"
+cheat68_code = "300743B6 00FF"
+cheat68_enable = false
+
+cheat69_desc = "Max Hearts Chicken 3"
+cheat69_code = "3007446A 00FF"
+cheat69_enable = false
+
+cheat70_desc = "Max Hearts Chicken 4"
+cheat70_code = "3007451E 00FF"
+cheat70_enable = false
+
+cheat71_desc = "Max Hearts Dog"
+cheat71_code = "300759FA 00FF"
+cheat71_enable = false
+
+cheat72_desc = "Max Hearts Horse"
+cheat72_code = "30075AEA 00FF"
+cheat72_enable = false
+
+cheat73_desc = "Max Level Ax"
+cheat73_code = "80071A44 FFFF"
+cheat73_enable = false
+
+cheat74_desc = "Max Level Hammer"
+cheat74_code = "80071A46 FFFF"
+cheat74_enable = false
+
+cheat75_desc = "Max Level Hoe"
+cheat75_code = "80071A42 FFFF"
+cheat75_enable = false
+
+cheat76_desc = "Max Level Sickle"
+cheat76_code = "80071A40 FFFF"
+cheat76_enable = false
+
+cheat77_desc = "Max Level Watering Can"
+cheat77_code = "80071A48 FFFF"
+cheat77_enable = false
+
+cheat78_desc = "Max Medals"
+cheat78_code = "80071A60 967F+80071A62 0098"
+cheat78_enable = false
+
+cheat79_desc = "Max Money"
+cheat79_code = "80071A5C 967F+80071A5E 0098"
+cheat79_enable = false
+
+cheat80_desc = "Max RuckSack"
+cheat80_code = "30071A1E 0002+30071A20 0008"
+cheat80_enable = false
+
+cheat81_desc = "Max RuckSack Storage"
+cheat81_code = "80071A1E 0002+30071A20 0008"
+cheat81_enable = false
+
+cheat82_desc = "Max Stamina"
+cheat82_code = "80128C6C 0000+80071A12 003C"
+cheat82_enable = false
+
+cheat83_desc = "Maximum Harvest Sprite's Affection"
+cheat83_code = "8007A64E 010E+8007A746 010E+8007A83E 010E+8007A936 010E+8007AA2E 010E+8007AB26 010E+8007AC1E 010E"
+cheat83_enable = false
+
+cheat84_desc = "Month Modifier"
+cheat84_code = "80070CF2 0000"
+cheat84_enable = false
+
+cheat85_desc = "Never get tired"
+cheat85_code = "80128C6C 0000+80071A12 03E7"
+cheat85_enable = false
+
+cheat86_desc = "Red Heart Ann"
+cheat86_code = "80076EF0 FFFF"
+cheat86_enable = false
+
+cheat87_desc = "Red Heart Elli"
+cheat87_code = "80077298 FFFF"
+cheat87_enable = false
+
+cheat88_desc = "Red Heart Karen"
+cheat88_code = "800767A0 FFFF"
+cheat88_enable = false
+
+cheat89_desc = "Red Heart Mary"
+cheat89_code = "80077BBC FFFF"
+cheat89_enable = false
+
+cheat90_desc = "Red Heart Popuri"
+cheat90_code = "800786B4 FFFF"
+cheat90_enable = false
+
+cheat91_desc = "Slot 1"
+cheat91_code = "80071A90 0000"
+cheat91_enable = false
+
+cheat92_desc = "Slot 1"
+cheat92_code = "80071A94 0063"
+cheat92_enable = false
+
+cheat93_desc = "Slot 1"
+cheat93_code = "80071AC0 0000"
+cheat93_enable = false
+
+cheat94_desc = "Slot 1"
+cheat94_code = "80071AC4 0063"
+cheat94_enable = false
+
+cheat95_desc = "Slot 1"
+cheat95_code = "80070EC2 0000"
+cheat95_enable = false
+
+cheat96_desc = "Slot 1"
+cheat96_code = "80070EF2 0000"
+cheat96_enable = false
+
+cheat97_desc = "Slot 1"
+cheat97_code = "80070F22 0000"
+cheat97_enable = false
+
+cheat98_desc = "Slot 1"
+cheat98_code = "80070F52 0000"
+cheat98_enable = false
+
+cheat99_desc = "Slot 1"
+cheat99_code = "80070F82 0000"
+cheat99_enable = false
+
+cheat100_desc = "Slot 1"
+cheat100_code = "80070FB2 0000"
+cheat100_enable = false
+
+cheat101_desc = "Slot 1"
+cheat101_code = "80070FE2 0000"
+cheat101_enable = false
+
+cheat102_desc = "Slot 1"
+cheat102_code = "80071012 0000"
+cheat102_enable = false
+
+cheat103_desc = "Slot 1"
+cheat103_code = "80070EC6 0063"
+cheat103_enable = false
+
+cheat104_desc = "Slot 1"
+cheat104_code = "80070EF6 0063"
+cheat104_enable = false
+
+cheat105_desc = "Slot 1"
+cheat105_code = "80070F26 0063"
+cheat105_enable = false
+
+cheat106_desc = "Slot 1"
+cheat106_code = "80070F56 0063"
+cheat106_enable = false
+
+cheat107_desc = "Slot 1"
+cheat107_code = "80070F86 0063"
+cheat107_enable = false
+
+cheat108_desc = "Slot 1"
+cheat108_code = "80070FB6 0063"
+cheat108_enable = false
+
+cheat109_desc = "Slot 1"
+cheat109_code = "80070FE6 0063"
+cheat109_enable = false
+
+cheat110_desc = "Slot 1"
+cheat110_code = "80071016 0063"
+cheat110_enable = false
+
+cheat111_desc = "Slot 2"
+cheat111_code = "80071A96 0000"
+cheat111_enable = false
+
+cheat112_desc = "Slot 2"
+cheat112_code = "80071A9A 0063"
+cheat112_enable = false
+
+cheat113_desc = "Slot 2"
+cheat113_code = "80071AC6 0000"
+cheat113_enable = false
+
+cheat114_desc = "Slot 2"
+cheat114_code = "80071ACA 0063"
+cheat114_enable = false
+
+cheat115_desc = "Slot 2"
+cheat115_code = "80070EC8 0000"
+cheat115_enable = false
+
+cheat116_desc = "Slot 2"
+cheat116_code = "80070EF8 0000"
+cheat116_enable = false
+
+cheat117_desc = "Slot 2"
+cheat117_code = "80070F28 0000"
+cheat117_enable = false
+
+cheat118_desc = "Slot 2"
+cheat118_code = "80070F58 0000"
+cheat118_enable = false
+
+cheat119_desc = "Slot 2"
+cheat119_code = "80070F88 0000"
+cheat119_enable = false
+
+cheat120_desc = "Slot 2"
+cheat120_code = "80070FB8 0000"
+cheat120_enable = false
+
+cheat121_desc = "Slot 2"
+cheat121_code = "80070FE8 0000"
+cheat121_enable = false
+
+cheat122_desc = "Slot 2"
+cheat122_code = "80071018 0000"
+cheat122_enable = false
+
+cheat123_desc = "Slot 2"
+cheat123_code = "80070ECC 0063"
+cheat123_enable = false
+
+cheat124_desc = "Slot 2"
+cheat124_code = "80070EFC 0063"
+cheat124_enable = false
+
+cheat125_desc = "Slot 2"
+cheat125_code = "80070F2C 0063"
+cheat125_enable = false
+
+cheat126_desc = "Slot 2"
+cheat126_code = "80070F5C 0063"
+cheat126_enable = false
+
+cheat127_desc = "Slot 2"
+cheat127_code = "80070F8C 0063"
+cheat127_enable = false
+
+cheat128_desc = "Slot 2"
+cheat128_code = "80070FBC 0063"
+cheat128_enable = false
+
+cheat129_desc = "Slot 2"
+cheat129_code = "80070FEC 0063"
+cheat129_enable = false
+
+cheat130_desc = "Slot 2"
+cheat130_code = "8007101C 0063"
+cheat130_enable = false
+
+cheat131_desc = "Slot 3"
+cheat131_code = "80071A9C 0000"
+cheat131_enable = false
+
+cheat132_desc = "Slot 3"
+cheat132_code = "80071AA0 0063"
+cheat132_enable = false
+
+cheat133_desc = "Slot 3"
+cheat133_code = "80071ACC 0000"
+cheat133_enable = false
+
+cheat134_desc = "Slot 3"
+cheat134_code = "80071AD0 0063"
+cheat134_enable = false
+
+cheat135_desc = "Slot 3"
+cheat135_code = "80070ECE 0000"
+cheat135_enable = false
+
+cheat136_desc = "Slot 3"
+cheat136_code = "80070EFE 0000"
+cheat136_enable = false
+
+cheat137_desc = "Slot 3"
+cheat137_code = "80070F2E 0000"
+cheat137_enable = false
+
+cheat138_desc = "Slot 3"
+cheat138_code = "80070F5E 0000"
+cheat138_enable = false
+
+cheat139_desc = "Slot 3"
+cheat139_code = "80070F8E 0000"
+cheat139_enable = false
+
+cheat140_desc = "Slot 3"
+cheat140_code = "80070FBE 0000"
+cheat140_enable = false
+
+cheat141_desc = "Slot 3"
+cheat141_code = "80070FEE 0000"
+cheat141_enable = false
+
+cheat142_desc = "Slot 3"
+cheat142_code = "8007101E 0000"
+cheat142_enable = false
+
+cheat143_desc = "Slot 3"
+cheat143_code = "80070ED2 0063"
+cheat143_enable = false
+
+cheat144_desc = "Slot 3"
+cheat144_code = "80070F02 0063"
+cheat144_enable = false
+
+cheat145_desc = "Slot 3"
+cheat145_code = "80070F32 0063"
+cheat145_enable = false
+
+cheat146_desc = "Slot 3"
+cheat146_code = "80070F62 0063"
+cheat146_enable = false
+
+cheat147_desc = "Slot 3"
+cheat147_code = "80070F92 0063"
+cheat147_enable = false
+
+cheat148_desc = "Slot 3"
+cheat148_code = "80070FC2 0063"
+cheat148_enable = false
+
+cheat149_desc = "Slot 3"
+cheat149_code = "80070FF2 0063"
+cheat149_enable = false
+
+cheat150_desc = "Slot 3"
+cheat150_code = "80071022 0063"
+cheat150_enable = false
+
+cheat151_desc = "Slot 4"
+cheat151_code = "80071AA2 0000"
+cheat151_enable = false
+
+cheat152_desc = "Slot 4"
+cheat152_code = "80071AA6 0063"
+cheat152_enable = false
+
+cheat153_desc = "Slot 4"
+cheat153_code = "80071AD2 0000"
+cheat153_enable = false
+
+cheat154_desc = "Slot 4"
+cheat154_code = "80071AD6 0063"
+cheat154_enable = false
+
+cheat155_desc = "Slot 4"
+cheat155_code = "80070ED4 0000"
+cheat155_enable = false
+
+cheat156_desc = "Slot 4"
+cheat156_code = "80070F04 0000"
+cheat156_enable = false
+
+cheat157_desc = "Slot 4"
+cheat157_code = "80070F34 0000"
+cheat157_enable = false
+
+cheat158_desc = "Slot 4"
+cheat158_code = "80070F64 0000"
+cheat158_enable = false
+
+cheat159_desc = "Slot 4"
+cheat159_code = "80070F94 0000"
+cheat159_enable = false
+
+cheat160_desc = "Slot 4"
+cheat160_code = "80070FC4 0000"
+cheat160_enable = false
+
+cheat161_desc = "Slot 4"
+cheat161_code = "80070FF4 0000"
+cheat161_enable = false
+
+cheat162_desc = "Slot 4"
+cheat162_code = "80071024 0000"
+cheat162_enable = false
+
+cheat163_desc = "Slot 4"
+cheat163_code = "80070ED8 0063"
+cheat163_enable = false
+
+cheat164_desc = "Slot 4"
+cheat164_code = "80070F08 0063"
+cheat164_enable = false
+
+cheat165_desc = "Slot 4"
+cheat165_code = "80070F38 0063"
+cheat165_enable = false
+
+cheat166_desc = "Slot 4"
+cheat166_code = "80070F68 0063"
+cheat166_enable = false
+
+cheat167_desc = "Slot 4"
+cheat167_code = "80070F98 0063"
+cheat167_enable = false
+
+cheat168_desc = "Slot 4"
+cheat168_code = "80070FC8 0063"
+cheat168_enable = false
+
+cheat169_desc = "Slot 4"
+cheat169_code = "80070FF8 0063"
+cheat169_enable = false
+
+cheat170_desc = "Slot 4"
+cheat170_code = "80071028 0063"
+cheat170_enable = false
+
+cheat171_desc = "Slot 5"
+cheat171_code = "80071AA8 0000"
+cheat171_enable = false
+
+cheat172_desc = "Slot 5"
+cheat172_code = "80071AAC 0063"
+cheat172_enable = false
+
+cheat173_desc = "Slot 5"
+cheat173_code = "80071AD8 0000"
+cheat173_enable = false
+
+cheat174_desc = "Slot 5"
+cheat174_code = "80071ADC 0063"
+cheat174_enable = false
+
+cheat175_desc = "Slot 5"
+cheat175_code = "80070EDA 0000"
+cheat175_enable = false
+
+cheat176_desc = "Slot 5"
+cheat176_code = "80070F0A 0000"
+cheat176_enable = false
+
+cheat177_desc = "Slot 5"
+cheat177_code = "80070F3A 0000"
+cheat177_enable = false
+
+cheat178_desc = "Slot 5"
+cheat178_code = "80070F6A 0000"
+cheat178_enable = false
+
+cheat179_desc = "Slot 5"
+cheat179_code = "80070F9A 0000"
+cheat179_enable = false
+
+cheat180_desc = "Slot 5"
+cheat180_code = "80070FCA 0000"
+cheat180_enable = false
+
+cheat181_desc = "Slot 5"
+cheat181_code = "80070FFA 0000"
+cheat181_enable = false
+
+cheat182_desc = "Slot 5"
+cheat182_code = "8007102A 0000"
+cheat182_enable = false
+
+cheat183_desc = "Slot 5"
+cheat183_code = "80070EDE 0063"
+cheat183_enable = false
+
+cheat184_desc = "Slot 5"
+cheat184_code = "80070F0E 0063"
+cheat184_enable = false
+
+cheat185_desc = "Slot 5"
+cheat185_code = "80070F3E 0063"
+cheat185_enable = false
+
+cheat186_desc = "Slot 5"
+cheat186_code = "80070F6E 0063"
+cheat186_enable = false
+
+cheat187_desc = "Slot 5"
+cheat187_code = "80070F9E 0063"
+cheat187_enable = false
+
+cheat188_desc = "Slot 5"
+cheat188_code = "80070FCE 0063"
+cheat188_enable = false
+
+cheat189_desc = "Slot 5"
+cheat189_code = "80070FFE 0063"
+cheat189_enable = false
+
+cheat190_desc = "Slot 5"
+cheat190_code = "8007102E 0063"
+cheat190_enable = false
+
+cheat191_desc = "Slot 6"
+cheat191_code = "80071AAE 0000"
+cheat191_enable = false
+
+cheat192_desc = "Slot 6"
+cheat192_code = "80071AB2 0063"
+cheat192_enable = false
+
+cheat193_desc = "Slot 6"
+cheat193_code = "80071ADE 0000"
+cheat193_enable = false
+
+cheat194_desc = "Slot 6"
+cheat194_code = "80071AE2 0063"
+cheat194_enable = false
+
+cheat195_desc = "Slot 6"
+cheat195_code = "80070EE0 0000"
+cheat195_enable = false
+
+cheat196_desc = "Slot 6"
+cheat196_code = "80070F10 0000"
+cheat196_enable = false
+
+cheat197_desc = "Slot 6"
+cheat197_code = "80070F40 0000"
+cheat197_enable = false
+
+cheat198_desc = "Slot 6"
+cheat198_code = "80070F70 0000"
+cheat198_enable = false
+
+cheat199_desc = "Slot 6"
+cheat199_code = "80070FA0 0000"
+cheat199_enable = false
+
+cheat200_desc = "Slot 6"
+cheat200_code = "80070FD0 0000"
+cheat200_enable = false
+
+cheat201_desc = "Slot 6"
+cheat201_code = "80071000 0000"
+cheat201_enable = false
+
+cheat202_desc = "Slot 6"
+cheat202_code = "80071030 0000"
+cheat202_enable = false
+
+cheat203_desc = "Slot 6"
+cheat203_code = "80070EE4 0063"
+cheat203_enable = false
+
+cheat204_desc = "Slot 6"
+cheat204_code = "80070F14 0063"
+cheat204_enable = false
+
+cheat205_desc = "Slot 6"
+cheat205_code = "80070F44 0063"
+cheat205_enable = false
+
+cheat206_desc = "Slot 6"
+cheat206_code = "80070F74 0063"
+cheat206_enable = false
+
+cheat207_desc = "Slot 6"
+cheat207_code = "80070FA4 0063"
+cheat207_enable = false
+
+cheat208_desc = "Slot 6"
+cheat208_code = "80070FD4 0063"
+cheat208_enable = false
+
+cheat209_desc = "Slot 6"
+cheat209_code = "80071004 0063"
+cheat209_enable = false
+
+cheat210_desc = "Slot 6"
+cheat210_code = "80071034 0063"
+cheat210_enable = false
+
+cheat211_desc = "Slot 7"
+cheat211_code = "80071AB4 0000"
+cheat211_enable = false
+
+cheat212_desc = "Slot 7"
+cheat212_code = "80071AB8 0063"
+cheat212_enable = false
+
+cheat213_desc = "Slot 7"
+cheat213_code = "80071AE4 0000"
+cheat213_enable = false
+
+cheat214_desc = "Slot 7"
+cheat214_code = "80071AE8 0063"
+cheat214_enable = false
+
+cheat215_desc = "Slot 7"
+cheat215_code = "80070EE6 0000"
+cheat215_enable = false
+
+cheat216_desc = "Slot 7"
+cheat216_code = "80070F16 0000"
+cheat216_enable = false
+
+cheat217_desc = "Slot 7"
+cheat217_code = "80070F46 0000"
+cheat217_enable = false
+
+cheat218_desc = "Slot 7"
+cheat218_code = "80070F76 0000"
+cheat218_enable = false
+
+cheat219_desc = "Slot 7"
+cheat219_code = "80070FA6 0000"
+cheat219_enable = false
+
+cheat220_desc = "Slot 7"
+cheat220_code = "80070FD6 0000"
+cheat220_enable = false
+
+cheat221_desc = "Slot 7"
+cheat221_code = "80071006 0000"
+cheat221_enable = false
+
+cheat222_desc = "Slot 7"
+cheat222_code = "80071036 0000"
+cheat222_enable = false
+
+cheat223_desc = "Slot 7"
+cheat223_code = "80070EEA 0063"
+cheat223_enable = false
+
+cheat224_desc = "Slot 7"
+cheat224_code = "80070F1A 0063"
+cheat224_enable = false
+
+cheat225_desc = "Slot 7"
+cheat225_code = "80070F4A 0063"
+cheat225_enable = false
+
+cheat226_desc = "Slot 7"
+cheat226_code = "80070F7A 0063"
+cheat226_enable = false
+
+cheat227_desc = "Slot 7"
+cheat227_code = "80070FAA 0063"
+cheat227_enable = false
+
+cheat228_desc = "Slot 7"
+cheat228_code = "80070FDA 0063"
+cheat228_enable = false
+
+cheat229_desc = "Slot 7"
+cheat229_code = "8007100A 0063"
+cheat229_enable = false
+
+cheat230_desc = "Slot 7"
+cheat230_code = "8007103A 0063"
+cheat230_enable = false
+
+cheat231_desc = "Slot 8"
+cheat231_code = "80071ABA 0000"
+cheat231_enable = false
+
+cheat232_desc = "Slot 8"
+cheat232_code = "80071ABE 0063"
+cheat232_enable = false
+
+cheat233_desc = "Slot 8"
+cheat233_code = "80071AEA 0000"
+cheat233_enable = false
+
+cheat234_desc = "Slot 8"
+cheat234_code = "80071AEE 0063"
+cheat234_enable = false
+
+cheat235_desc = "Slot 8"
+cheat235_code = "80070EEC 0000"
+cheat235_enable = false
+
+cheat236_desc = "Slot 8"
+cheat236_code = "80070F1C 0000"
+cheat236_enable = false
+
+cheat237_desc = "Slot 8"
+cheat237_code = "80070F4C 0000"
+cheat237_enable = false
+
+cheat238_desc = "Slot 8"
+cheat238_code = "80070F7C 0000"
+cheat238_enable = false
+
+cheat239_desc = "Slot 8"
+cheat239_code = "80070FAC 0000"
+cheat239_enable = false
+
+cheat240_desc = "Slot 8"
+cheat240_code = "80070FDC 0000"
+cheat240_enable = false
+
+cheat241_desc = "Slot 8"
+cheat241_code = "8007100C 0000"
+cheat241_enable = false
+
+cheat242_desc = "Slot 8"
+cheat242_code = "8007103C 0000"
+cheat242_enable = false
+
+cheat243_desc = "Slot 8"
+cheat243_code = "80070EF0 0063"
+cheat243_enable = false
+
+cheat244_desc = "Slot 8"
+cheat244_code = "80070F20 0063"
+cheat244_enable = false
+
+cheat245_desc = "Slot 8"
+cheat245_code = "80070F50 0063"
+cheat245_enable = false
+
+cheat246_desc = "Slot 8"
+cheat246_code = "80070F80 0063"
+cheat246_enable = false
+
+cheat247_desc = "Slot 8"
+cheat247_code = "80070FB0 0063"
+cheat247_enable = false
+
+cheat248_desc = "Slot 8"
+cheat248_code = "80070FE0 0063"
+cheat248_enable = false
+
+cheat249_desc = "Slot 8"
+cheat249_code = "80071010 0063"
+cheat249_enable = false
+
+cheat250_desc = "Slot 8"
+cheat250_code = "80071040 0063"
+cheat250_enable = false
+
+cheat251_desc = "Time Freeze"
+cheat251_code = "D00B7C80 0207+3006C90C 0001"
+cheat251_enable = false
+
+cheat252_desc = "Time Freeze"
+cheat252_code = "D00B7C80 0207+3006C90C 0001"
+cheat252_enable = false
+
+cheat253_desc = "Usable Item Slot"
+cheat253_code = "80071A88 0063"
+cheat253_enable = false
+
+cheat254_desc = "Usable Item Slot"
+cheat254_code = "80071A84 0000"
+cheat254_enable = false
+
+cheat255_desc = "Zero Dead Animals"
+cheat255_code = "80127232 0000"
+cheat255_enable = false
+
+cheat256_desc = "Zero Reduction Expenses"
+cheat256_code = "80071200 0000"
+cheat256_enable = false

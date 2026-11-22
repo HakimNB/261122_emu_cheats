@@ -1,0 +1,7925 @@
+gametitle=Final Fantasy X (NTSC-U) (SLUS-20312) [BB3D833A]
+// Cleaned for AetherSX2 / NetherSX2
+//
+// HOW TO USE IN AETHERSX2:
+// 1. Every cheat below is DISABLED by default (commented with //patch=).
+// 2. AetherSX2 activates ALL uncommented patch= lines simultaneously.
+//    Remove the leading "//" ONLY on the specific cheats you want active.
+// 3. Do NOT enable conflicting cheats at the same time (e.g., In Party + Not In Party).
+// 4. Only enable Party / Aeon / Stat cheats AFTER completing the Sphere Grid tutorial.
+// 5. For auto-loading from AetherSX2 cheats folder, name this file BB3D833A.pnach
+//    (or import it directly via Pause Menu -> Patch Codes -> Import).
+
+// ============================================================================
+// QUICK ACCESS: POPULAR & SAFE CHEATS
+// ============================================================================
+
+// 1 Lightning Dodge Is Worth 200
+//patch=1,EE,D03166E0,extended,00000000
+//patch=1,EE,103166E0,extended,000000C8
+//patch=1,EE,D0BA9656,extended,00000000
+//patch=1,EE,10BA9656,extended,000000C8
+
+// 1-Hit Death (Enemies)
+// Note: If you view the HP of more than 1 enemy, all of the enemies you highlighted will die after 1 attack.
+//patch=1,EE,201C70B0,extended,AE20027C
+//patch=1,EE,201C70BC,extended,AE200390
+
+// Airship Open
+//patch=1,EE,00316F61,extended,000000FF
+
+// Al Bhed Dialogue Translated
+//patch=1,EE,20319FF0,extended,03FFFFFF
+
+// Break 99,999 Damage Limit On Some Items & Special Attacks
+// Note: This effects certain item-based and special attacks.
+//patch=1,EE,201C135C,extended,3C0B0099
+
+// Break Damage (99,999 Limit)
+//patch=1,EE,201C133C,extended,3C030099
+
+// Break Damage (9999 Limit)
+//patch=1,EE,201C1334,extended,3C0B0099
+
+// Break Damage Limit (All Characters)
+//patch=1,EE,201C1354,extended,3C0B3B9A
+
+// Break HP Limit Completely With Added Armor Ability Enabled (9999 & 99,999)
+//patch=1,EE,201BE110,extended,3C0605F6
+
+// Break HP Limit Completely Without Added Armor Ability Enabled (9999 & 99,999)
+//patch=1,EE,201BE118,extended,3C0A05F6
+
+// Break Item Damage/Healing Limit
+//patch=1,EE,201C1364,extended,3C030099
+
+// Break MP Limit Completely With Added Armor Ability Enabled (9999 & 99,999)
+//patch=1,EE,201BE140,extended,3C1005F6
+
+// Break MP Limit Completely Without Added Armor Ability Enabled (9999 & 99,999)
+//patch=1,EE,201BE150,extended,3C0A05F6
+
+// Chocobo Race - Always Low Time
+//patch=1,EE,10BDB100,extended,00000000
+
+// Chocobo Race - Max Balloons
+//patch=1,EE,00BDB123,extended,00000063
+
+// Chocobo Race - No Birds
+//patch=1,EE,00BDB125,extended,00000000
+
+// Have All Items (V7.0 Or Higher Needed!)
+//patch=1,EE,4031A1AC,extended,00380001
+//patch=1,EE,20012000,extended,00020002
+//patch=1,EE,4031A3AC,extended,001C0001
+//patch=1,EE,63636363,extended,00000000
+
+// Have All Key Items
+//patch=1,EE,2031A76C,extended,FFFFFFFF
+//patch=1,EE,1031A770,extended,0000FFFB
+//patch=1,EE,0031A772,extended,0000000F
+
+// Have All Monsters Captured (In Spira)
+//patch=1,EE,4031A4EC,extended,00240001
+//patch=1,EE,0A0A0A0A,extended,00000000
+
+// Infinite Butterfly Catching Time Code 1 (Near Old Man)
+// Note: With this code, to get out of the butterfly game simply walk out of the area!
+//patch=1,EE,D0BC4728,extended,000000FF
+//patch=1,EE,10BC4728,extended,00000110
+
+// Infinite Butterfly Catching Time Code 2 (Near Lake Road Exit)
+// Note: With this code, to get out of the butterfly game simply walk out of the area!
+//patch=1,EE,D0BA85B8,extended,000000FF
+//patch=1,EE,10BA85B8,extended,00000110
+
+// Infinite Gil
+//patch=1,EE,2031A028,extended,05F5E0FF
+
+// Infinite HP (In-Battle) Fixed
+//patch=1,EE,201C86D0,extended,1040000C
+//patch=1,EE,201C86D8,extended,3C020002
+//patch=1,EE,201C86DC,extended,244249F0
+//patch=1,EE,201C86E0,extended,AC62027C
+
+// Infinite Item Usage
+//patch=1,EE,101BECEA,extended,0000A266
+//patch=1,EE,201BECA4,extended,24020064
+
+// Infinite MP (In-Battle)
+//patch=1,EE,201C86EC,extended,2402270F
+//patch=1,EE,201C86F0,extended,AC620280
+
+// Max HP/MP/Limit Break (All Characters)
+//patch=1,EE,201BE130,extended,AFC60004
+//patch=1,EE,201BE170,extended,AFC60008
+
+// Max Status (All Characters & Summons)
+//patch=1,EE,201BD958,extended,2401FFFF
+//patch=1,EE,201BD96C,extended,00621021
+//patch=1,EE,201BD970,extended,AC41000C
+//patch=1,EE,201BD978,extended,AC410010
+
+// No Random Battles
+//patch=1,EE,00314227,extended,00000000
+
+// Quick Overdrive Gain
+// Note: Set your overdrive mode to 'Ally' for an overdrive on every turn.
+//patch=1,EE,201E1848,extended,240400FF
+
+// S Level 98 (All Characters)
+//patch=1,EE,201BC1D0,extended,0080102D
+//patch=1,EE,201BD8C0,extended,0806F066
+
+// ============================================================================
+// Active Party
+// ============================================================================
+
+// Character 1
+// Note: With these codes, if you pick 3 of the same characters, it will only show 1.
+//patch=1,EE,0031A038,extended,00000000
+
+// Character 2
+//patch=1,EE,0031A039,extended,00000000
+
+// Character 3
+//patch=1,EE,0031A03A,extended,00000000
+
+// ============================================================================
+// After Battle Codes
+// ============================================================================
+
+// Lots Of Gil
+//patch=1,EE,2031CACC,extended,0001869F
+
+// Number Of Items Dropped By Monster (00-08)
+//patch=1,EE,0031CAD0,extended,00000000
+
+// ============================================================================
+// All Tech Abilities Codes
+// ============================================================================
+
+// Botta - All Tech Abilities
+//patch=1,EE,203174E0,extended,FFFFFFFF
+//patch=1,EE,203175D0,extended,FFFFFFFF
+
+// Datto - All Tech Abilities
+//patch=1,EE,203174D4,extended,FFFFFFFF
+//patch=1,EE,203175C4,extended,FFFFFFFF
+
+// ============================================================================
+// Anima Codes
+// ============================================================================
+
+// 0 Battles To Go
+//patch=1,EE,1031C06C,extended,00000000
+
+// Anima - Full HP
+//patch=1,EE,1031C04C,extended,0000270F
+
+// Anima - Full MP
+//patch=1,EE,1031C050,extended,0000270F
+
+// Anima - Max Statistics
+//patch=1,EE,0031C05F,extended,000000FF
+//patch=1,EE,2031C060,extended,FFFFFFFF
+//patch=1,EE,1031C064,extended,0000FFFF
+//patch=1,EE,0031C066,extended,000000FF
+
+// Anima - Super HP
+//patch=1,EE,1031C054,extended,0000270F
+
+// Anima - Super MP
+//patch=1,EE,1031C058,extended,0000270F
+
+// Have All Black Magic
+//patch=1,EE,1031C076,extended,0000FFFE
+//patch=1,EE,0031C078,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031C0B8,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031C06E,extended,0000FFFF
+//patch=1,EE,0031C070,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031C06E,extended,0000FFFF
+//patch=1,EE,2031C070,extended,FFFFFFFF
+//patch=1,EE,2031C074,extended,FFFFFFFF
+//patch=1,EE,0031C078,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031C070,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031C073,extended,000000F8
+//patch=1,EE,1031C074,extended,0000FFFF
+//patch=1,EE,0031C076,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031C05C,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031C04C,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031C050,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031C066,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031C063,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031C060,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031C065,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031C054,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031C064,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031C058,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031C061,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031C062,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031C069,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031C05F,extended,000000FF
+
+// ============================================================================
+// Armor/Weapon & Auto Ability Modifier Position 1 Codes (Part 1)
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,0031A78A,extended,00000000
+
+// Slot 10
+//patch=1,EE,0031A850,extended,00000000
+
+// Slot 100
+//patch=1,EE,0031B00C,extended,00000000
+
+// Slot 11
+//patch=1,EE,0031A866,extended,00000000
+
+// Slot 12
+//patch=1,EE,0031A87C,extended,00000000
+
+// Slot 13
+//patch=1,EE,0031A892,extended,00000000
+
+// Slot 14
+//patch=1,EE,0031A8A8,extended,00000000
+
+// Slot 15
+//patch=1,EE,0031A8BE,extended,00000000
+
+// Slot 16
+//patch=1,EE,0031A8D4,extended,00000000
+
+// Slot 17
+//patch=1,EE,0031A8EA,extended,00000000
+
+// Slot 18
+//patch=1,EE,0031A900,extended,00000000
+
+// Slot 19
+//patch=1,EE,0031A916,extended,00000000
+
+// Slot 2
+//patch=1,EE,0031A7A0,extended,00000000
+
+// Slot 20
+//patch=1,EE,0031A92C,extended,00000000
+
+// Slot 21
+//patch=1,EE,0031A942,extended,00000000
+
+// Slot 22
+//patch=1,EE,0031A958,extended,00000000
+
+// Slot 23
+//patch=1,EE,0031A96E,extended,00000000
+
+// Slot 24
+//patch=1,EE,0031A984,extended,00000000
+
+// Slot 25
+//patch=1,EE,0031A99A,extended,00000000
+
+// Slot 26
+//patch=1,EE,0031A9B0,extended,00000000
+
+// Slot 27
+//patch=1,EE,0031A9C6,extended,00000000
+
+// Slot 28
+//patch=1,EE,0031A9DC,extended,00000000
+
+// Slot 29
+//patch=1,EE,0031A9F2,extended,00000000
+
+// Slot 3
+//patch=1,EE,0031A7B6,extended,00000000
+
+// Slot 30
+//patch=1,EE,0031AA08,extended,00000000
+
+// Slot 31
+//patch=1,EE,0031AA1E,extended,00000000
+
+// Slot 32
+//patch=1,EE,0031AA34,extended,00000000
+
+// Slot 33
+//patch=1,EE,0031AA4A,extended,00000000
+
+// Slot 34
+//patch=1,EE,0031AA60,extended,00000000
+
+// Slot 35
+//patch=1,EE,0031AA76,extended,00000000
+
+// Slot 36
+//patch=1,EE,0031AA8C,extended,00000000
+
+// Slot 37
+//patch=1,EE,0031AAA2,extended,00000000
+
+// Slot 38
+//patch=1,EE,0031AAB8,extended,00000000
+
+// Slot 39
+//patch=1,EE,0031AACE,extended,00000000
+
+// Slot 4
+//patch=1,EE,0031A7CC,extended,00000000
+
+// Slot 40
+//patch=1,EE,0031AAE4,extended,00000000
+
+// Slot 41
+//patch=1,EE,0031AAFA,extended,00000000
+
+// Slot 42
+//patch=1,EE,0031AB10,extended,00000000
+
+// Slot 43
+//patch=1,EE,0031AB26,extended,00000000
+
+// Slot 44
+//patch=1,EE,0031AB3C,extended,00000000
+
+// Slot 45
+//patch=1,EE,0031AB52,extended,00000000
+
+// Slot 46
+//patch=1,EE,0031AB68,extended,00000000
+
+// Slot 47
+//patch=1,EE,0031AB7E,extended,00000000
+
+// Slot 48
+//patch=1,EE,0031AB94,extended,00000000
+
+// Slot 49
+//patch=1,EE,0031ABAA,extended,00000000
+
+// Slot 5
+//patch=1,EE,0031A7E2,extended,00000000
+
+// Slot 50
+//patch=1,EE,0031ABC0,extended,00000000
+
+// Slot 51
+//patch=1,EE,0031ABD6,extended,00000000
+
+// Slot 52
+//patch=1,EE,0031ABEC,extended,00000000
+
+// Slot 53
+//patch=1,EE,0031AC02,extended,00000000
+
+// Slot 54
+//patch=1,EE,0031AC18,extended,00000000
+
+// Slot 55
+//patch=1,EE,0031AC2E,extended,00000000
+
+// Slot 56
+//patch=1,EE,0031AC44,extended,00000000
+
+// Slot 57
+//patch=1,EE,0031AC5A,extended,00000000
+
+// Slot 58
+//patch=1,EE,0031AC70,extended,00000000
+
+// Slot 59
+//patch=1,EE,0031AC86,extended,00000000
+
+// Slot 6
+//patch=1,EE,0031A7F8,extended,00000000
+
+// Slot 60
+//patch=1,EE,0031AC9C,extended,00000000
+
+// Slot 61
+//patch=1,EE,0031ACB2,extended,00000000
+
+// Slot 62
+//patch=1,EE,0031ACC8,extended,00000000
+
+// Slot 63
+//patch=1,EE,0031ACDE,extended,00000000
+
+// Slot 64
+//patch=1,EE,0031ACF4,extended,00000000
+
+// Slot 65
+//patch=1,EE,0031AD0A,extended,00000000
+
+// Slot 66
+//patch=1,EE,0031AD20,extended,00000000
+
+// Slot 67
+//patch=1,EE,0031AD36,extended,00000000
+
+// Slot 68
+//patch=1,EE,0031AD4C,extended,00000000
+
+// Slot 69
+//patch=1,EE,0031AD62,extended,00000000
+
+// Slot 7
+//patch=1,EE,0031A80E,extended,00000000
+
+// Slot 70
+//patch=1,EE,0031AD78,extended,00000000
+
+// Slot 71
+//patch=1,EE,0031AD8E,extended,00000000
+
+// Slot 72
+//patch=1,EE,0031ADA4,extended,00000000
+
+// Slot 73
+//patch=1,EE,0031ADBA,extended,00000000
+
+// Slot 74
+//patch=1,EE,0031ADD0,extended,00000000
+
+// Slot 75
+//patch=1,EE,0031ADE6,extended,00000000
+
+// Slot 76
+//patch=1,EE,0031ADFC,extended,00000000
+
+// Slot 77
+//patch=1,EE,0031AE12,extended,00000000
+
+// Slot 78
+//patch=1,EE,0031AE28,extended,00000000
+
+// Slot 79
+//patch=1,EE,0031AE3E,extended,00000000
+
+// Slot 8
+//patch=1,EE,0031A824,extended,00000000
+
+// Slot 80
+//patch=1,EE,0031AE54,extended,00000000
+
+// Slot 81
+//patch=1,EE,0031AE6A,extended,00000000
+
+// Slot 82
+//patch=1,EE,0031AE80,extended,00000000
+
+// Slot 83
+//patch=1,EE,0031AE96,extended,00000000
+
+// Slot 84
+//patch=1,EE,0031AEAC,extended,00000000
+
+// Slot 85
+//patch=1,EE,0031AEC2,extended,00000000
+
+// Slot 86
+//patch=1,EE,0031AED8,extended,00000000
+
+// Slot 87
+//patch=1,EE,0031AEEE,extended,00000000
+
+// Slot 88
+//patch=1,EE,0031AF04,extended,00000000
+
+// Slot 89
+//patch=1,EE,0031AF1A,extended,00000000
+
+// Slot 9
+//patch=1,EE,0031A83A,extended,00000000
+
+// Slot 90
+//patch=1,EE,0031AF30,extended,00000000
+
+// Slot 91
+//patch=1,EE,0031AF46,extended,00000000
+
+// Slot 92
+//patch=1,EE,0031AF5C,extended,00000000
+
+// Slot 93
+//patch=1,EE,0031AF72,extended,00000000
+
+// Slot 94
+//patch=1,EE,0031AF88,extended,00000000
+
+// Slot 95
+//patch=1,EE,0031AF9E,extended,00000000
+
+// Slot 96
+//patch=1,EE,0031AFB4,extended,00000000
+
+// Slot 97
+//patch=1,EE,0031AFCA,extended,00000000
+
+// Slot 98
+//patch=1,EE,0031AFE0,extended,00000000
+
+// Slot 99
+//patch=1,EE,0031AFF6,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Auto Ability Modifier Position 1 Codes (Part 2)
+// ============================================================================
+
+// Slot 101
+//patch=1,EE,0031B022,extended,00000000
+
+// Slot 102
+//patch=1,EE,0031B038,extended,00000000
+
+// Slot 103
+//patch=1,EE,0031B04E,extended,00000000
+
+// Slot 104
+//patch=1,EE,0031B064,extended,00000000
+
+// Slot 105
+//patch=1,EE,0031B07A,extended,00000000
+
+// Slot 106
+//patch=1,EE,0031B090,extended,00000000
+
+// Slot 107
+//patch=1,EE,0031B0A6,extended,00000000
+
+// Slot 108
+//patch=1,EE,0031B0BC,extended,00000000
+
+// Slot 109
+//patch=1,EE,0031B0D2,extended,00000000
+
+// Slot 110
+//patch=1,EE,0031B0E8,extended,00000000
+
+// Slot 111
+//patch=1,EE,0031B0FE,extended,00000000
+
+// Slot 112
+//patch=1,EE,0031B114,extended,00000000
+
+// Slot 113
+//patch=1,EE,0031B12A,extended,00000000
+
+// Slot 114
+//patch=1,EE,0031B140,extended,00000000
+
+// Slot 115
+//patch=1,EE,0031B156,extended,00000000
+
+// Slot 116
+//patch=1,EE,0031B16C,extended,00000000
+
+// Slot 117
+//patch=1,EE,0031B182,extended,00000000
+
+// Slot 118
+//patch=1,EE,0031B198,extended,00000000
+
+// Slot 119
+//patch=1,EE,0031B1AE,extended,00000000
+
+// Slot 120
+//patch=1,EE,0031B1C4,extended,00000000
+
+// Slot 121
+//patch=1,EE,0031B1DA,extended,00000000
+
+// Slot 122
+//patch=1,EE,0031B1F0,extended,00000000
+
+// Slot 123
+//patch=1,EE,0031B206,extended,00000000
+
+// Slot 124
+//patch=1,EE,0031B21C,extended,00000000
+
+// Slot 125
+//patch=1,EE,0031B232,extended,00000000
+
+// Slot 126
+//patch=1,EE,0031B248,extended,00000000
+
+// Slot 127
+//patch=1,EE,0031B25E,extended,00000000
+
+// Slot 128
+//patch=1,EE,0031B274,extended,00000000
+
+// Slot 129
+//patch=1,EE,0031B28A,extended,00000000
+
+// Slot 130
+//patch=1,EE,0031B2A0,extended,00000000
+
+// Slot 131
+//patch=1,EE,0031B2B6,extended,00000000
+
+// Slot 132
+//patch=1,EE,0031B2CC,extended,00000000
+
+// Slot 133
+//patch=1,EE,0031B2E2,extended,00000000
+
+// Slot 134
+//patch=1,EE,0031B2F8,extended,00000000
+
+// Slot 135
+//patch=1,EE,0031B30E,extended,00000000
+
+// Slot 136
+//patch=1,EE,0031B324,extended,00000000
+
+// Slot 137
+//patch=1,EE,0031B33A,extended,00000000
+
+// Slot 138
+//patch=1,EE,0031B350,extended,00000000
+
+// Slot 139
+//patch=1,EE,0031B366,extended,00000000
+
+// Slot 140
+//patch=1,EE,0031B37C,extended,00000000
+
+// Slot 141
+//patch=1,EE,0031B392,extended,00000000
+
+// Slot 142
+//patch=1,EE,0031B3A8,extended,00000000
+
+// Slot 143
+//patch=1,EE,0031B3BE,extended,00000000
+
+// Slot 144
+//patch=1,EE,0031B3D4,extended,00000000
+
+// Slot 145
+//patch=1,EE,0031B3EA,extended,00000000
+
+// Slot 146
+//patch=1,EE,0031B400,extended,00000000
+
+// Slot 147
+//patch=1,EE,0031B416,extended,00000000
+
+// Slot 148
+//patch=1,EE,0031B42C,extended,00000000
+
+// Slot 149
+//patch=1,EE,0031B442,extended,00000000
+
+// Slot 150
+//patch=1,EE,0031B458,extended,00000000
+
+// Slot 151
+//patch=1,EE,0031B46E,extended,00000000
+
+// Slot 152
+//patch=1,EE,0031B484,extended,00000000
+
+// Slot 153
+//patch=1,EE,0031B49A,extended,00000000
+
+// Slot 154
+//patch=1,EE,0031B4B0,extended,00000000
+
+// Slot 155
+//patch=1,EE,0031B4C6,extended,00000000
+
+// Slot 156
+//patch=1,EE,0031B4DC,extended,00000000
+
+// Slot 157
+//patch=1,EE,0031B4F2,extended,00000000
+
+// Slot 158
+//patch=1,EE,0031B508,extended,00000000
+
+// Slot 159
+//patch=1,EE,0031B51E,extended,00000000
+
+// Slot 160
+//patch=1,EE,0031B534,extended,00000000
+
+// Slot 161
+//patch=1,EE,0031B54A,extended,00000000
+
+// Slot 162
+//patch=1,EE,0031B560,extended,00000000
+
+// Slot 163
+//patch=1,EE,0031B576,extended,00000000
+
+// Slot 164
+//patch=1,EE,0031B58C,extended,00000000
+
+// Slot 165
+//patch=1,EE,0031B5A2,extended,00000000
+
+// Slot 166
+//patch=1,EE,0031B5B8,extended,00000000
+
+// Slot 167
+//patch=1,EE,0031B5CE,extended,00000000
+
+// Slot 168
+//patch=1,EE,0031B5E4,extended,00000000
+
+// Slot 169
+//patch=1,EE,0031B5FA,extended,00000000
+
+// Slot 170
+//patch=1,EE,0031B610,extended,00000000
+
+// Slot 171
+//patch=1,EE,0031B626,extended,00000000
+
+// Slot 172
+//patch=1,EE,0031B63C,extended,00000000
+
+// Slot 173
+//patch=1,EE,0031B652,extended,00000000
+
+// Slot 174
+//patch=1,EE,0031B668,extended,00000000
+
+// Slot 175
+//patch=1,EE,0031B67E,extended,00000000
+
+// Slot 176
+//patch=1,EE,0031B694,extended,00000000
+
+// Slot 177
+//patch=1,EE,0031B6AA,extended,00000000
+
+// Slot 178
+//patch=1,EE,0031B6C0,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Auto Ability Modifier Position 2 Codes (Part 1)
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,0031A78C,extended,00000000
+
+// Slot 10
+//patch=1,EE,0031A852,extended,00000000
+
+// Slot 100
+//patch=1,EE,0031B00E,extended,00000000
+
+// Slot 11
+//patch=1,EE,0031A868,extended,00000000
+
+// Slot 12
+//patch=1,EE,0031A87E,extended,00000000
+
+// Slot 13
+//patch=1,EE,0031A894,extended,00000000
+
+// Slot 14
+//patch=1,EE,0031A8AA,extended,00000000
+
+// Slot 15
+//patch=1,EE,0031A8C0,extended,00000000
+
+// Slot 16
+//patch=1,EE,0031A8D6,extended,00000000
+
+// Slot 17
+//patch=1,EE,0031A8EC,extended,00000000
+
+// Slot 18
+//patch=1,EE,0031A902,extended,00000000
+
+// Slot 19
+//patch=1,EE,0031A918,extended,00000000
+
+// Slot 2
+//patch=1,EE,0031A7A2,extended,00000000
+
+// Slot 20
+//patch=1,EE,0031A92E,extended,00000000
+
+// Slot 21
+//patch=1,EE,0031A944,extended,00000000
+
+// Slot 22
+//patch=1,EE,0031A95A,extended,00000000
+
+// Slot 23
+//patch=1,EE,0031A970,extended,00000000
+
+// Slot 24
+//patch=1,EE,0031A986,extended,00000000
+
+// Slot 25
+//patch=1,EE,0031A99C,extended,00000000
+
+// Slot 26
+//patch=1,EE,0031A9B2,extended,00000000
+
+// Slot 27
+//patch=1,EE,0031A9C8,extended,00000000
+
+// Slot 28
+//patch=1,EE,0031A9DE,extended,00000000
+
+// Slot 29
+//patch=1,EE,0031A9F4,extended,00000000
+
+// Slot 3
+//patch=1,EE,0031A7B8,extended,00000000
+
+// Slot 30
+//patch=1,EE,0031AA0A,extended,00000000
+
+// Slot 31
+//patch=1,EE,0031AA20,extended,00000000
+
+// Slot 32
+//patch=1,EE,0031AA36,extended,00000000
+
+// Slot 33
+//patch=1,EE,0031AA4C,extended,00000000
+
+// Slot 34
+//patch=1,EE,0031AA62,extended,00000000
+
+// Slot 35
+//patch=1,EE,0031AA78,extended,00000000
+
+// Slot 36
+//patch=1,EE,0031AA8E,extended,00000000
+
+// Slot 37
+//patch=1,EE,0031AAA4,extended,00000000
+
+// Slot 38
+//patch=1,EE,0031AABA,extended,00000000
+
+// Slot 39
+//patch=1,EE,0031AAD0,extended,00000000
+
+// Slot 4
+//patch=1,EE,0031A7CE,extended,00000000
+
+// Slot 40
+//patch=1,EE,0031AAE6,extended,00000000
+
+// Slot 41
+//patch=1,EE,0031AAFC,extended,00000000
+
+// Slot 42
+//patch=1,EE,0031AB12,extended,00000000
+
+// Slot 43
+//patch=1,EE,0031AB28,extended,00000000
+
+// Slot 44
+//patch=1,EE,0031AB3E,extended,00000000
+
+// Slot 45
+//patch=1,EE,0031AB54,extended,00000000
+
+// Slot 46
+//patch=1,EE,0031AB6A,extended,00000000
+
+// Slot 47
+//patch=1,EE,0031AB80,extended,00000000
+
+// Slot 48
+//patch=1,EE,0031AB96,extended,00000000
+
+// Slot 49
+//patch=1,EE,0031ABAC,extended,00000000
+
+// Slot 5
+//patch=1,EE,0031A7E4,extended,00000000
+
+// Slot 50
+//patch=1,EE,0031ABC2,extended,00000000
+
+// Slot 51
+//patch=1,EE,0031ABD8,extended,00000000
+
+// Slot 52
+//patch=1,EE,0031ABEE,extended,00000000
+
+// Slot 53
+//patch=1,EE,0031AC04,extended,00000000
+
+// Slot 54
+//patch=1,EE,0031AC1A,extended,00000000
+
+// Slot 55
+//patch=1,EE,0031AC30,extended,00000000
+
+// Slot 56
+//patch=1,EE,0031AC46,extended,00000000
+
+// Slot 57
+//patch=1,EE,0031AC5C,extended,00000000
+
+// Slot 58
+//patch=1,EE,0031AC72,extended,00000000
+
+// Slot 59
+//patch=1,EE,0031AC88,extended,00000000
+
+// Slot 6
+//patch=1,EE,0031A7FA,extended,00000000
+
+// Slot 60
+//patch=1,EE,0031AC9E,extended,00000000
+
+// Slot 61
+//patch=1,EE,0031ACB4,extended,00000000
+
+// Slot 62
+//patch=1,EE,0031ACCA,extended,00000000
+
+// Slot 63
+//patch=1,EE,0031ACE0,extended,00000000
+
+// Slot 64
+//patch=1,EE,0031ACF6,extended,00000000
+
+// Slot 65
+//patch=1,EE,0031AD0C,extended,00000000
+
+// Slot 66
+//patch=1,EE,0031AD22,extended,00000000
+
+// Slot 67
+//patch=1,EE,0031AD38,extended,00000000
+
+// Slot 68
+//patch=1,EE,0031AD4E,extended,00000000
+
+// Slot 69
+//patch=1,EE,0031AD64,extended,00000000
+
+// Slot 7
+//patch=1,EE,0031A810,extended,00000000
+
+// Slot 70
+//patch=1,EE,0031AD7A,extended,00000000
+
+// Slot 71
+//patch=1,EE,0031AD90,extended,00000000
+
+// Slot 72
+//patch=1,EE,0031ADA6,extended,00000000
+
+// Slot 73
+//patch=1,EE,0031ADBC,extended,00000000
+
+// Slot 74
+//patch=1,EE,0031ADD2,extended,00000000
+
+// Slot 75
+//patch=1,EE,0031ADE8,extended,00000000
+
+// Slot 76
+//patch=1,EE,0031ADFE,extended,00000000
+
+// Slot 77
+//patch=1,EE,0031AE14,extended,00000000
+
+// Slot 78
+//patch=1,EE,0031AE2A,extended,00000000
+
+// Slot 79
+//patch=1,EE,0031AE40,extended,00000000
+
+// Slot 8
+//patch=1,EE,0031A826,extended,00000000
+
+// Slot 80
+//patch=1,EE,0031AE56,extended,00000000
+
+// Slot 81
+//patch=1,EE,0031AE6C,extended,00000000
+
+// Slot 82
+//patch=1,EE,0031AE82,extended,00000000
+
+// Slot 83
+//patch=1,EE,0031AE98,extended,00000000
+
+// Slot 84
+//patch=1,EE,0031AEAE,extended,00000000
+
+// Slot 85
+//patch=1,EE,0031AEC4,extended,00000000
+
+// Slot 86
+//patch=1,EE,0031AEDA,extended,00000000
+
+// Slot 87
+//patch=1,EE,0031AEF0,extended,00000000
+
+// Slot 88
+//patch=1,EE,0031AF06,extended,00000000
+
+// Slot 89
+//patch=1,EE,0031AF1C,extended,00000000
+
+// Slot 9
+//patch=1,EE,0031A83C,extended,00000000
+
+// Slot 90
+//patch=1,EE,0031AF32,extended,00000000
+
+// Slot 91
+//patch=1,EE,0031AF48,extended,00000000
+
+// Slot 92
+//patch=1,EE,0031AF5E,extended,00000000
+
+// Slot 93
+//patch=1,EE,0031AF74,extended,00000000
+
+// Slot 94
+//patch=1,EE,0031AF8A,extended,00000000
+
+// Slot 95
+//patch=1,EE,0031AFA0,extended,00000000
+
+// Slot 96
+//patch=1,EE,0031AFB6,extended,00000000
+
+// Slot 97
+//patch=1,EE,0031AFCC,extended,00000000
+
+// Slot 98
+//patch=1,EE,0031AFE2,extended,00000000
+
+// Slot 99
+//patch=1,EE,0031AFF8,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Auto Ability Modifier Position 2 Codes (Part 2)
+// ============================================================================
+
+// Slot 101
+//patch=1,EE,0031B024,extended,00000000
+
+// Slot 102
+//patch=1,EE,0031B03A,extended,00000000
+
+// Slot 103
+//patch=1,EE,0031B050,extended,00000000
+
+// Slot 104
+//patch=1,EE,0031B066,extended,00000000
+
+// Slot 105
+//patch=1,EE,0031B07C,extended,00000000
+
+// Slot 106
+//patch=1,EE,0031B092,extended,00000000
+
+// Slot 107
+//patch=1,EE,0031B0A8,extended,00000000
+
+// Slot 108
+//patch=1,EE,0031B0BE,extended,00000000
+
+// Slot 109
+//patch=1,EE,0031B0D4,extended,00000000
+
+// Slot 110
+//patch=1,EE,0031B0EA,extended,00000000
+
+// Slot 111
+//patch=1,EE,0031B100,extended,00000000
+
+// Slot 112
+//patch=1,EE,0031B116,extended,00000000
+
+// Slot 113
+//patch=1,EE,0031B12C,extended,00000000
+
+// Slot 114
+//patch=1,EE,0031B142,extended,00000000
+
+// Slot 115
+//patch=1,EE,0031B158,extended,00000000
+
+// Slot 116
+//patch=1,EE,0031B16E,extended,00000000
+
+// Slot 117
+//patch=1,EE,0031B184,extended,00000000
+
+// Slot 118
+//patch=1,EE,0031B19A,extended,00000000
+
+// Slot 119
+//patch=1,EE,0031B1B0,extended,00000000
+
+// Slot 120
+//patch=1,EE,0031B1C6,extended,00000000
+
+// Slot 121
+//patch=1,EE,0031B1DC,extended,00000000
+
+// Slot 122
+//patch=1,EE,0031B1F2,extended,00000000
+
+// Slot 123
+//patch=1,EE,0031B208,extended,00000000
+
+// Slot 124
+//patch=1,EE,0031B21E,extended,00000000
+
+// Slot 125
+//patch=1,EE,0031B234,extended,00000000
+
+// Slot 126
+//patch=1,EE,0031B24A,extended,00000000
+
+// Slot 127
+//patch=1,EE,0031B260,extended,00000000
+
+// Slot 128
+//patch=1,EE,0031B276,extended,00000000
+
+// Slot 129
+//patch=1,EE,0031B28C,extended,00000000
+
+// Slot 130
+//patch=1,EE,0031B2A2,extended,00000000
+
+// Slot 131
+//patch=1,EE,0031B2B8,extended,00000000
+
+// Slot 132
+//patch=1,EE,0031B2CE,extended,00000000
+
+// Slot 133
+//patch=1,EE,0031B2E4,extended,00000000
+
+// Slot 134
+//patch=1,EE,0031B2FA,extended,00000000
+
+// Slot 135
+//patch=1,EE,0031B310,extended,00000000
+
+// Slot 136
+//patch=1,EE,0031B326,extended,00000000
+
+// Slot 137
+//patch=1,EE,0031B33C,extended,00000000
+
+// Slot 138
+//patch=1,EE,0031B352,extended,00000000
+
+// Slot 139
+//patch=1,EE,0031B368,extended,00000000
+
+// Slot 140
+//patch=1,EE,0031B37E,extended,00000000
+
+// Slot 141
+//patch=1,EE,0031B394,extended,00000000
+
+// Slot 142
+//patch=1,EE,0031B3AA,extended,00000000
+
+// Slot 143
+//patch=1,EE,0031B3C0,extended,00000000
+
+// Slot 144
+//patch=1,EE,0031B3D6,extended,00000000
+
+// Slot 145
+//patch=1,EE,0031B3EC,extended,00000000
+
+// Slot 146
+//patch=1,EE,0031B402,extended,00000000
+
+// Slot 147
+//patch=1,EE,0031B418,extended,00000000
+
+// Slot 148
+//patch=1,EE,0031B42E,extended,00000000
+
+// Slot 149
+//patch=1,EE,0031B444,extended,00000000
+
+// Slot 150
+//patch=1,EE,0031B45A,extended,00000000
+
+// Slot 151
+//patch=1,EE,0031B470,extended,00000000
+
+// Slot 152
+//patch=1,EE,0031B486,extended,00000000
+
+// Slot 153
+//patch=1,EE,0031B49C,extended,00000000
+
+// Slot 154
+//patch=1,EE,0031B4B2,extended,00000000
+
+// Slot 155
+//patch=1,EE,0031B4C8,extended,00000000
+
+// Slot 156
+//patch=1,EE,0031B4DE,extended,00000000
+
+// Slot 157
+//patch=1,EE,0031B4F4,extended,00000000
+
+// Slot 158
+//patch=1,EE,0031B50A,extended,00000000
+
+// Slot 159
+//patch=1,EE,0031B520,extended,00000000
+
+// Slot 160
+//patch=1,EE,0031B536,extended,00000000
+
+// Slot 161
+//patch=1,EE,0031B54C,extended,00000000
+
+// Slot 162
+//patch=1,EE,0031B562,extended,00000000
+
+// Slot 163
+//patch=1,EE,0031B578,extended,00000000
+
+// Slot 164
+//patch=1,EE,0031B58E,extended,00000000
+
+// Slot 165
+//patch=1,EE,0031B5A4,extended,00000000
+
+// Slot 166
+//patch=1,EE,0031B5BA,extended,00000000
+
+// Slot 167
+//patch=1,EE,0031B5D0,extended,00000000
+
+// Slot 168
+//patch=1,EE,0031B5E6,extended,00000000
+
+// Slot 169
+//patch=1,EE,0031B5FC,extended,00000000
+
+// Slot 170
+//patch=1,EE,0031B612,extended,00000000
+
+// Slot 171
+//patch=1,EE,0031B628,extended,00000000
+
+// Slot 172
+//patch=1,EE,0031B63E,extended,00000000
+
+// Slot 173
+//patch=1,EE,0031B654,extended,00000000
+
+// Slot 174
+//patch=1,EE,0031B66A,extended,00000000
+
+// Slot 175
+//patch=1,EE,0031B680,extended,00000000
+
+// Slot 176
+//patch=1,EE,0031B696,extended,00000000
+
+// Slot 177
+//patch=1,EE,0031B6AC,extended,00000000
+
+// Slot 178
+//patch=1,EE,0031B6C2,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Auto Ability Modifier Position 3 Codes (Part 1)
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,0031A78E,extended,00000000
+
+// Slot 10
+//patch=1,EE,0031A854,extended,00000000
+
+// Slot 100
+//patch=1,EE,0031B010,extended,00000000
+
+// Slot 11
+//patch=1,EE,0031A86A,extended,00000000
+
+// Slot 12
+//patch=1,EE,0031A880,extended,00000000
+
+// Slot 13
+//patch=1,EE,0031A896,extended,00000000
+
+// Slot 14
+//patch=1,EE,0031A8AC,extended,00000000
+
+// Slot 15
+//patch=1,EE,0031A8C2,extended,00000000
+
+// Slot 16
+//patch=1,EE,0031A8D8,extended,00000000
+
+// Slot 17
+//patch=1,EE,0031A8EE,extended,00000000
+
+// Slot 18
+//patch=1,EE,0031A904,extended,00000000
+
+// Slot 19
+//patch=1,EE,0031A91A,extended,00000000
+
+// Slot 2
+//patch=1,EE,0031A7A4,extended,00000000
+
+// Slot 20
+//patch=1,EE,0031A930,extended,00000000
+
+// Slot 21
+//patch=1,EE,0031A946,extended,00000000
+
+// Slot 22
+//patch=1,EE,0031A95C,extended,00000000
+
+// Slot 23
+//patch=1,EE,0031A972,extended,00000000
+
+// Slot 24
+//patch=1,EE,0031A988,extended,00000000
+
+// Slot 25
+//patch=1,EE,0031A99E,extended,00000000
+
+// Slot 26
+//patch=1,EE,0031A9B4,extended,00000000
+
+// Slot 27
+//patch=1,EE,0031A9CA,extended,00000000
+
+// Slot 28
+//patch=1,EE,0031A9E0,extended,00000000
+
+// Slot 29
+//patch=1,EE,0031A9F6,extended,00000000
+
+// Slot 3
+//patch=1,EE,0031A7BA,extended,00000000
+
+// Slot 30
+//patch=1,EE,0031AA0C,extended,00000000
+
+// Slot 31
+//patch=1,EE,0031AA22,extended,00000000
+
+// Slot 32
+//patch=1,EE,0031AA38,extended,00000000
+
+// Slot 33
+//patch=1,EE,0031AA4E,extended,00000000
+
+// Slot 34
+//patch=1,EE,0031AA64,extended,00000000
+
+// Slot 35
+//patch=1,EE,0031AA7A,extended,00000000
+
+// Slot 36
+//patch=1,EE,0031AA90,extended,00000000
+
+// Slot 37
+//patch=1,EE,0031AAA6,extended,00000000
+
+// Slot 38
+//patch=1,EE,0031AABC,extended,00000000
+
+// Slot 39
+//patch=1,EE,0031AAD2,extended,00000000
+
+// Slot 4
+//patch=1,EE,0031A7D0,extended,00000000
+
+// Slot 40
+//patch=1,EE,0031AAE8,extended,00000000
+
+// Slot 41
+//patch=1,EE,0031AAFE,extended,00000000
+
+// Slot 42
+//patch=1,EE,0031AB14,extended,00000000
+
+// Slot 43
+//patch=1,EE,0031AB2A,extended,00000000
+
+// Slot 44
+//patch=1,EE,0031AB40,extended,00000000
+
+// Slot 45
+//patch=1,EE,0031AB56,extended,00000000
+
+// Slot 46
+//patch=1,EE,0031AB6C,extended,00000000
+
+// Slot 47
+//patch=1,EE,0031AB82,extended,00000000
+
+// Slot 48
+//patch=1,EE,0031AB98,extended,00000000
+
+// Slot 49
+//patch=1,EE,0031ABAE,extended,00000000
+
+// Slot 5
+//patch=1,EE,0031A7E6,extended,00000000
+
+// Slot 50
+//patch=1,EE,0031ABC4,extended,00000000
+
+// Slot 51
+//patch=1,EE,0031ABDA,extended,00000000
+
+// Slot 52
+//patch=1,EE,0031ABF0,extended,00000000
+
+// Slot 53
+//patch=1,EE,0031AC06,extended,00000000
+
+// Slot 54
+//patch=1,EE,0031AC1C,extended,00000000
+
+// Slot 55
+//patch=1,EE,0031AC32,extended,00000000
+
+// Slot 56
+//patch=1,EE,0031AC48,extended,00000000
+
+// Slot 57
+//patch=1,EE,0031AC5E,extended,00000000
+
+// Slot 58
+//patch=1,EE,0031AC74,extended,00000000
+
+// Slot 59
+//patch=1,EE,0031AC8A,extended,00000000
+
+// Slot 6
+//patch=1,EE,0031A7FC,extended,00000000
+
+// Slot 60
+//patch=1,EE,0031ACA0,extended,00000000
+
+// Slot 61
+//patch=1,EE,0031ACB6,extended,00000000
+
+// Slot 62
+//patch=1,EE,0031ACCC,extended,00000000
+
+// Slot 63
+//patch=1,EE,0031ACE2,extended,00000000
+
+// Slot 64
+//patch=1,EE,0031ACF8,extended,00000000
+
+// Slot 65
+//patch=1,EE,0031AD0E,extended,00000000
+
+// Slot 66
+//patch=1,EE,0031AD24,extended,00000000
+
+// Slot 67
+//patch=1,EE,0031AD3A,extended,00000000
+
+// Slot 68
+//patch=1,EE,0031AD50,extended,00000000
+
+// Slot 69
+//patch=1,EE,0031AD66,extended,00000000
+
+// Slot 7
+//patch=1,EE,0031A812,extended,00000000
+
+// Slot 70
+//patch=1,EE,0031AD7C,extended,00000000
+
+// Slot 71
+//patch=1,EE,0031AD92,extended,00000000
+
+// Slot 72
+//patch=1,EE,0031ADA8,extended,00000000
+
+// Slot 73
+//patch=1,EE,0031ADBE,extended,00000000
+
+// Slot 74
+//patch=1,EE,0031ADD4,extended,00000000
+
+// Slot 75
+//patch=1,EE,0031ADEA,extended,00000000
+
+// Slot 76
+//patch=1,EE,0031AE00,extended,00000000
+
+// Slot 77
+//patch=1,EE,0031AE16,extended,00000000
+
+// Slot 78
+//patch=1,EE,0031AE2C,extended,00000000
+
+// Slot 79
+//patch=1,EE,0031AE42,extended,00000000
+
+// Slot 8
+//patch=1,EE,0031A828,extended,00000000
+
+// Slot 80
+//patch=1,EE,0031AE58,extended,00000000
+
+// Slot 81
+//patch=1,EE,0031AE6E,extended,00000000
+
+// Slot 82
+//patch=1,EE,0031AE84,extended,00000000
+
+// Slot 83
+//patch=1,EE,0031AE9A,extended,00000000
+
+// Slot 84
+//patch=1,EE,0031AEB0,extended,00000000
+
+// Slot 85
+//patch=1,EE,0031AEC6,extended,00000000
+
+// Slot 86
+//patch=1,EE,0031AEDC,extended,00000000
+
+// Slot 87
+//patch=1,EE,0031AEF2,extended,00000000
+
+// Slot 88
+//patch=1,EE,0031AF08,extended,00000000
+
+// Slot 89
+//patch=1,EE,0031AF1E,extended,00000000
+
+// Slot 9
+//patch=1,EE,0031A83E,extended,00000000
+
+// Slot 90
+//patch=1,EE,0031AF34,extended,00000000
+
+// Slot 91
+//patch=1,EE,0031AF4A,extended,00000000
+
+// Slot 92
+//patch=1,EE,0031AF60,extended,00000000
+
+// Slot 93
+//patch=1,EE,0031AF76,extended,00000000
+
+// Slot 94
+//patch=1,EE,0031AF8C,extended,00000000
+
+// Slot 95
+//patch=1,EE,0031AFA2,extended,00000000
+
+// Slot 96
+//patch=1,EE,0031AFB8,extended,00000000
+
+// Slot 97
+//patch=1,EE,0031AFCE,extended,00000000
+
+// Slot 98
+//patch=1,EE,0031AFE4,extended,00000000
+
+// Slot 99
+//patch=1,EE,0031AFFA,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Auto Ability Modifier Position 3 Codes (Part 2)
+// ============================================================================
+
+// Slot 101
+//patch=1,EE,0031B026,extended,00000000
+
+// Slot 102
+//patch=1,EE,0031B03C,extended,00000000
+
+// Slot 103
+//patch=1,EE,0031B052,extended,00000000
+
+// Slot 104
+//patch=1,EE,0031B068,extended,00000000
+
+// Slot 105
+//patch=1,EE,0031B07E,extended,00000000
+
+// Slot 106
+//patch=1,EE,0031B094,extended,00000000
+
+// Slot 107
+//patch=1,EE,0031B0AA,extended,00000000
+
+// Slot 108
+//patch=1,EE,0031B0C0,extended,00000000
+
+// Slot 109
+//patch=1,EE,0031B0D6,extended,00000000
+
+// Slot 110
+//patch=1,EE,0031B0EC,extended,00000000
+
+// Slot 111
+//patch=1,EE,0031B102,extended,00000000
+
+// Slot 112
+//patch=1,EE,0031B118,extended,00000000
+
+// Slot 113
+//patch=1,EE,0031B12E,extended,00000000
+
+// Slot 114
+//patch=1,EE,0031B144,extended,00000000
+
+// Slot 115
+//patch=1,EE,0031B15A,extended,00000000
+
+// Slot 116
+//patch=1,EE,0031B170,extended,00000000
+
+// Slot 117
+//patch=1,EE,0031B186,extended,00000000
+
+// Slot 118
+//patch=1,EE,0031B19C,extended,00000000
+
+// Slot 119
+//patch=1,EE,0031B1B2,extended,00000000
+
+// Slot 120
+//patch=1,EE,0031B1C8,extended,00000000
+
+// Slot 121
+//patch=1,EE,0031B1DE,extended,00000000
+
+// Slot 122
+//patch=1,EE,0031B1F4,extended,00000000
+
+// Slot 123
+//patch=1,EE,0031B20A,extended,00000000
+
+// Slot 124
+//patch=1,EE,0031B220,extended,00000000
+
+// Slot 125
+//patch=1,EE,0031B236,extended,00000000
+
+// Slot 126
+//patch=1,EE,0031B24C,extended,00000000
+
+// Slot 127
+//patch=1,EE,0031B262,extended,00000000
+
+// Slot 128
+//patch=1,EE,0031B278,extended,00000000
+
+// Slot 129
+//patch=1,EE,0031B28E,extended,00000000
+
+// Slot 130
+//patch=1,EE,0031B2A4,extended,00000000
+
+// Slot 131
+//patch=1,EE,0031B2BA,extended,00000000
+
+// Slot 132
+//patch=1,EE,0031B2D0,extended,00000000
+
+// Slot 133
+//patch=1,EE,0031B2E6,extended,00000000
+
+// Slot 134
+//patch=1,EE,0031B2FC,extended,00000000
+
+// Slot 135
+//patch=1,EE,0031B312,extended,00000000
+
+// Slot 136
+//patch=1,EE,0031B328,extended,00000000
+
+// Slot 137
+//patch=1,EE,0031B33E,extended,00000000
+
+// Slot 138
+//patch=1,EE,0031B354,extended,00000000
+
+// Slot 139
+//patch=1,EE,0031B36A,extended,00000000
+
+// Slot 140
+//patch=1,EE,0031B380,extended,00000000
+
+// Slot 141
+//patch=1,EE,0031B396,extended,00000000
+
+// Slot 142
+//patch=1,EE,0031B3AC,extended,00000000
+
+// Slot 143
+//patch=1,EE,0031B3C2,extended,00000000
+
+// Slot 144
+//patch=1,EE,0031B3D8,extended,00000000
+
+// Slot 145
+//patch=1,EE,0031B3EE,extended,00000000
+
+// Slot 146
+//patch=1,EE,0031B404,extended,00000000
+
+// Slot 147
+//patch=1,EE,0031B41A,extended,00000000
+
+// Slot 148
+//patch=1,EE,0031B430,extended,00000000
+
+// Slot 149
+//patch=1,EE,0031B446,extended,00000000
+
+// Slot 150
+//patch=1,EE,0031B45C,extended,00000000
+
+// Slot 151
+//patch=1,EE,0031B472,extended,00000000
+
+// Slot 152
+//patch=1,EE,0031B488,extended,00000000
+
+// Slot 153
+//patch=1,EE,0031B49E,extended,00000000
+
+// Slot 154
+//patch=1,EE,0031B4B4,extended,00000000
+
+// Slot 155
+//patch=1,EE,0031B4CA,extended,00000000
+
+// Slot 156
+//patch=1,EE,0031B4E0,extended,00000000
+
+// Slot 157
+//patch=1,EE,0031B4F6,extended,00000000
+
+// Slot 158
+//patch=1,EE,0031B50C,extended,00000000
+
+// Slot 159
+//patch=1,EE,0031B522,extended,00000000
+
+// Slot 160
+//patch=1,EE,0031B538,extended,00000000
+
+// Slot 161
+//patch=1,EE,0031B54E,extended,00000000
+
+// Slot 162
+//patch=1,EE,0031B564,extended,00000000
+
+// Slot 163
+//patch=1,EE,0031B57A,extended,00000000
+
+// Slot 164
+//patch=1,EE,0031B590,extended,00000000
+
+// Slot 165
+//patch=1,EE,0031B5A6,extended,00000000
+
+// Slot 166
+//patch=1,EE,0031B5BC,extended,00000000
+
+// Slot 167
+//patch=1,EE,0031B5D2,extended,00000000
+
+// Slot 168
+//patch=1,EE,0031B5E8,extended,00000000
+
+// Slot 169
+//patch=1,EE,0031B5FE,extended,00000000
+
+// Slot 170
+//patch=1,EE,0031B614,extended,00000000
+
+// Slot 171
+//patch=1,EE,0031B62A,extended,00000000
+
+// Slot 172
+//patch=1,EE,0031B640,extended,00000000
+
+// Slot 173
+//patch=1,EE,0031B656,extended,00000000
+
+// Slot 174
+//patch=1,EE,0031B66C,extended,00000000
+
+// Slot 175
+//patch=1,EE,0031B682,extended,00000000
+
+// Slot 176
+//patch=1,EE,0031B698,extended,00000000
+
+// Slot 177
+//patch=1,EE,0031B6AE,extended,00000000
+
+// Slot 178
+//patch=1,EE,0031B6C4,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Auto Ability Modifier Position 4 Codes (Part 1)
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,0031A790,extended,00000000
+
+// Slot 10
+//patch=1,EE,0031A856,extended,00000000
+
+// Slot 100
+//patch=1,EE,0031B012,extended,00000000
+
+// Slot 11
+//patch=1,EE,0031A86C,extended,00000000
+
+// Slot 12
+//patch=1,EE,0031A882,extended,00000000
+
+// Slot 13
+//patch=1,EE,0031A898,extended,00000000
+
+// Slot 14
+//patch=1,EE,0031A8AE,extended,00000000
+
+// Slot 15
+//patch=1,EE,0031A8C4,extended,00000000
+
+// Slot 16
+//patch=1,EE,0031A8DA,extended,00000000
+
+// Slot 17
+//patch=1,EE,0031A8F0,extended,00000000
+
+// Slot 18
+//patch=1,EE,0031A906,extended,00000000
+
+// Slot 19
+//patch=1,EE,0031A91C,extended,00000000
+
+// Slot 2
+//patch=1,EE,0031A7A6,extended,00000000
+
+// Slot 20
+//patch=1,EE,0031A932,extended,00000000
+
+// Slot 21
+//patch=1,EE,0031A948,extended,00000000
+
+// Slot 22
+//patch=1,EE,0031A95E,extended,00000000
+
+// Slot 23
+//patch=1,EE,0031A974,extended,00000000
+
+// Slot 24
+//patch=1,EE,0031A98A,extended,00000000
+
+// Slot 25
+//patch=1,EE,0031A9A0,extended,00000000
+
+// Slot 26
+//patch=1,EE,0031A9B6,extended,00000000
+
+// Slot 27
+//patch=1,EE,0031A9CC,extended,00000000
+
+// Slot 28
+//patch=1,EE,0031A9E2,extended,00000000
+
+// Slot 29
+//patch=1,EE,0031A9F8,extended,00000000
+
+// Slot 3
+//patch=1,EE,0031A7BC,extended,00000000
+
+// Slot 30
+//patch=1,EE,0031AA0E,extended,00000000
+
+// Slot 31
+//patch=1,EE,0031AA24,extended,00000000
+
+// Slot 32
+//patch=1,EE,0031AA3A,extended,00000000
+
+// Slot 33
+//patch=1,EE,0031AA50,extended,00000000
+
+// Slot 34
+//patch=1,EE,0031AA66,extended,00000000
+
+// Slot 35
+//patch=1,EE,0031AA7C,extended,00000000
+
+// Slot 36
+//patch=1,EE,0031AA92,extended,00000000
+
+// Slot 37
+//patch=1,EE,0031AAA8,extended,00000000
+
+// Slot 38
+//patch=1,EE,0031AABE,extended,00000000
+
+// Slot 39
+//patch=1,EE,0031AAD4,extended,00000000
+
+// Slot 4
+//patch=1,EE,0031A7D2,extended,00000000
+
+// Slot 40
+//patch=1,EE,0031AAEA,extended,00000000
+
+// Slot 41
+//patch=1,EE,0031AB00,extended,00000000
+
+// Slot 42
+//patch=1,EE,0031AB16,extended,00000000
+
+// Slot 43
+//patch=1,EE,0031AB2C,extended,00000000
+
+// Slot 44
+//patch=1,EE,0031AB42,extended,00000000
+
+// Slot 45
+//patch=1,EE,0031AB58,extended,00000000
+
+// Slot 46
+//patch=1,EE,0031AB6E,extended,00000000
+
+// Slot 47
+//patch=1,EE,0031AB84,extended,00000000
+
+// Slot 48
+//patch=1,EE,0031AB9A,extended,00000000
+
+// Slot 49
+//patch=1,EE,0031ABB0,extended,00000000
+
+// Slot 5
+//patch=1,EE,0031A7E8,extended,00000000
+
+// Slot 50
+//patch=1,EE,0031ABC6,extended,00000000
+
+// Slot 51
+//patch=1,EE,0031ABDC,extended,00000000
+
+// Slot 52
+//patch=1,EE,0031ABF2,extended,00000000
+
+// Slot 53
+//patch=1,EE,0031AC08,extended,00000000
+
+// Slot 54
+//patch=1,EE,0031AC1E,extended,00000000
+
+// Slot 55
+//patch=1,EE,0031AC34,extended,00000000
+
+// Slot 56
+//patch=1,EE,0031AC4A,extended,00000000
+
+// Slot 57
+//patch=1,EE,0031AC60,extended,00000000
+
+// Slot 58
+//patch=1,EE,0031AC76,extended,00000000
+
+// Slot 59
+//patch=1,EE,0031AC8C,extended,00000000
+
+// Slot 6
+//patch=1,EE,0031A7FE,extended,00000000
+
+// Slot 60
+//patch=1,EE,0031ACA2,extended,00000000
+
+// Slot 61
+//patch=1,EE,0031ACB8,extended,00000000
+
+// Slot 62
+//patch=1,EE,0031ACCE,extended,00000000
+
+// Slot 63
+//patch=1,EE,0031ACE4,extended,00000000
+
+// Slot 64
+//patch=1,EE,0031ACFA,extended,00000000
+
+// Slot 65
+//patch=1,EE,0031AD10,extended,00000000
+
+// Slot 66
+//patch=1,EE,0031AD26,extended,00000000
+
+// Slot 67
+//patch=1,EE,0031AD3C,extended,00000000
+
+// Slot 68
+//patch=1,EE,0031AD52,extended,00000000
+
+// Slot 69
+//patch=1,EE,0031AD68,extended,00000000
+
+// Slot 7
+//patch=1,EE,0031A814,extended,00000000
+
+// Slot 70
+//patch=1,EE,0031AD7E,extended,00000000
+
+// Slot 71
+//patch=1,EE,0031AD94,extended,00000000
+
+// Slot 72
+//patch=1,EE,0031ADAA,extended,00000000
+
+// Slot 73
+//patch=1,EE,0031ADC0,extended,00000000
+
+// Slot 74
+//patch=1,EE,0031ADD6,extended,00000000
+
+// Slot 75
+//patch=1,EE,0031ADEC,extended,00000000
+
+// Slot 76
+//patch=1,EE,0031AE02,extended,00000000
+
+// Slot 77
+//patch=1,EE,0031AE18,extended,00000000
+
+// Slot 78
+//patch=1,EE,0031AE2E,extended,00000000
+
+// Slot 79
+//patch=1,EE,0031AE44,extended,00000000
+
+// Slot 8
+//patch=1,EE,0031A82A,extended,00000000
+
+// Slot 80
+//patch=1,EE,0031AE5A,extended,00000000
+
+// Slot 81
+//patch=1,EE,0031AE70,extended,00000000
+
+// Slot 82
+//patch=1,EE,0031AE86,extended,00000000
+
+// Slot 83
+//patch=1,EE,0031AE9C,extended,00000000
+
+// Slot 84
+//patch=1,EE,0031AEB2,extended,00000000
+
+// Slot 85
+//patch=1,EE,0031AEC8,extended,00000000
+
+// Slot 86
+//patch=1,EE,0031AEDE,extended,00000000
+
+// Slot 87
+//patch=1,EE,0031AEF4,extended,00000000
+
+// Slot 88
+//patch=1,EE,0031AF0A,extended,00000000
+
+// Slot 89
+//patch=1,EE,0031AF20,extended,00000000
+
+// Slot 9
+//patch=1,EE,0031A840,extended,00000000
+
+// Slot 90
+//patch=1,EE,0031AF36,extended,00000000
+
+// Slot 91
+//patch=1,EE,0031AF4C,extended,00000000
+
+// Slot 92
+//patch=1,EE,0031AF62,extended,00000000
+
+// Slot 93
+//patch=1,EE,0031AF78,extended,00000000
+
+// Slot 94
+//patch=1,EE,0031AF8E,extended,00000000
+
+// Slot 95
+//patch=1,EE,0031AFA4,extended,00000000
+
+// Slot 96
+//patch=1,EE,0031AFBA,extended,00000000
+
+// Slot 97
+//patch=1,EE,0031AFD0,extended,00000000
+
+// Slot 98
+//patch=1,EE,0031AFE6,extended,00000000
+
+// Slot 99
+//patch=1,EE,0031AFFC,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Auto Ability Modifier Position 4 Codes (Part 2)
+// ============================================================================
+
+// Slot 101
+//patch=1,EE,0031B028,extended,00000000
+
+// Slot 102
+//patch=1,EE,0031B03E,extended,00000000
+
+// Slot 103
+//patch=1,EE,0031B054,extended,00000000
+
+// Slot 104
+//patch=1,EE,0031B06A,extended,00000000
+
+// Slot 105
+//patch=1,EE,0031B080,extended,00000000
+
+// Slot 106
+//patch=1,EE,0031B096,extended,00000000
+
+// Slot 107
+//patch=1,EE,0031B0AC,extended,00000000
+
+// Slot 108
+//patch=1,EE,0031B0C2,extended,00000000
+
+// Slot 109
+//patch=1,EE,0031B0D8,extended,00000000
+
+// Slot 110
+//patch=1,EE,0031B0EE,extended,00000000
+
+// Slot 111
+//patch=1,EE,0031B104,extended,00000000
+
+// Slot 112
+//patch=1,EE,0031B11A,extended,00000000
+
+// Slot 113
+//patch=1,EE,0031B130,extended,00000000
+
+// Slot 114
+//patch=1,EE,0031B146,extended,00000000
+
+// Slot 115
+//patch=1,EE,0031B15C,extended,00000000
+
+// Slot 116
+//patch=1,EE,0031B172,extended,00000000
+
+// Slot 117
+//patch=1,EE,0031B188,extended,00000000
+
+// Slot 118
+//patch=1,EE,0031B19E,extended,00000000
+
+// Slot 119
+//patch=1,EE,0031B1B4,extended,00000000
+
+// Slot 120
+//patch=1,EE,0031B1CA,extended,00000000
+
+// Slot 121
+//patch=1,EE,0031B1E0,extended,00000000
+
+// Slot 122
+//patch=1,EE,0031B1F6,extended,00000000
+
+// Slot 123
+//patch=1,EE,0031B20C,extended,00000000
+
+// Slot 124
+//patch=1,EE,0031B222,extended,00000000
+
+// Slot 125
+//patch=1,EE,0031B238,extended,00000000
+
+// Slot 126
+//patch=1,EE,0031B24E,extended,00000000
+
+// Slot 127
+//patch=1,EE,0031B264,extended,00000000
+
+// Slot 128
+//patch=1,EE,0031B27A,extended,00000000
+
+// Slot 129
+//patch=1,EE,0031B290,extended,00000000
+
+// Slot 130
+//patch=1,EE,0031B2A6,extended,00000000
+
+// Slot 131
+//patch=1,EE,0031B2BC,extended,00000000
+
+// Slot 132
+//patch=1,EE,0031B2D2,extended,00000000
+
+// Slot 133
+//patch=1,EE,0031B2E8,extended,00000000
+
+// Slot 134
+//patch=1,EE,0031B2FE,extended,00000000
+
+// Slot 135
+//patch=1,EE,0031B314,extended,00000000
+
+// Slot 136
+//patch=1,EE,0031B32A,extended,00000000
+
+// Slot 137
+//patch=1,EE,0031B340,extended,00000000
+
+// Slot 138
+//patch=1,EE,0031B356,extended,00000000
+
+// Slot 139
+//patch=1,EE,0031B36C,extended,00000000
+
+// Slot 140
+//patch=1,EE,0031B382,extended,00000000
+
+// Slot 141
+//patch=1,EE,0031B398,extended,00000000
+
+// Slot 142
+//patch=1,EE,0031B3AE,extended,00000000
+
+// Slot 143
+//patch=1,EE,0031B3C4,extended,00000000
+
+// Slot 144
+//patch=1,EE,0031B3DA,extended,00000000
+
+// Slot 145
+//patch=1,EE,0031B3F0,extended,00000000
+
+// Slot 146
+//patch=1,EE,0031B406,extended,00000000
+
+// Slot 147
+//patch=1,EE,0031B41C,extended,00000000
+
+// Slot 148
+//patch=1,EE,0031B432,extended,00000000
+
+// Slot 149
+//patch=1,EE,0031B448,extended,00000000
+
+// Slot 150
+//patch=1,EE,0031B45E,extended,00000000
+
+// Slot 151
+//patch=1,EE,0031B474,extended,00000000
+
+// Slot 152
+//patch=1,EE,0031B48A,extended,00000000
+
+// Slot 153
+//patch=1,EE,0031B4A0,extended,00000000
+
+// Slot 154
+//patch=1,EE,0031B4B6,extended,00000000
+
+// Slot 155
+//patch=1,EE,0031B4CC,extended,00000000
+
+// Slot 156
+//patch=1,EE,0031B4E2,extended,00000000
+
+// Slot 157
+//patch=1,EE,0031B4F8,extended,00000000
+
+// Slot 158
+//patch=1,EE,0031B50E,extended,00000000
+
+// Slot 159
+//patch=1,EE,0031B524,extended,00000000
+
+// Slot 160
+//patch=1,EE,0031B53A,extended,00000000
+
+// Slot 161
+//patch=1,EE,0031B550,extended,00000000
+
+// Slot 162
+//patch=1,EE,0031B566,extended,00000000
+
+// Slot 163
+//patch=1,EE,0031B57C,extended,00000000
+
+// Slot 164
+//patch=1,EE,0031B592,extended,00000000
+
+// Slot 165
+//patch=1,EE,0031B5A8,extended,00000000
+
+// Slot 166
+//patch=1,EE,0031B5BE,extended,00000000
+
+// Slot 167
+//patch=1,EE,0031B5D4,extended,00000000
+
+// Slot 168
+//patch=1,EE,0031B5EA,extended,00000000
+
+// Slot 169
+//patch=1,EE,0031B600,extended,00000000
+
+// Slot 170
+//patch=1,EE,0031B616,extended,00000000
+
+// Slot 171
+//patch=1,EE,0031B62C,extended,00000000
+
+// Slot 172
+//patch=1,EE,0031B642,extended,00000000
+
+// Slot 173
+//patch=1,EE,0031B658,extended,00000000
+
+// Slot 174
+//patch=1,EE,0031B66E,extended,00000000
+
+// Slot 175
+//patch=1,EE,0031B684,extended,00000000
+
+// Slot 176
+//patch=1,EE,0031B69A,extended,00000000
+
+// Slot 177
+//patch=1,EE,0031B6B0,extended,00000000
+
+// Slot 178
+//patch=1,EE,0031B6C6,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Character Can Equip Modifier Codes (Part 1)
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,0031A780,extended,00000000
+
+// Slot 10
+//patch=1,EE,0031A846,extended,00000000
+
+// Slot 100
+//patch=1,EE,0031B002,extended,00000000
+
+// Slot 11
+//patch=1,EE,0031A85C,extended,00000000
+
+// Slot 12
+//patch=1,EE,0031A872,extended,00000000
+
+// Slot 13
+//patch=1,EE,0031A888,extended,00000000
+
+// Slot 14
+//patch=1,EE,0031A89E,extended,00000000
+
+// Slot 15
+//patch=1,EE,0031A8B4,extended,00000000
+
+// Slot 16
+//patch=1,EE,0031A8CA,extended,00000000
+
+// Slot 17
+//patch=1,EE,0031A8E0,extended,00000000
+
+// Slot 18
+//patch=1,EE,0031A8F6,extended,00000000
+
+// Slot 19
+//patch=1,EE,0031A90C,extended,00000000
+
+// Slot 2
+//patch=1,EE,0031A796,extended,00000000
+
+// Slot 20
+//patch=1,EE,0031A922,extended,00000000
+
+// Slot 21
+//patch=1,EE,0031A938,extended,00000000
+
+// Slot 22
+//patch=1,EE,0031A94E,extended,00000000
+
+// Slot 23
+//patch=1,EE,0031A964,extended,00000000
+
+// Slot 24
+//patch=1,EE,0031A97A,extended,00000000
+
+// Slot 25
+//patch=1,EE,0031A990,extended,00000000
+
+// Slot 26
+//patch=1,EE,0031A9A6,extended,00000000
+
+// Slot 27
+//patch=1,EE,0031A9BC,extended,00000000
+
+// Slot 28
+//patch=1,EE,0031A9D2,extended,00000000
+
+// Slot 29
+//patch=1,EE,0031A9E8,extended,00000000
+
+// Slot 3
+//patch=1,EE,0031A7AC,extended,00000000
+
+// Slot 30
+//patch=1,EE,0031A9FE,extended,00000000
+
+// Slot 31
+//patch=1,EE,0031AA14,extended,00000000
+
+// Slot 32
+//patch=1,EE,0031AA2A,extended,00000000
+
+// Slot 33
+//patch=1,EE,0031AA40,extended,00000000
+
+// Slot 34
+//patch=1,EE,0031AA56,extended,00000000
+
+// Slot 35
+//patch=1,EE,0031AA6C,extended,00000000
+
+// Slot 36
+//patch=1,EE,0031AA82,extended,00000000
+
+// Slot 37
+//patch=1,EE,0031AA98,extended,00000000
+
+// Slot 38
+//patch=1,EE,0031AAAE,extended,00000000
+
+// Slot 39
+//patch=1,EE,0031AAC4,extended,00000000
+
+// Slot 4
+//patch=1,EE,0031A7C2,extended,00000000
+
+// Slot 40
+//patch=1,EE,0031AADA,extended,00000000
+
+// Slot 41
+//patch=1,EE,0031AAF0,extended,00000000
+
+// Slot 42
+//patch=1,EE,0031AB06,extended,00000000
+
+// Slot 43
+//patch=1,EE,0031AB1C,extended,00000000
+
+// Slot 44
+//patch=1,EE,0031AB32,extended,00000000
+
+// Slot 45
+//patch=1,EE,0031AB48,extended,00000000
+
+// Slot 46
+//patch=1,EE,0031AB5E,extended,00000000
+
+// Slot 47
+//patch=1,EE,0031AB74,extended,00000000
+
+// Slot 48
+//patch=1,EE,0031AB8A,extended,00000000
+
+// Slot 49
+//patch=1,EE,0031ABA0,extended,00000000
+
+// Slot 5
+//patch=1,EE,0031A7D8,extended,00000000
+
+// Slot 50
+//patch=1,EE,0031ABB6,extended,00000000
+
+// Slot 51
+//patch=1,EE,0031ABCC,extended,00000000
+
+// Slot 52
+//patch=1,EE,0031ABE2,extended,00000000
+
+// Slot 53
+//patch=1,EE,0031ABF8,extended,00000000
+
+// Slot 54
+//patch=1,EE,0031AC0E,extended,00000000
+
+// Slot 55
+//patch=1,EE,0031AC24,extended,00000000
+
+// Slot 56
+//patch=1,EE,0031AC3A,extended,00000000
+
+// Slot 57
+//patch=1,EE,0031AC50,extended,00000000
+
+// Slot 58
+//patch=1,EE,0031AC66,extended,00000000
+
+// Slot 59
+//patch=1,EE,0031AC7C,extended,00000000
+
+// Slot 6
+//patch=1,EE,0031A7EE,extended,00000000
+
+// Slot 60
+//patch=1,EE,0031AC92,extended,00000000
+
+// Slot 61
+//patch=1,EE,0031ACA8,extended,00000000
+
+// Slot 62
+//patch=1,EE,0031ACBE,extended,00000000
+
+// Slot 63
+//patch=1,EE,0031ACD4,extended,00000000
+
+// Slot 64
+//patch=1,EE,0031ACEA,extended,00000000
+
+// Slot 65
+//patch=1,EE,0031AD00,extended,00000000
+
+// Slot 66
+//patch=1,EE,0031AD16,extended,00000000
+
+// Slot 67
+//patch=1,EE,0031AD2C,extended,00000000
+
+// Slot 68
+//patch=1,EE,0031AD42,extended,00000000
+
+// Slot 69
+//patch=1,EE,0031AD58,extended,00000000
+
+// Slot 7
+//patch=1,EE,0031A804,extended,00000000
+
+// Slot 70
+//patch=1,EE,0031AD6E,extended,00000000
+
+// Slot 71
+//patch=1,EE,0031AD84,extended,00000000
+
+// Slot 72
+//patch=1,EE,0031AD9A,extended,00000000
+
+// Slot 73
+//patch=1,EE,0031ADB0,extended,00000000
+
+// Slot 74
+//patch=1,EE,0031ADC6,extended,00000000
+
+// Slot 75
+//patch=1,EE,0031ADDC,extended,00000000
+
+// Slot 76
+//patch=1,EE,0031ADF2,extended,00000000
+
+// Slot 77
+//patch=1,EE,0031AE08,extended,00000000
+
+// Slot 78
+//patch=1,EE,0031AE1E,extended,00000000
+
+// Slot 79
+//patch=1,EE,0031AE34,extended,00000000
+
+// Slot 8
+//patch=1,EE,0031A81A,extended,00000000
+
+// Slot 80
+//patch=1,EE,0031AE4A,extended,00000000
+
+// Slot 81
+//patch=1,EE,0031AE60,extended,00000000
+
+// Slot 82
+//patch=1,EE,0031AE76,extended,00000000
+
+// Slot 83
+//patch=1,EE,0031AE8C,extended,00000000
+
+// Slot 84
+//patch=1,EE,0031AEA2,extended,00000000
+
+// Slot 85
+//patch=1,EE,0031AEB8,extended,00000000
+
+// Slot 86
+//patch=1,EE,0031AECE,extended,00000000
+
+// Slot 87
+//patch=1,EE,0031AEE4,extended,00000000
+
+// Slot 88
+//patch=1,EE,0031AEFA,extended,00000000
+
+// Slot 89
+//patch=1,EE,0031AF10,extended,00000000
+
+// Slot 9
+//patch=1,EE,0031A830,extended,00000000
+
+// Slot 90
+//patch=1,EE,0031AF26,extended,00000000
+
+// Slot 91
+//patch=1,EE,0031AF3C,extended,00000000
+
+// Slot 92
+//patch=1,EE,0031AF52,extended,00000000
+
+// Slot 93
+//patch=1,EE,0031AF68,extended,00000000
+
+// Slot 94
+//patch=1,EE,0031AF7E,extended,00000000
+
+// Slot 95
+//patch=1,EE,0031AF94,extended,00000000
+
+// Slot 96
+//patch=1,EE,0031AFAA,extended,00000000
+
+// Slot 97
+//patch=1,EE,0031AFC0,extended,00000000
+
+// Slot 98
+//patch=1,EE,0031AFD6,extended,00000000
+
+// Slot 99
+//patch=1,EE,0031AFEC,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Character Can Equip Modifier Codes (Part 2)
+// ============================================================================
+
+// Slot 101
+//patch=1,EE,0031B018,extended,00000000
+
+// Slot 102
+//patch=1,EE,0031B02E,extended,00000000
+
+// Slot 103
+//patch=1,EE,0031B044,extended,00000000
+
+// Slot 104
+//patch=1,EE,0031B05A,extended,00000000
+
+// Slot 105
+//patch=1,EE,0031B070,extended,00000000
+
+// Slot 106
+//patch=1,EE,0031B086,extended,00000000
+
+// Slot 107
+//patch=1,EE,0031B09C,extended,00000000
+
+// Slot 108
+//patch=1,EE,0031B0B2,extended,00000000
+
+// Slot 109
+//patch=1,EE,0031B0C8,extended,00000000
+
+// Slot 110
+//patch=1,EE,0031B0DE,extended,00000000
+
+// Slot 111
+//patch=1,EE,0031B0F4,extended,00000000
+
+// Slot 112
+//patch=1,EE,0031B10A,extended,00000000
+
+// Slot 113
+//patch=1,EE,0031B120,extended,00000000
+
+// Slot 114
+//patch=1,EE,0031B136,extended,00000000
+
+// Slot 115
+//patch=1,EE,0031B14C,extended,00000000
+
+// Slot 116
+//patch=1,EE,0031B162,extended,00000000
+
+// Slot 117
+//patch=1,EE,0031B178,extended,00000000
+
+// Slot 118
+//patch=1,EE,0031B18E,extended,00000000
+
+// Slot 119
+//patch=1,EE,0031B1A4,extended,00000000
+
+// Slot 120
+//patch=1,EE,0031B1BA,extended,00000000
+
+// Slot 121
+//patch=1,EE,0031B1D0,extended,00000000
+
+// Slot 122
+//patch=1,EE,0031B1E6,extended,00000000
+
+// Slot 123
+//patch=1,EE,0031B1FC,extended,00000000
+
+// Slot 124
+//patch=1,EE,0031B212,extended,00000000
+
+// Slot 125
+//patch=1,EE,0031B228,extended,00000000
+
+// Slot 126
+//patch=1,EE,0031B23E,extended,00000000
+
+// Slot 127
+//patch=1,EE,0031B254,extended,00000000
+
+// Slot 128
+//patch=1,EE,0031B26A,extended,00000000
+
+// Slot 129
+//patch=1,EE,0031B280,extended,00000000
+
+// Slot 130
+//patch=1,EE,0031B296,extended,00000000
+
+// Slot 131
+//patch=1,EE,0031B2AC,extended,00000000
+
+// Slot 132
+//patch=1,EE,0031B2C2,extended,00000000
+
+// Slot 133
+//patch=1,EE,0031B2D8,extended,00000000
+
+// Slot 134
+//patch=1,EE,0031B2EE,extended,00000000
+
+// Slot 135
+//patch=1,EE,0031B304,extended,00000000
+
+// Slot 136
+//patch=1,EE,0031B31A,extended,00000000
+
+// Slot 137
+//patch=1,EE,0031B330,extended,00000000
+
+// Slot 138
+//patch=1,EE,0031B346,extended,00000000
+
+// Slot 139
+//patch=1,EE,0031B35C,extended,00000000
+
+// Slot 140
+//patch=1,EE,0031B372,extended,00000000
+
+// Slot 141
+//patch=1,EE,0031B388,extended,00000000
+
+// Slot 142
+//patch=1,EE,0031B39E,extended,00000000
+
+// Slot 143
+//patch=1,EE,0031B3B4,extended,00000000
+
+// Slot 144
+//patch=1,EE,0031B3CA,extended,00000000
+
+// Slot 145
+//patch=1,EE,0031B3E0,extended,00000000
+
+// Slot 146
+//patch=1,EE,0031B3F6,extended,00000000
+
+// Slot 147
+//patch=1,EE,0031B40C,extended,00000000
+
+// Slot 148
+//patch=1,EE,0031B422,extended,00000000
+
+// Slot 149
+//patch=1,EE,0031B438,extended,00000000
+
+// Slot 150
+//patch=1,EE,0031B44E,extended,00000000
+
+// Slot 151
+//patch=1,EE,0031B464,extended,00000000
+
+// Slot 152
+//patch=1,EE,0031B47A,extended,00000000
+
+// Slot 153
+//patch=1,EE,0031B490,extended,00000000
+
+// Slot 154
+//patch=1,EE,0031B4A6,extended,00000000
+
+// Slot 155
+//patch=1,EE,0031B4BC,extended,00000000
+
+// Slot 156
+//patch=1,EE,0031B4D2,extended,00000000
+
+// Slot 157
+//patch=1,EE,0031B4E8,extended,00000000
+
+// Slot 158
+//patch=1,EE,0031B4FE,extended,00000000
+
+// Slot 159
+//patch=1,EE,0031B514,extended,00000000
+
+// Slot 160
+//patch=1,EE,0031B52A,extended,00000000
+
+// Slot 161
+//patch=1,EE,0031B540,extended,00000000
+
+// Slot 162
+//patch=1,EE,0031B556,extended,00000000
+
+// Slot 163
+//patch=1,EE,0031B56C,extended,00000000
+
+// Slot 164
+//patch=1,EE,0031B582,extended,00000000
+
+// Slot 165
+//patch=1,EE,0031B598,extended,00000000
+
+// Slot 166
+//patch=1,EE,0031B5AE,extended,00000000
+
+// Slot 167
+//patch=1,EE,0031B5C4,extended,00000000
+
+// Slot 168
+//patch=1,EE,0031B5DA,extended,00000000
+
+// Slot 169
+//patch=1,EE,0031B5F0,extended,00000000
+
+// Slot 170
+//patch=1,EE,0031B606,extended,00000000
+
+// Slot 171
+//patch=1,EE,0031B61C,extended,00000000
+
+// Slot 172
+//patch=1,EE,0031B632,extended,00000000
+
+// Slot 173
+//patch=1,EE,0031B648,extended,00000000
+
+// Slot 174
+//patch=1,EE,0031B65E,extended,00000000
+
+// Slot 175
+//patch=1,EE,0031B674,extended,00000000
+
+// Slot 176
+//patch=1,EE,0031B68A,extended,00000000
+
+// Slot 177
+//patch=1,EE,0031B6A0,extended,00000000
+
+// Slot 178
+//patch=1,EE,0031B6B6,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Name Modifier Codes (Part 1)
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,1031A77C,extended,00000000
+
+// Slot 10
+//patch=1,EE,1031A842,extended,00000000
+
+// Slot 100
+//patch=1,EE,1031AFFE,extended,00000000
+
+// Slot 11
+//patch=1,EE,1031A858,extended,00000000
+
+// Slot 12
+//patch=1,EE,1031A86E,extended,00000000
+
+// Slot 13
+//patch=1,EE,1031A884,extended,00000000
+
+// Slot 14
+//patch=1,EE,1031A89A,extended,00000000
+
+// Slot 15
+//patch=1,EE,1031A8B0,extended,00000000
+
+// Slot 16
+//patch=1,EE,1031A8C6,extended,00000000
+
+// Slot 17
+//patch=1,EE,1031A8DC,extended,00000000
+
+// Slot 18
+//patch=1,EE,1031A8F2,extended,00000000
+
+// Slot 19
+//patch=1,EE,1031A908,extended,00000000
+
+// Slot 2
+//patch=1,EE,1031A792,extended,00000000
+
+// Slot 20
+//patch=1,EE,1031A91E,extended,00000000
+
+// Slot 21
+//patch=1,EE,1031A934,extended,00000000
+
+// Slot 22
+//patch=1,EE,1031A94A,extended,00000000
+
+// Slot 23
+//patch=1,EE,1031A960,extended,00000000
+
+// Slot 24
+//patch=1,EE,1031A976,extended,00000000
+
+// Slot 25
+//patch=1,EE,1031A98C,extended,00000000
+
+// Slot 26
+//patch=1,EE,1031A9A2,extended,00000000
+
+// Slot 27
+//patch=1,EE,1031A9B8,extended,00000000
+
+// Slot 28
+//patch=1,EE,1031A9CE,extended,00000000
+
+// Slot 29
+//patch=1,EE,1031A9E4,extended,00000000
+
+// Slot 3
+//patch=1,EE,1031A7A8,extended,00000000
+
+// Slot 30
+//patch=1,EE,1031A9FA,extended,00000000
+
+// Slot 31
+//patch=1,EE,1031AA10,extended,00000000
+
+// Slot 32
+//patch=1,EE,1031AA26,extended,00000000
+
+// Slot 33
+//patch=1,EE,1031AA3C,extended,00000000
+
+// Slot 34
+//patch=1,EE,1031AA52,extended,00000000
+
+// Slot 35
+//patch=1,EE,1031AA68,extended,00000000
+
+// Slot 36
+//patch=1,EE,1031AA7E,extended,00000000
+
+// Slot 37
+//patch=1,EE,1031AA94,extended,00000000
+
+// Slot 38
+//patch=1,EE,1031AAAA,extended,00000000
+
+// Slot 39
+//patch=1,EE,1031AAC0,extended,00000000
+
+// Slot 4
+//patch=1,EE,1031A7BE,extended,00000000
+
+// Slot 40
+//patch=1,EE,1031AAD6,extended,00000000
+
+// Slot 41
+//patch=1,EE,1031AAEC,extended,00000000
+
+// Slot 42
+//patch=1,EE,1031AB02,extended,00000000
+
+// Slot 43
+//patch=1,EE,1031AB18,extended,00000000
+
+// Slot 44
+//patch=1,EE,1031AB2E,extended,00000000
+
+// Slot 45
+//patch=1,EE,1031AB44,extended,00000000
+
+// Slot 46
+//patch=1,EE,1031AB5A,extended,00000000
+
+// Slot 47
+//patch=1,EE,1031AB70,extended,00000000
+
+// Slot 48
+//patch=1,EE,1031AB86,extended,00000000
+
+// Slot 49
+//patch=1,EE,1031AB9C,extended,00000000
+
+// Slot 5
+//patch=1,EE,1031A7D4,extended,00000000
+
+// Slot 50
+//patch=1,EE,1031ABB2,extended,00000000
+
+// Slot 51
+//patch=1,EE,1031ABC8,extended,00000000
+
+// Slot 52
+//patch=1,EE,1031ABDE,extended,00000000
+
+// Slot 53
+//patch=1,EE,1031ABF4,extended,00000000
+
+// Slot 54
+//patch=1,EE,1031AC0A,extended,00000000
+
+// Slot 55
+//patch=1,EE,1031AC20,extended,00000000
+
+// Slot 56
+//patch=1,EE,1031AC36,extended,00000000
+
+// Slot 57
+//patch=1,EE,1031AC4C,extended,00000000
+
+// Slot 58
+//patch=1,EE,1031AC62,extended,00000000
+
+// Slot 59
+//patch=1,EE,1031AC78,extended,00000000
+
+// Slot 6
+//patch=1,EE,1031A7EA,extended,00000000
+
+// Slot 60
+//patch=1,EE,1031AC8E,extended,00000000
+
+// Slot 61
+//patch=1,EE,1031ACA4,extended,00000000
+
+// Slot 62
+//patch=1,EE,1031ACBA,extended,00000000
+
+// Slot 63
+//patch=1,EE,1031ACD0,extended,00000000
+
+// Slot 64
+//patch=1,EE,1031ACE6,extended,00000000
+
+// Slot 65
+//patch=1,EE,1031ACFC,extended,00000000
+
+// Slot 66
+//patch=1,EE,1031AD12,extended,00000000
+
+// Slot 67
+//patch=1,EE,1031AD28,extended,00000000
+
+// Slot 68
+//patch=1,EE,1031AD3E,extended,00000000
+
+// Slot 69
+//patch=1,EE,1031AD54,extended,00000000
+
+// Slot 7
+//patch=1,EE,1031A800,extended,00000000
+
+// Slot 70
+//patch=1,EE,1031AD6A,extended,00000000
+
+// Slot 71
+//patch=1,EE,1031AD80,extended,00000000
+
+// Slot 72
+//patch=1,EE,1031AD96,extended,00000000
+
+// Slot 73
+//patch=1,EE,1031ADAC,extended,00000000
+
+// Slot 74
+//patch=1,EE,1031ADC2,extended,00000000
+
+// Slot 75
+//patch=1,EE,1031ADD8,extended,00000000
+
+// Slot 76
+//patch=1,EE,1031ADEE,extended,00000000
+
+// Slot 77
+//patch=1,EE,1031AE04,extended,00000000
+
+// Slot 78
+//patch=1,EE,1031AE1A,extended,00000000
+
+// Slot 79
+//patch=1,EE,1031AE30,extended,00000000
+
+// Slot 8
+//patch=1,EE,1031A816,extended,00000000
+
+// Slot 80
+//patch=1,EE,1031AE46,extended,00000000
+
+// Slot 81
+//patch=1,EE,1031AE5C,extended,00000000
+
+// Slot 82
+//patch=1,EE,1031AE72,extended,00000000
+
+// Slot 83
+//patch=1,EE,1031AE88,extended,00000000
+
+// Slot 84
+//patch=1,EE,1031AE9E,extended,00000000
+
+// Slot 85
+//patch=1,EE,1031AEB4,extended,00000000
+
+// Slot 86
+//patch=1,EE,1031AECA,extended,00000000
+
+// Slot 87
+//patch=1,EE,1031AEE0,extended,00000000
+
+// Slot 88
+//patch=1,EE,1031AEF6,extended,00000000
+
+// Slot 89
+//patch=1,EE,1031AF0C,extended,00000000
+
+// Slot 9
+//patch=1,EE,1031A82C,extended,00000000
+
+// Slot 90
+//patch=1,EE,1031AF22,extended,00000000
+
+// Slot 91
+//patch=1,EE,1031AF38,extended,00000000
+
+// Slot 92
+//patch=1,EE,1031AF4E,extended,00000000
+
+// Slot 93
+//patch=1,EE,1031AF64,extended,00000000
+
+// Slot 94
+//patch=1,EE,1031AF7A,extended,00000000
+
+// Slot 95
+//patch=1,EE,1031AF90,extended,00000000
+
+// Slot 96
+//patch=1,EE,1031AFA6,extended,00000000
+
+// Slot 97
+//patch=1,EE,1031AFBC,extended,00000000
+
+// Slot 98
+//patch=1,EE,1031AFD2,extended,00000000
+
+// Slot 99
+//patch=1,EE,1031AFE8,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Name Modifier Codes (Part 2)
+// ============================================================================
+
+// Slot 101
+//patch=1,EE,1031B014,extended,00000000
+
+// Slot 102
+//patch=1,EE,1031B02A,extended,00000000
+
+// Slot 103
+//patch=1,EE,1031B040,extended,00000000
+
+// Slot 104
+//patch=1,EE,1031B056,extended,00000000
+
+// Slot 105
+//patch=1,EE,1031B06C,extended,00000000
+
+// Slot 106
+//patch=1,EE,1031B082,extended,00000000
+
+// Slot 107
+//patch=1,EE,1031B098,extended,00000000
+
+// Slot 108
+//patch=1,EE,1031B0AE,extended,00000000
+
+// Slot 109
+//patch=1,EE,1031B0C4,extended,00000000
+
+// Slot 110
+//patch=1,EE,1031B0DA,extended,00000000
+
+// Slot 111
+//patch=1,EE,1031B0F0,extended,00000000
+
+// Slot 112
+//patch=1,EE,1031B106,extended,00000000
+
+// Slot 113
+//patch=1,EE,1031B11C,extended,00000000
+
+// Slot 114
+//patch=1,EE,1031B132,extended,00000000
+
+// Slot 115
+//patch=1,EE,1031B148,extended,00000000
+
+// Slot 116
+//patch=1,EE,1031B15E,extended,00000000
+
+// Slot 117
+//patch=1,EE,1031B174,extended,00000000
+
+// Slot 118
+//patch=1,EE,1031B18A,extended,00000000
+
+// Slot 119
+//patch=1,EE,1031B1A0,extended,00000000
+
+// Slot 120
+//patch=1,EE,1031B1B6,extended,00000000
+
+// Slot 121
+//patch=1,EE,1031B1CC,extended,00000000
+
+// Slot 122
+//patch=1,EE,1031B1E2,extended,00000000
+
+// Slot 123
+//patch=1,EE,1031B1F8,extended,00000000
+
+// Slot 124
+//patch=1,EE,1031B20E,extended,00000000
+
+// Slot 125
+//patch=1,EE,1031B224,extended,00000000
+
+// Slot 126
+//patch=1,EE,1031B23A,extended,00000000
+
+// Slot 127
+//patch=1,EE,1031B250,extended,00000000
+
+// Slot 128
+//patch=1,EE,1031B266,extended,00000000
+
+// Slot 129
+//patch=1,EE,1031B27C,extended,00000000
+
+// Slot 130
+//patch=1,EE,1031B292,extended,00000000
+
+// Slot 131
+//patch=1,EE,1031B2A8,extended,00000000
+
+// Slot 132
+//patch=1,EE,1031B2BE,extended,00000000
+
+// Slot 133
+//patch=1,EE,1031B2D4,extended,00000000
+
+// Slot 134
+//patch=1,EE,1031B2EA,extended,00000000
+
+// Slot 135
+//patch=1,EE,1031B300,extended,00000000
+
+// Slot 136
+//patch=1,EE,1031B316,extended,00000000
+
+// Slot 137
+//patch=1,EE,1031B32C,extended,00000000
+
+// Slot 138
+//patch=1,EE,1031B342,extended,00000000
+
+// Slot 139
+//patch=1,EE,1031B358,extended,00000000
+
+// Slot 140
+//patch=1,EE,1031B36E,extended,00000000
+
+// Slot 141
+//patch=1,EE,1031B384,extended,00000000
+
+// Slot 142
+//patch=1,EE,1031B39A,extended,00000000
+
+// Slot 143
+//patch=1,EE,1031B3B0,extended,00000000
+
+// Slot 144
+//patch=1,EE,1031B3C6,extended,00000000
+
+// Slot 145
+//patch=1,EE,1031B3DC,extended,00000000
+
+// Slot 146
+//patch=1,EE,1031B3F2,extended,00000000
+
+// Slot 147
+//patch=1,EE,1031B408,extended,00000000
+
+// Slot 148
+//patch=1,EE,1031B41E,extended,00000000
+
+// Slot 149
+//patch=1,EE,1031B434,extended,00000000
+
+// Slot 150
+//patch=1,EE,1031B44A,extended,00000000
+
+// Slot 151
+//patch=1,EE,1031B460,extended,00000000
+
+// Slot 152
+//patch=1,EE,1031B476,extended,00000000
+
+// Slot 153
+//patch=1,EE,1031B48C,extended,00000000
+
+// Slot 154
+//patch=1,EE,1031B4A2,extended,00000000
+
+// Slot 155
+//patch=1,EE,1031B4B8,extended,00000000
+
+// Slot 156
+//patch=1,EE,1031B4CE,extended,00000000
+
+// Slot 157
+//patch=1,EE,1031B4E4,extended,00000000
+
+// Slot 158
+//patch=1,EE,1031B4FA,extended,00000000
+
+// Slot 159
+//patch=1,EE,1031B510,extended,00000000
+
+// Slot 160
+//patch=1,EE,1031B526,extended,00000000
+
+// Slot 161
+//patch=1,EE,1031B53C,extended,00000000
+
+// Slot 162
+//patch=1,EE,1031B552,extended,00000000
+
+// Slot 163
+//patch=1,EE,1031B568,extended,00000000
+
+// Slot 164
+//patch=1,EE,1031B57E,extended,00000000
+
+// Slot 165
+//patch=1,EE,1031B594,extended,00000000
+
+// Slot 166
+//patch=1,EE,1031B5AA,extended,00000000
+
+// Slot 167
+//patch=1,EE,1031B5C0,extended,00000000
+
+// Slot 168
+//patch=1,EE,1031B5D6,extended,00000000
+
+// Slot 169
+//patch=1,EE,1031B5EC,extended,00000000
+
+// Slot 170
+//patch=1,EE,1031B602,extended,00000000
+
+// Slot 171
+//patch=1,EE,1031B618,extended,00000000
+
+// Slot 172
+//patch=1,EE,1031B62E,extended,00000000
+
+// Slot 173
+//patch=1,EE,1031B644,extended,00000000
+
+// Slot 174
+//patch=1,EE,1031B65A,extended,00000000
+
+// Slot 175
+//patch=1,EE,1031B670,extended,00000000
+
+// Slot 176
+//patch=1,EE,1031B686,extended,00000000
+
+// Slot 177
+//patch=1,EE,1031B69C,extended,00000000
+
+// Slot 178
+//patch=1,EE,1031B6B2,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Type Modifier Codes (Part 1)
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,0031A781,extended,00000000
+
+// Slot 10
+//patch=1,EE,0031A847,extended,00000000
+
+// Slot 100
+//patch=1,EE,0031B003,extended,00000000
+
+// Slot 11
+//patch=1,EE,0031A85D,extended,00000000
+
+// Slot 12
+//patch=1,EE,0031A873,extended,00000000
+
+// Slot 13
+//patch=1,EE,0031A889,extended,00000000
+
+// Slot 14
+//patch=1,EE,0031A89F,extended,00000000
+
+// Slot 15
+//patch=1,EE,0031A8B5,extended,00000000
+
+// Slot 16
+//patch=1,EE,0031A8CB,extended,00000000
+
+// Slot 17
+//patch=1,EE,0031A8E1,extended,00000000
+
+// Slot 18
+//patch=1,EE,0031A8F7,extended,00000000
+
+// Slot 19
+//patch=1,EE,0031A90D,extended,00000000
+
+// Slot 2
+//patch=1,EE,0031A797,extended,00000000
+
+// Slot 20
+//patch=1,EE,0031A923,extended,00000000
+
+// Slot 21
+//patch=1,EE,0031A939,extended,00000000
+
+// Slot 22
+//patch=1,EE,0031A94F,extended,00000000
+
+// Slot 23
+//patch=1,EE,0031A965,extended,00000000
+
+// Slot 24
+//patch=1,EE,0031A97B,extended,00000000
+
+// Slot 25
+//patch=1,EE,0031A991,extended,00000000
+
+// Slot 26
+//patch=1,EE,0031A9A7,extended,00000000
+
+// Slot 27
+//patch=1,EE,0031A9BD,extended,00000000
+
+// Slot 28
+//patch=1,EE,0031A9D3,extended,00000000
+
+// Slot 29
+//patch=1,EE,0031A9E9,extended,00000000
+
+// Slot 3
+//patch=1,EE,0031A7AD,extended,00000000
+
+// Slot 30
+//patch=1,EE,0031A9FF,extended,00000000
+
+// Slot 31
+//patch=1,EE,0031AA15,extended,00000000
+
+// Slot 32
+//patch=1,EE,0031AA2B,extended,00000000
+
+// Slot 33
+//patch=1,EE,0031AA41,extended,00000000
+
+// Slot 34
+//patch=1,EE,0031AA57,extended,00000000
+
+// Slot 35
+//patch=1,EE,0031AA6D,extended,00000000
+
+// Slot 36
+//patch=1,EE,0031AA83,extended,00000000
+
+// Slot 37
+//patch=1,EE,0031AA99,extended,00000000
+
+// Slot 38
+//patch=1,EE,0031AAAF,extended,00000000
+
+// Slot 39
+//patch=1,EE,0031AAC5,extended,00000000
+
+// Slot 4
+//patch=1,EE,0031A7C3,extended,00000000
+
+// Slot 40
+//patch=1,EE,0031AADB,extended,00000000
+
+// Slot 41
+//patch=1,EE,0031AAF1,extended,00000000
+
+// Slot 42
+//patch=1,EE,0031AB07,extended,00000000
+
+// Slot 43
+//patch=1,EE,0031AB1D,extended,00000000
+
+// Slot 44
+//patch=1,EE,0031AB33,extended,00000000
+
+// Slot 45
+//patch=1,EE,0031AB49,extended,00000000
+
+// Slot 46
+//patch=1,EE,0031AB5F,extended,00000000
+
+// Slot 47
+//patch=1,EE,0031AB75,extended,00000000
+
+// Slot 48
+//patch=1,EE,0031AB8B,extended,00000000
+
+// Slot 49
+//patch=1,EE,0031ABA1,extended,00000000
+
+// Slot 5
+//patch=1,EE,0031A7D9,extended,00000000
+
+// Slot 50
+//patch=1,EE,0031ABB7,extended,00000000
+
+// Slot 51
+//patch=1,EE,0031ABCD,extended,00000000
+
+// Slot 52
+//patch=1,EE,0031ABE3,extended,00000000
+
+// Slot 53
+//patch=1,EE,0031ABF9,extended,00000000
+
+// Slot 54
+//patch=1,EE,0031AC0F,extended,00000000
+
+// Slot 55
+//patch=1,EE,0031AC25,extended,00000000
+
+// Slot 56
+//patch=1,EE,0031AC3B,extended,00000000
+
+// Slot 57
+//patch=1,EE,0031AC51,extended,00000000
+
+// Slot 58
+//patch=1,EE,0031AC67,extended,00000000
+
+// Slot 59
+//patch=1,EE,0031AC7D,extended,00000000
+
+// Slot 6
+//patch=1,EE,0031A7EF,extended,00000000
+
+// Slot 60
+//patch=1,EE,0031AC93,extended,00000000
+
+// Slot 61
+//patch=1,EE,0031ACA9,extended,00000000
+
+// Slot 62
+//patch=1,EE,0031ACBF,extended,00000000
+
+// Slot 63
+//patch=1,EE,0031ACD5,extended,00000000
+
+// Slot 64
+//patch=1,EE,0031ACEB,extended,00000000
+
+// Slot 65
+//patch=1,EE,0031AD01,extended,00000000
+
+// Slot 66
+//patch=1,EE,0031AD17,extended,00000000
+
+// Slot 67
+//patch=1,EE,0031AD2D,extended,00000000
+
+// Slot 68
+//patch=1,EE,0031AD43,extended,00000000
+
+// Slot 69
+//patch=1,EE,0031AD59,extended,00000000
+
+// Slot 7
+//patch=1,EE,0031A805,extended,00000000
+
+// Slot 70
+//patch=1,EE,0031AD6F,extended,00000000
+
+// Slot 71
+//patch=1,EE,0031AD85,extended,00000000
+
+// Slot 72
+//patch=1,EE,0031AD9B,extended,00000000
+
+// Slot 73
+//patch=1,EE,0031ADB1,extended,00000000
+
+// Slot 74
+//patch=1,EE,0031ADC7,extended,00000000
+
+// Slot 75
+//patch=1,EE,0031ADDD,extended,00000000
+
+// Slot 76
+//patch=1,EE,0031ADF3,extended,00000000
+
+// Slot 77
+//patch=1,EE,0031AE09,extended,00000000
+
+// Slot 78
+//patch=1,EE,0031AE1F,extended,00000000
+
+// Slot 79
+//patch=1,EE,0031AE35,extended,00000000
+
+// Slot 8
+//patch=1,EE,0031A81B,extended,00000000
+
+// Slot 80
+//patch=1,EE,0031AE4B,extended,00000000
+
+// Slot 81
+//patch=1,EE,0031AE61,extended,00000000
+
+// Slot 82
+//patch=1,EE,0031AE77,extended,00000000
+
+// Slot 83
+//patch=1,EE,0031AE8D,extended,00000000
+
+// Slot 84
+//patch=1,EE,0031AEA3,extended,00000000
+
+// Slot 85
+//patch=1,EE,0031AEB9,extended,00000000
+
+// Slot 86
+//patch=1,EE,0031AECF,extended,00000000
+
+// Slot 87
+//patch=1,EE,0031AEE5,extended,00000000
+
+// Slot 88
+//patch=1,EE,0031AEFB,extended,00000000
+
+// Slot 89
+//patch=1,EE,0031AF11,extended,00000000
+
+// Slot 9
+//patch=1,EE,0031A831,extended,00000000
+
+// Slot 90
+//patch=1,EE,0031AF27,extended,00000000
+
+// Slot 91
+//patch=1,EE,0031AF3D,extended,00000000
+
+// Slot 92
+//patch=1,EE,0031AF53,extended,00000000
+
+// Slot 93
+//patch=1,EE,0031AF69,extended,00000000
+
+// Slot 94
+//patch=1,EE,0031AF7F,extended,00000000
+
+// Slot 95
+//patch=1,EE,0031AF95,extended,00000000
+
+// Slot 96
+//patch=1,EE,0031AFAB,extended,00000000
+
+// Slot 97
+//patch=1,EE,0031AFC1,extended,00000000
+
+// Slot 98
+//patch=1,EE,0031AFD7,extended,00000000
+
+// Slot 99
+//patch=1,EE,0031AFED,extended,00000000
+
+// ============================================================================
+// Armor/Weapon & Type Modifier Codes (Part 2)
+// ============================================================================
+
+// Slot 101
+//patch=1,EE,0031B019,extended,00000000
+
+// Slot 102
+//patch=1,EE,0031B02F,extended,00000000
+
+// Slot 103
+//patch=1,EE,0031B045,extended,00000000
+
+// Slot 104
+//patch=1,EE,0031B05B,extended,00000000
+
+// Slot 105
+//patch=1,EE,0031B071,extended,00000000
+
+// Slot 106
+//patch=1,EE,0031B087,extended,00000000
+
+// Slot 107
+//patch=1,EE,0031B09D,extended,00000000
+
+// Slot 108
+//patch=1,EE,0031B0B3,extended,00000000
+
+// Slot 109
+//patch=1,EE,0031B0C9,extended,00000000
+
+// Slot 110
+//patch=1,EE,0031B0DF,extended,00000000
+
+// Slot 111
+//patch=1,EE,0031B0F5,extended,00000000
+
+// Slot 112
+//patch=1,EE,0031B10B,extended,00000000
+
+// Slot 113
+//patch=1,EE,0031B121,extended,00000000
+
+// Slot 114
+//patch=1,EE,0031B137,extended,00000000
+
+// Slot 115
+//patch=1,EE,0031B14D,extended,00000000
+
+// Slot 116
+//patch=1,EE,0031B163,extended,00000000
+
+// Slot 117
+//patch=1,EE,0031B179,extended,00000000
+
+// Slot 118
+//patch=1,EE,0031B18F,extended,00000000
+
+// Slot 119
+//patch=1,EE,0031B1A5,extended,00000000
+
+// Slot 120
+//patch=1,EE,0031B1BB,extended,00000000
+
+// Slot 121
+//patch=1,EE,0031B1D1,extended,00000000
+
+// Slot 122
+//patch=1,EE,0031B1E7,extended,00000000
+
+// Slot 123
+//patch=1,EE,0031B1FD,extended,00000000
+
+// Slot 124
+//patch=1,EE,0031B213,extended,00000000
+
+// Slot 125
+//patch=1,EE,0031B229,extended,00000000
+
+// Slot 126
+//patch=1,EE,0031B23F,extended,00000000
+
+// Slot 127
+//patch=1,EE,0031B255,extended,00000000
+
+// Slot 128
+//patch=1,EE,0031B26B,extended,00000000
+
+// Slot 129
+//patch=1,EE,0031B281,extended,00000000
+
+// Slot 130
+//patch=1,EE,0031B297,extended,00000000
+
+// Slot 131
+//patch=1,EE,0031B2AD,extended,00000000
+
+// Slot 132
+//patch=1,EE,0031B2C3,extended,00000000
+
+// Slot 133
+//patch=1,EE,0031B2D9,extended,00000000
+
+// Slot 134
+//patch=1,EE,0031B2EF,extended,00000000
+
+// Slot 135
+//patch=1,EE,0031B305,extended,00000000
+
+// Slot 136
+//patch=1,EE,0031B31B,extended,00000000
+
+// Slot 137
+//patch=1,EE,0031B331,extended,00000000
+
+// Slot 138
+//patch=1,EE,0031B347,extended,00000000
+
+// Slot 139
+//patch=1,EE,0031B35D,extended,00000000
+
+// Slot 140
+//patch=1,EE,0031B373,extended,00000000
+
+// Slot 141
+//patch=1,EE,0031B389,extended,00000000
+
+// Slot 142
+//patch=1,EE,0031B39F,extended,00000000
+
+// Slot 143
+//patch=1,EE,0031B3B5,extended,00000000
+
+// Slot 144
+//patch=1,EE,0031B3CB,extended,00000000
+
+// Slot 145
+//patch=1,EE,0031B3E1,extended,00000000
+
+// Slot 146
+//patch=1,EE,0031B3F7,extended,00000000
+
+// Slot 147
+//patch=1,EE,0031B40D,extended,00000000
+
+// Slot 148
+//patch=1,EE,0031B423,extended,00000000
+
+// Slot 149
+//patch=1,EE,0031B439,extended,00000000
+
+// Slot 150
+//patch=1,EE,0031B44F,extended,00000000
+
+// Slot 151
+//patch=1,EE,0031B465,extended,00000000
+
+// Slot 152
+//patch=1,EE,0031B47B,extended,00000000
+
+// Slot 153
+//patch=1,EE,0031B491,extended,00000000
+
+// Slot 154
+//patch=1,EE,0031B4A7,extended,00000000
+
+// Slot 155
+//patch=1,EE,0031B4BD,extended,00000000
+
+// Slot 156
+//patch=1,EE,0031B4D3,extended,00000000
+
+// Slot 157
+//patch=1,EE,0031B4E9,extended,00000000
+
+// Slot 158
+//patch=1,EE,0031B4FF,extended,00000000
+
+// Slot 159
+//patch=1,EE,0031B515,extended,00000000
+
+// Slot 160
+//patch=1,EE,0031B52B,extended,00000000
+
+// Slot 161
+//patch=1,EE,0031B541,extended,00000000
+
+// Slot 162
+//patch=1,EE,0031B557,extended,00000000
+
+// Slot 163
+//patch=1,EE,0031B56D,extended,00000000
+
+// Slot 164
+//patch=1,EE,0031B583,extended,00000000
+
+// Slot 165
+//patch=1,EE,0031B599,extended,00000000
+
+// Slot 166
+//patch=1,EE,0031B5AF,extended,00000000
+
+// Slot 167
+//patch=1,EE,0031B5C5,extended,00000000
+
+// Slot 168
+//patch=1,EE,0031B5DB,extended,00000000
+
+// Slot 169
+//patch=1,EE,0031B5F1,extended,00000000
+
+// Slot 170
+//patch=1,EE,0031B607,extended,00000000
+
+// Slot 171
+//patch=1,EE,0031B61D,extended,00000000
+
+// Slot 172
+//patch=1,EE,0031B633,extended,00000000
+
+// Slot 173
+//patch=1,EE,0031B649,extended,00000000
+
+// Slot 174
+//patch=1,EE,0031B65F,extended,00000000
+
+// Slot 175
+//patch=1,EE,0031B675,extended,00000000
+
+// Slot 176
+//patch=1,EE,0031B68B,extended,00000000
+
+// Slot 177
+//patch=1,EE,0031B6A1,extended,00000000
+
+// Slot 178
+//patch=1,EE,0031B6B7,extended,00000000
+
+// ============================================================================
+// Attribute & Health Codes - Auron
+// ============================================================================
+
+// Auron - All White Magic
+//patch=1,EE,0031BA17,extended,000000F8
+//patch=1,EE,0031BA1A,extended,00000001
+//patch=1,EE,1031BA18,extended,0000FFFF
+
+// Auron - Full HP
+//patch=1,EE,1031B9F0,extended,0000270F
+
+// Auron - Full MP
+//patch=1,EE,1031B9F4,extended,0000270F
+
+// Auron - Max Sphere Level
+//patch=1,EE,0031BA0F,extended,00000063
+
+// Auron - Max Statistics
+//patch=1,EE,0031BA03,extended,000000FF
+//patch=1,EE,2031BA04,extended,FFFFFFFF
+//patch=1,EE,1031BA08,extended,0000FFFF
+//patch=1,EE,0031BA0A,extended,000000FF
+
+// Auron - Super HP
+//patch=1,EE,1031B9F8,extended,0000270F
+
+// Auron - Super MP
+//patch=1,EE,1031B9FC,extended,0000270F
+
+// ============================================================================
+// Attribute & Health Codes - Kimahri
+// ============================================================================
+
+// Kimahri - Max Sphere Level
+//patch=1,EE,0031BAA3,extended,00000063
+
+// Kimahri - Max Statistics
+//patch=1,EE,0031BA97,extended,000000FF
+//patch=1,EE,2031BA98,extended,FFFFFFFF
+//patch=1,EE,1031BA9C,extended,0000FFFF
+//patch=1,EE,0031BA9E,extended,000000FF
+
+// Kimahri - Super HP
+//patch=1,EE,1031BA8C,extended,0000270F
+
+// Kimahri - Super MP
+//patch=1,EE,1031BA90,extended,0000270F
+
+// ============================================================================
+// Auron Codes
+// ============================================================================
+
+// Always Low AP
+//patch=1,EE,1031BA10,extended,00000000
+
+// Armor Swap Modifier
+//patch=1,EE,0031BA02,extended,00000000
+
+// Have All Black Magic
+//patch=1,EE,1031BA1A,extended,0000FFFE
+//patch=1,EE,0031BA1C,extended,0000000F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BA12,extended,0000FFFF
+//patch=1,EE,2031BA14,extended,FFFFFFFF
+//patch=1,EE,2031BA18,extended,FFFFFFFF
+//patch=1,EE,0031BA1C,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BA14,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BA17,extended,000000F8
+//patch=1,EE,1031BA18,extended,0000FFFF
+//patch=1,EE,0031BA1A,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BA00,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031B9F0,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031B9F4,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BA0A,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BA07,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BA04,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BA09,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031B9F8,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BA08,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031B9FC,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BA05,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BA06,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BA0D,extended,000000FF
+
+// Max S. Level
+//patch=1,EE,0031BA0F,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BA03,extended,000000FF
+
+// Maximum Overdrive Mode
+//patch=1,EE,0031BA0C,extended,0000000F
+
+// Weapon Swap Modifier
+//patch=1,EE,0031BA01,extended,00000000
+
+// ============================================================================
+// Bahamut Codes
+// ============================================================================
+
+// 0 Battles To Go
+//patch=1,EE,1031BFD8,extended,00000000
+
+// Bahamut - Full HP
+//patch=1,EE,1031BFB8,extended,0000270F
+
+// Bahamut - Full MP
+//patch=1,EE,1031BFBC,extended,0000270F
+
+// Bahamut - Max Statistics
+//patch=1,EE,0031BFCB,extended,000000FF
+//patch=1,EE,2031BFCC,extended,FFFFFFFF
+//patch=1,EE,1031BFD0,extended,0000FFFF
+//patch=1,EE,0031BFD2,extended,000000FF
+
+// Bahamut - Super HP
+//patch=1,EE,1031BFC0,extended,0000270F
+
+// Bahamut - Super MP
+//patch=1,EE,1031BFC4,extended,0000270F
+
+// Have All Black Magic
+//patch=1,EE,1031BFE2,extended,0000FFFE
+//patch=1,EE,0031BFE4,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031C024,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BFDA,extended,0000FFFF
+//patch=1,EE,0031BFDC,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BFDA,extended,0000FFFF
+//patch=1,EE,2031BFDC,extended,FFFFFFFF
+//patch=1,EE,2031BFE0,extended,FFFFFFFF
+//patch=1,EE,0031BFE4,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BFDC,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BFDF,extended,000000F8
+//patch=1,EE,1031BFE0,extended,0000FFFF
+//patch=1,EE,0031BFE2,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BFC8,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BFB8,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BFBC,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BFD2,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BFCF,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BFCC,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BFD1,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BFC0,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BFD0,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BFC4,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BFCD,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BFCE,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BFD5,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BFCB,extended,000000FF
+
+// ============================================================================
+// Black Magic
+// ============================================================================
+
+// Anima
+//patch=1,EE,0031C078,extended,0000000F
+//patch=1,EE,1031C076,extended,0000FFFE
+
+// Auron
+//patch=1,EE,0031BA1C,extended,0000000F
+//patch=1,EE,1031BA1A,extended,0000FFFE
+
+// Bahamut
+//patch=1,EE,0031BFE4,extended,0000000F
+//patch=1,EE,1031BFE2,extended,0000FFFE
+
+// Cindy Magus
+//patch=1,EE,0031C1A0,extended,0000000F
+//patch=1,EE,1031C19E,extended,0000FFFE
+
+// Ifrit
+//patch=1,EE,0031BE28,extended,0000000F
+//patch=1,EE,1031BE26,extended,0000FFFE
+
+// Ixion
+//patch=1,EE,0031BEBC,extended,0000000F
+//patch=1,EE,1031BEBA,extended,0000FFFE
+
+// Kimahri
+//patch=1,EE,0031BAB0,extended,0000000F
+//patch=1,EE,1031BAAE,extended,0000FFFE
+
+// Lulu
+//patch=1,EE,0031BBD8,extended,0000000F
+//patch=1,EE,1031BBD6,extended,0000FFFE
+
+// Mindy Magus
+//patch=1,EE,0031C2C8,extended,0000000F
+//patch=1,EE,1031C2C6,extended,0000FFFE
+
+// Rikku
+//patch=1,EE,0031BC6C,extended,0000000F
+//patch=1,EE,1031BC6A,extended,0000FFFE
+
+// Sandy Magus
+//patch=1,EE,0031C234,extended,0000000F
+//patch=1,EE,1031C232,extended,0000FFFE
+
+// Seymour
+//patch=1,EE,0031BD00,extended,0000000F
+//patch=1,EE,1031BCFE,extended,0000FFFE
+
+// Shiva
+//patch=1,EE,0031BF50,extended,0000000F
+//patch=1,EE,1031BF4E,extended,0000FFFE
+
+// Valefor
+//patch=1,EE,0031BD94,extended,0000000F
+//patch=1,EE,1031BD92,extended,0000FFFE
+
+// Wakka
+//patch=1,EE,0031BB44,extended,0000000F
+//patch=1,EE,1031BB42,extended,0000FFFE
+
+// Yojimbo
+//patch=1,EE,0031C10C,extended,0000000F
+//patch=1,EE,1031C10A,extended,0000FFFE
+
+// Yuna
+//patch=1,EE,0031B988,extended,0000000F
+//patch=1,EE,1031B986,extended,0000FFFE
+
+// ============================================================================
+// Blitzball Codes
+// ============================================================================
+
+// Eigaar Has Max Experience
+//patch=1,EE,10317A5A,extended,0000270F
+
+// Have Max Points
+//patch=1,EE,0031791E,extended,00000063
+//patch=1,EE,00317981,extended,00000063
+
+// Hold Select to Always Dodge Lightning Bolts
+//patch=1,EE,E002FFFE,extended,0076EC02
+//patch=1,EE,00BA964B,extended,00000001
+//patch=1,EE,00BA7D19,extended,00000001
+
+// Pass and Shoot Always Succeed
+// Note: Succeed if R1 is held, and always fail if L1 is held.
+//patch=1,EE,E002F7FF,extended,0076EC02
+//patch=1,EE,010295FC,extended,00000063
+//patch=1,EE,01029600,extended,00000063
+//patch=1,EE,E002FBFF,extended,0076EC02
+//patch=1,EE,010295FC,extended,00000000
+//patch=1,EE,01029600,extended,00000000
+
+// Tidus Is Max Level
+//patch=1,EE,0031789A,extended,000000FF
+
+// Zazi Is Max Level
+//patch=1,EE,003178C0,extended,000000FF
+
+// ============================================================================
+// Bottsu Codes
+// ============================================================================
+
+// Level 99
+//patch=1,EE,0031789F,extended,00000063
+
+// Max Exp
+//patch=1,EE,10317A3E,extended,0000270F
+
+// ============================================================================
+// Capture All Monster Codes
+// ============================================================================
+
+// Every Monster Captured (A)
+//patch=1,EE,2031A4EC,extended,0A0A0A0A
+//patch=1,EE,2031A4F0,extended,0A0A0A0A
+//patch=1,EE,2031A4F4,extended,0A0A0A0A
+//patch=1,EE,2031A4F8,extended,0A0A0A0A
+//patch=1,EE,2031A4FC,extended,0A0A0A0A
+//patch=1,EE,2031A500,extended,0A0A0A0A
+//patch=1,EE,2031A504,extended,0A0A0A0A
+//patch=1,EE,2031A508,extended,0A0A0A0A
+//patch=1,EE,2031A50C,extended,0A0A0A0A
+//patch=1,EE,2031A510,extended,0A0A0A0A
+//patch=1,EE,2031A514,extended,0A0A0A0A
+//patch=1,EE,2031A518,extended,0A0A0A0A
+//patch=1,EE,2031A51C,extended,0A0A0A0A
+//patch=1,EE,2031A520,extended,0A0A0A0A
+//patch=1,EE,2031A524,extended,0A0A0A0A
+
+// Every Monster Captured (B)
+//patch=1,EE,2031A528,extended,0A0A0A0A
+//patch=1,EE,2031A52C,extended,0A0A0A0A
+//patch=1,EE,2031A530,extended,0A0A0A0A
+//patch=1,EE,2031A534,extended,0A0A0A0A
+//patch=1,EE,2031A538,extended,0A0A0A0A
+//patch=1,EE,2031A53C,extended,0A0A0A0A
+//patch=1,EE,2031A540,extended,0A0A0A0A
+//patch=1,EE,2031A544,extended,0A0A0A0A
+//patch=1,EE,2031A548,extended,0A0A0A0A
+//patch=1,EE,2031A54C,extended,0A0A0A0A
+//patch=1,EE,2031A550,extended,0A0A0A0A
+//patch=1,EE,2031A554,extended,0A0A0A0A
+//patch=1,EE,2031A558,extended,0A0A0A0A
+//patch=1,EE,2031A55C,extended,0A0A0A0A
+//patch=1,EE,2031A560,extended,0A0A0A0A
+
+// Every Monster Captured (C)
+//patch=1,EE,2031A564,extended,0A0A0A0A
+//patch=1,EE,2031A568,extended,0A0A0A0A
+//patch=1,EE,2031A56C,extended,0A0A0A0A
+//patch=1,EE,2031A570,extended,0A0A0A0A
+//patch=1,EE,2031A574,extended,0A0A0A0A
+//patch=1,EE,2031A578,extended,0A0A0A0A
+
+// ============================================================================
+// Chocobo Race Codes
+// ============================================================================
+
+// Trainer Has Low Balloons
+//patch=1,EE,00BDB124,extended,00000000
+
+// Trainer Has Max Birds
+//patch=1,EE,00BDB126,extended,00000063
+
+// ============================================================================
+// Cindy Magus
+// ============================================================================
+
+// Not In Party
+//patch=1,EE,0031C184,extended,00000000
+
+// ============================================================================
+// Cindy Magus Codes
+// ============================================================================
+
+// Cindy Magus - Full HP
+//patch=1,EE,1031C174,extended,0000270F
+
+// Cindy Magus - Full MP
+//patch=1,EE,1031C178,extended,0000270F
+
+// Cindy Magus - Max Statistics
+//patch=1,EE,0031C187,extended,000000FF
+//patch=1,EE,2031C188,extended,FFFFFFFF
+//patch=1,EE,1031C18C,extended,0000FFFF
+//patch=1,EE,0031C18E,extended,000000FF
+
+// Cindy Magus - Super HP
+//patch=1,EE,1031C17C,extended,0000270F
+
+// Cindy Magus - Super MP
+//patch=1,EE,1031C180,extended,0000270F
+
+// ============================================================================
+// Cindy Magus Sister Codes
+// ============================================================================
+
+// Can Use Every Battle
+//patch=1,EE,1031C194,extended,00000000
+
+// Have All Black Magic
+//patch=1,EE,1031C19E,extended,0000FFFE
+//patch=1,EE,0031C1A0,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031C1E0,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031C196,extended,0000FFFF
+//patch=1,EE,0031C198,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031C196,extended,0000FFFF
+//patch=1,EE,2031C198,extended,FFFFFFFF
+//patch=1,EE,2031C19C,extended,FFFFFFFF
+//patch=1,EE,0031C1A0,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031C198,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031C19B,extended,000000F8
+//patch=1,EE,1031C19C,extended,0000FFFF
+//patch=1,EE,0031C19E,extended,00000001
+
+// Infinite HP
+//patch=1,EE,2031C174,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031C178,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031C18E,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031C18B,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031C188,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031C18D,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031C17C,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031C18C,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031C180,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031C189,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031C18A,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031C191,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031C187,extended,000000FF
+
+// ============================================================================
+// Datto Codes
+// ============================================================================
+
+// Can Set 5 Abilities
+//patch=1,EE,00317860,extended,00000005
+
+// Level 99
+//patch=1,EE,0031789C,extended,00000063
+
+// Max Exp
+//patch=1,EE,10317A38,extended,0000270F
+
+// ============================================================================
+// Easy Battle Codes
+// ============================================================================
+
+// Easy Oblitz Fight
+//patch=1,EE,D0EA5D4C,extended,00001770
+//patch=1,EE,10EA5D4C,extended,00000001
+
+// Easy S Natus Battle
+//patch=1,EE,D11C49AC,extended,00008CA0
+//patch=1,EE,111C49AC,extended,00000001
+//patch=1,EE,D11C55EC,extended,00000FA0
+//patch=1,EE,111C55EC,extended,00000001
+//patch=1,EE,D11C55EC,extended,00000BB8
+//patch=1,EE,111C55EC,extended,00000001
+//patch=1,EE,D11C55EC,extended,000007D0
+//patch=1,EE,111C55EC,extended,00000001
+//patch=1,EE,D11C55EC,extended,000003E8
+//patch=1,EE,111C55EC,extended,00000001
+
+// Easy Sin Spawn Gui (A)
+//patch=1,EE,D11D894C,extended,00002EE0
+//patch=1,EE,111D894C,extended,00000001
+//patch=1,EE,D11D958C,extended,00000FA0
+//patch=1,EE,111D958C,extended,00000001
+//patch=1,EE,D11DA1CC,extended,00000320
+//patch=1,EE,111DA1CC,extended,00000001
+//patch=1,EE,D11DAE0C,extended,00000320
+//patch=1,EE,111DAE0C,extended,00000001
+
+// Easy Sin Spawn Gui (B)
+//patch=1,EE,111447FC,extended,00000001
+//patch=1,EE,D114543C,extended,000003E8
+//patch=1,EE,1114543C,extended,00000001
+//patch=1,EE,D114607C,extended,00000320
+//patch=1,EE,1114607C,extended,00000001
+//patch=1,EE,D1146CBC,extended,00000320
+//patch=1,EE,11146CBC,extended,00000001
+
+// Infinite Butterfly Catch Time
+//patch=1,EE,D0BB1A50,extended,00000004
+//patch=1,EE,10BC4728,extended,00000110
+//patch=1,EE,D0BA0918,extended,00000009
+//patch=1,EE,10BA85B8,extended,00000110
+
+// Lightning Dodge=200
+//patch=1,EE,103166E0,extended,000000C8
+//patch=1,EE,10BA9656,extended,000000C8
+
+// ============================================================================
+// Easy Boss Fight Codes
+// ============================================================================
+
+// Easy Chocobo Eater
+//patch=1,EE,D10B76CC,extended,00002710
+//patch=1,EE,110B76CC,extended,00000001
+
+// Easy Extractor Fight
+//patch=1,EE,D101BEBC,extended,00000FA0
+//patch=1,EE,1101BEBC,extended,00000001
+
+// Easy Omega Weapon
+//patch=1,EE,D1147CD0,extended,0000869F
+//patch=1,EE,11147CD0,extended,00000001
+
+// Easy S. Omnis Fight
+//patch=1,EE,D0F4D8AC,extended,00003880
+//patch=1,EE,20F4D8AC,extended,00000001
+//patch=1,EE,D0F4D9C0,extended,00003880
+//patch=1,EE,20F4D9C0,extended,00000001
+
+// Easy Yunalesca Fight
+//patch=1,EE,D0F3034C,extended,00005DC0
+//patch=1,EE,20F3034C,extended,00000001
+//patch=1,EE,D0F3034C,extended,0000BB80
+//patch=1,EE,20F3034C,extended,00000001
+//patch=1,EE,D0F3034C,extended,0000EA60
+//patch=1,EE,20F3034C,extended,00000001
+
+// ============================================================================
+// General Codes
+// ============================================================================
+
+// All Key Items
+//patch=1,EE,2031A76C,extended,FFFFFFFF
+//patch=1,EE,2031A770,extended,000FFFFB
+//patch=1,EE,0031664C,extended,00000001
+//patch=1,EE,0031664D,extended,00000001
+
+// All Overdrives
+//patch=1,EE,2031A04C,extended,FFFFFFFF
+//patch=1,EE,2031A050,extended,FFFFFFFF
+//patch=1,EE,2031A054,extended,FFFFFFFF
+
+// Always Win Blitzball
+//patch=1,EE,0031791E,extended,00000063
+//patch=1,EE,00317981,extended,00000063
+//patch=1,EE,0031791F,extended,00000000
+
+// End Sequence (Press Select While Save Loads)
+//patch=1,EE,D076EC02,extended,0000FFFE
+//patch=1,EE,1031639A,extended,00000186
+
+// Enemies Drop 8 Items
+//patch=1,EE,0031CAD0,extended,00000008
+
+// Low Ap
+//patch=1,EE,1031B8E8,extended,00000000
+//patch=1,EE,1031B97C,extended,00000000
+//patch=1,EE,1031BA10,extended,00000000
+//patch=1,EE,1031BAA4,extended,00000000
+//patch=1,EE,1031BB38,extended,00000000
+//patch=1,EE,1031BBCC,extended,00000000
+//patch=1,EE,1031BC60,extended,00000000
+
+// Max Team EXP (Blitzball) (Press L3)
+//patch=1,EE,D076EC02,extended,0000FFFD
+//patch=1,EE,00C86FF4,extended,000000FF
+//patch=1,EE,D076EC02,extended,0000FFFD
+//patch=1,EE,00C86FF8,extended,000000FF
+//patch=1,EE,D076EC02,extended,0000FFFD
+//patch=1,EE,00C86FFC,extended,000000FF
+//patch=1,EE,D076EC02,extended,0000FFFD
+//patch=1,EE,00C87000,extended,000000FF
+//patch=1,EE,D076EC02,extended,0000FFFD
+//patch=1,EE,00C87004,extended,000000FF
+//patch=1,EE,D076EC02,extended,0000FFFD
+//patch=1,EE,00C87008,extended,000000FF
+
+// ============================================================================
+// Have All Overdrive Mode Codes
+// ============================================================================
+
+// Auron
+//patch=1,EE,2031BA5C,extended,0001FFFF
+
+// ============================================================================
+// Have All Skills Codes
+// ============================================================================
+
+// Auron
+//patch=1,EE,1031BA12,extended,0000FFFF
+//patch=1,EE,0031BA14,extended,0000003F
+
+// ============================================================================
+// Have All Specials Codes
+// ============================================================================
+
+// Auron
+//patch=1,EE,2031BA14,extended,7FFFFFC0
+
+// Kimahri
+//patch=1,EE,2031BAA8,extended,7FFFFFC0
+
+// Lulu
+//patch=1,EE,2031BBD0,extended,7FFFFFC0
+
+// Rikku
+//patch=1,EE,2031BC64,extended,7FFFFFC0
+
+// Seymour
+//patch=1,EE,2031BCF8,extended,7FFFFFC0
+
+// Wakka
+//patch=1,EE,2031BB3C,extended,7FFFFFC0
+
+// Yuna
+//patch=1,EE,2031B980,extended,7FFFFFC0
+
+// ============================================================================
+// Have Celestial Weapons Codes
+// ============================================================================
+
+// Auron Has Masamune
+//patch=1,EE,2031A7A8,extended,04015000
+//patch=1,EE,2031A7AC,extended,00020002
+//patch=1,EE,2031A7B0,extended,04031013
+//patch=1,EE,2031A7B4,extended,80194019
+//patch=1,EE,2031A7B8,extended,8001800F
+//patch=1,EE,1031A7BC,extended,00008003
+
+// Kimahri Has Spirit Lance
+//patch=1,EE,1031A7BE,extended,00005000
+//patch=1,EE,2031A7C0,extended,00030401
+//patch=1,EE,2031A7C4,extended,10110003
+//patch=1,EE,2031A7C8,extended,40240403
+//patch=1,EE,2031A7CC,extended,800F8019
+//patch=1,EE,2031A7D0,extended,80048012
+
+// Lulu Has Onion Knight
+//patch=1,EE,1031A7EA,extended,00005000
+//patch=1,EE,2031A7EC,extended,00050401
+//patch=1,EE,2031A7F0,extended,10120005
+//patch=1,EE,2031A7F4,extended,40380403
+//patch=1,EE,2031A7F8,extended,800F8019
+//patch=1,EE,2031A7FC,extended,800D8006
+
+// Rikku Has Godhand
+//patch=1,EE,1031A800,extended,00005000
+//patch=1,EE,2031A804,extended,00060006
+//patch=1,EE,2031A808,extended,04031011
+//patch=1,EE,2031A80C,extended,80194041
+//patch=1,EE,2031A810,extended,8012800F
+//patch=1,EE,1031A814,extended,0000801A
+
+// Tidus Has Caladbolg
+//patch=1,EE,2031A77C,extended,04015000
+//patch=1,EE,2031A780,extended,00000000
+//patch=1,EE,2031A784,extended,04031011
+//patch=1,EE,2031A788,extended,80194007
+//patch=1,EE,2031A78C,extended,8004800F
+//patch=1,EE,1031A790,extended,00008005
+
+// Wakka Has World Champ
+//patch=1,EE,2031A7D4,extended,04015000
+//patch=1,EE,2031A7D8,extended,00040004
+//patch=1,EE,2031A7DC,extended,04031011
+//patch=1,EE,2031A7E0,extended,8019402E
+//patch=1,EE,2031A7E4,extended,8012800F
+//patch=1,EE,1031A7E8,extended,00008004
+
+// Yuna Has Nirvana
+//patch=1,EE,1031A792,extended,00005000
+//patch=1,EE,2031A794,extended,00010401
+//patch=1,EE,2031A798,extended,10120001
+//patch=1,EE,2031A79C,extended,40100403
+//patch=1,EE,2031A7A0,extended,800F8019
+//patch=1,EE,2031A7A4,extended,800D8012
+
+// ============================================================================
+// Ifrit Codes
+// ============================================================================
+
+// 0 Battles To Go
+//patch=1,EE,1031BE1C,extended,00000000
+
+// Full HP
+//patch=1,EE,1031BDFC,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BE00,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BE0C,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031BE26,extended,0000FFFE
+//patch=1,EE,0031BE28,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BE68,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BE1E,extended,0000FFFF
+//patch=1,EE,0031BE20,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BE1E,extended,0000FFFF
+//patch=1,EE,2031BE20,extended,FFFFFFFF
+//patch=1,EE,2031BE24,extended,FFFFFFFF
+//patch=1,EE,0031BE28,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BE20,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BE23,extended,000000F8
+//patch=1,EE,1031BE24,extended,0000FFFF
+//patch=1,EE,0031BE26,extended,00000001
+
+// Have Deativated
+//patch=1,EE,0031BE0C,extended,00000000
+
+// Ifrit - Max Statistics
+//patch=1,EE,0031BE0F,extended,000000FF
+//patch=1,EE,2031BE10,extended,FFFFFFFF
+//patch=1,EE,1031BE14,extended,0000FFFF
+//patch=1,EE,0031BE16,extended,000000FF
+
+// Ifrit - Super HP
+//patch=1,EE,1031BE04,extended,0000270F
+
+// Ifrit - Super MP
+//patch=1,EE,1031BE08,extended,0000270F
+
+// Infinite HP
+//patch=1,EE,2031BDFC,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BE00,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BE16,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BE13,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BE10,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BE15,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BE04,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BE14,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BE08,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BE11,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BE12,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BE19,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BE0F,extended,000000FF
+
+// ============================================================================
+// In-Active Party
+// ============================================================================
+
+// Character 4
+//patch=1,EE,0031A03B,extended,00000000
+
+// Character 5
+//patch=1,EE,0031A03C,extended,00000000
+
+// Character 6
+//patch=1,EE,0031A03D,extended,00000000
+
+// Character 7
+//patch=1,EE,0031A03E,extended,00000000
+
+// ============================================================================
+// Item Codes
+// ============================================================================
+
+// 99 Items (A)
+//patch=1,EE,2031A3AC,extended,63636363
+//patch=1,EE,2031A3B0,extended,63636363
+//patch=1,EE,2031A3B4,extended,63636363
+//patch=1,EE,2031A3B8,extended,63636363
+//patch=1,EE,2031A3BC,extended,63636363
+//patch=1,EE,2031A3C0,extended,63636363
+//patch=1,EE,2031A3C4,extended,63636363
+//patch=1,EE,2031A3C8,extended,63636363
+//patch=1,EE,2031A3CC,extended,63636363
+//patch=1,EE,2031A3D0,extended,63636363
+//patch=1,EE,2031A3D4,extended,63636363
+
+// 99 Items (B)
+//patch=1,EE,2031A3D8,extended,63636363
+//patch=1,EE,2031A3DC,extended,63636363
+//patch=1,EE,2031A3E0,extended,63636363
+//patch=1,EE,2031A3E4,extended,63636363
+//patch=1,EE,2031A3E8,extended,63636363
+//patch=1,EE,2031A3EC,extended,63636363
+//patch=1,EE,2031A3F0,extended,63636363
+//patch=1,EE,2031A3F4,extended,63636363
+//patch=1,EE,2031A3F8,extended,63636363
+
+// 99 Items (C)
+//patch=1,EE,2031A3FC,extended,63636363
+//patch=1,EE,2031A400,extended,63636363
+//patch=1,EE,2031A404,extended,63636363
+//patch=1,EE,2031A408,extended,63636363
+//patch=1,EE,2031A40C,extended,63636363
+//patch=1,EE,2031A410,extended,63636363
+//patch=1,EE,2031A414,extended,63636363
+//patch=1,EE,2031A418,extended,63636363
+
+// Have All Items (1 - 6)
+//patch=1,EE,2031A1AC,extended,20012000
+//patch=1,EE,2031A1B0,extended,20032002
+//patch=1,EE,2031A1B4,extended,20052004
+//patch=1,EE,2031A1B8,extended,20072006
+//patch=1,EE,2031A1BC,extended,20092008
+//patch=1,EE,2031A1C0,extended,200B200A
+//patch=1,EE,2031A1C4,extended,200D200C
+//patch=1,EE,2031A1C8,extended,200F200E
+//patch=1,EE,2031A1CC,extended,20112010
+//patch=1,EE,2031A1D0,extended,20132012
+
+// Have All Items (2 - 6)
+//patch=1,EE,2031A1D4,extended,20152014
+//patch=1,EE,2031A1D8,extended,20172016
+//patch=1,EE,2031A1DC,extended,20192018
+//patch=1,EE,2031A1E0,extended,201B201A
+//patch=1,EE,2031A1E4,extended,201D201C
+//patch=1,EE,2031A1E8,extended,201F201E
+//patch=1,EE,2031A1EC,extended,20212020
+//patch=1,EE,2031A1F0,extended,20232022
+//patch=1,EE,2031A1F4,extended,20252024
+//patch=1,EE,2031A1F8,extended,20272026
+
+// Have All Items (3 - 6)
+//patch=1,EE,2031A1FC,extended,20292028
+//patch=1,EE,2031A200,extended,202B202A
+//patch=1,EE,2031A204,extended,202D202C
+//patch=1,EE,2031A208,extended,202F202E
+//patch=1,EE,2031A20C,extended,20312030
+//patch=1,EE,2031A210,extended,20332032
+//patch=1,EE,2031A214,extended,20352034
+//patch=1,EE,2031A218,extended,20372036
+//patch=1,EE,2031A21C,extended,20392038
+//patch=1,EE,2031A220,extended,203B203A
+
+// Have All Items (4 - 6)
+//patch=1,EE,2031A224,extended,203D203C
+//patch=1,EE,2031A228,extended,203F203E
+//patch=1,EE,2031A22C,extended,20412040
+//patch=1,EE,2031A230,extended,20432042
+//patch=1,EE,2031A234,extended,20452044
+//patch=1,EE,2031A238,extended,20472046
+//patch=1,EE,2031A23C,extended,20492048
+//patch=1,EE,2031A240,extended,204B204A
+//patch=1,EE,2031A244,extended,204D204C
+//patch=1,EE,2031A248,extended,204F204E
+
+// Have All Items (5 - 6)
+//patch=1,EE,2031A24C,extended,20512050
+//patch=1,EE,2031A250,extended,20532052
+//patch=1,EE,2031A254,extended,20552054
+//patch=1,EE,2031A258,extended,20572056
+//patch=1,EE,2031A25C,extended,20592058
+//patch=1,EE,2031A260,extended,205B205A
+//patch=1,EE,2031A264,extended,205D205C
+//patch=1,EE,2031A268,extended,205F205E
+//patch=1,EE,2031A26C,extended,20612060
+//patch=1,EE,2031A270,extended,20632062
+
+// Have All Items (6 - 6)
+//patch=1,EE,2031A274,extended,20652064
+//patch=1,EE,2031A278,extended,20672066
+//patch=1,EE,2031A27C,extended,20692068
+//patch=1,EE,2031A280,extended,206B206A
+//patch=1,EE,2031A284,extended,206D206C
+//patch=1,EE,2031A288,extended,206F206E
+
+// ============================================================================
+// Item Modifier Codes
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,1031CAD4,extended,00002000
+//patch=1,EE,0031CAE4,extended,00000063
+
+// Slot 1
+//patch=1,EE,1031A1AC,extended,00000000
+
+// Slot 10
+//patch=1,EE,1031A1BE,extended,00000000
+
+// Slot 100
+//patch=1,EE,1031A272,extended,00000000
+
+// Slot 101
+//patch=1,EE,1031A274,extended,00000000
+
+// Slot 102
+//patch=1,EE,1031A276,extended,00000000
+
+// Slot 103
+//patch=1,EE,1031A278,extended,00000000
+
+// Slot 104
+//patch=1,EE,1031A27A,extended,00000000
+
+// Slot 105
+//patch=1,EE,1031A27C,extended,00000000
+
+// Slot 106
+//patch=1,EE,1031A27E,extended,00000000
+
+// Slot 107
+//patch=1,EE,1031A280,extended,00000000
+
+// Slot 108
+//patch=1,EE,1031A282,extended,00000000
+
+// Slot 109
+//patch=1,EE,1031A284,extended,00000000
+
+// Slot 11
+//patch=1,EE,1031A1C0,extended,00000000
+
+// Slot 110
+//patch=1,EE,1031A286,extended,00000000
+
+// Slot 111
+//patch=1,EE,1031A288,extended,00000000
+
+// Slot 112
+//patch=1,EE,1031A28A,extended,00000000
+
+// Slot 12
+//patch=1,EE,1031A1C2,extended,00000000
+
+// Slot 13
+//patch=1,EE,1031A1C4,extended,00000000
+
+// Slot 14
+//patch=1,EE,1031A1C6,extended,00000000
+
+// Slot 15
+//patch=1,EE,1031A1C8,extended,00000000
+
+// Slot 16
+//patch=1,EE,1031A1CA,extended,00000000
+
+// Slot 17
+//patch=1,EE,1031A1CC,extended,00000000
+
+// Slot 18
+//patch=1,EE,1031A1CE,extended,00000000
+
+// Slot 19
+//patch=1,EE,1031A1D0,extended,00000000
+
+// Slot 2
+//patch=1,EE,1031CAD6,extended,00002000
+//patch=1,EE,0031CAE5,extended,00000063
+
+// Slot 2
+//patch=1,EE,1031A1AE,extended,00000000
+
+// Slot 20
+//patch=1,EE,1031A1D2,extended,00000000
+
+// Slot 21
+//patch=1,EE,1031A1D4,extended,00000000
+
+// Slot 22
+//patch=1,EE,1031A1D6,extended,00000000
+
+// Slot 23
+//patch=1,EE,1031A1D8,extended,00000000
+
+// Slot 24
+//patch=1,EE,1031A1DA,extended,00000000
+
+// Slot 25
+//patch=1,EE,1031A1DC,extended,00000000
+
+// Slot 26
+//patch=1,EE,1031A1DE,extended,00000000
+
+// Slot 27
+//patch=1,EE,1031A1E0,extended,00000000
+
+// Slot 28
+//patch=1,EE,1031A1E2,extended,00000000
+
+// Slot 29
+//patch=1,EE,1031A1E4,extended,00000000
+
+// Slot 3
+//patch=1,EE,1031CAD8,extended,00002000
+//patch=1,EE,0031CAE6,extended,00000063
+
+// Slot 3
+//patch=1,EE,1031A1B0,extended,00000000
+
+// Slot 30
+//patch=1,EE,1031A1E6,extended,00000000
+
+// Slot 31
+//patch=1,EE,1031A1E8,extended,00000000
+
+// Slot 32
+//patch=1,EE,1031A1EA,extended,00000000
+
+// Slot 33
+//patch=1,EE,1031A1EC,extended,00000000
+
+// Slot 34
+//patch=1,EE,1031A1EE,extended,00000000
+
+// Slot 35
+//patch=1,EE,1031A1F0,extended,00000000
+
+// Slot 36
+//patch=1,EE,1031A1F2,extended,00000000
+
+// Slot 37
+//patch=1,EE,1031A1F4,extended,00000000
+
+// Slot 38
+//patch=1,EE,1031A1F6,extended,00000000
+
+// Slot 39
+//patch=1,EE,1031A1F8,extended,00000000
+
+// Slot 4
+//patch=1,EE,1031CADA,extended,00002000
+//patch=1,EE,0031CAE7,extended,00000063
+
+// Slot 4
+//patch=1,EE,1031A1B2,extended,00000000
+
+// Slot 40
+//patch=1,EE,1031A1FA,extended,00000000
+
+// Slot 41
+//patch=1,EE,1031A1FC,extended,00000000
+
+// Slot 42
+//patch=1,EE,1031A1FE,extended,00000000
+
+// Slot 43
+//patch=1,EE,1031A200,extended,00000000
+
+// Slot 44
+//patch=1,EE,1031A202,extended,00000000
+
+// Slot 45
+//patch=1,EE,1031A204,extended,00000000
+
+// Slot 46
+//patch=1,EE,1031A206,extended,00000000
+
+// Slot 47
+//patch=1,EE,1031A208,extended,00000000
+
+// Slot 48
+//patch=1,EE,1031A20A,extended,00000000
+
+// Slot 49
+//patch=1,EE,1031A20C,extended,00000000
+
+// Slot 5
+//patch=1,EE,1031CADC,extended,00002000
+//patch=1,EE,0031CAE8,extended,00000063
+
+// Slot 5
+//patch=1,EE,1031A1B4,extended,00000000
+
+// Slot 50
+//patch=1,EE,1031A20E,extended,00000000
+
+// Slot 51
+//patch=1,EE,1031A210,extended,00000000
+
+// Slot 52
+//patch=1,EE,1031A212,extended,00000000
+
+// Slot 53
+//patch=1,EE,1031A214,extended,00000000
+
+// Slot 54
+//patch=1,EE,1031A216,extended,00000000
+
+// Slot 55
+//patch=1,EE,1031A218,extended,00000000
+
+// Slot 56
+//patch=1,EE,1031A21A,extended,00000000
+
+// Slot 57
+//patch=1,EE,1031A21C,extended,00000000
+
+// Slot 58
+//patch=1,EE,1031A21E,extended,00000000
+
+// Slot 59
+//patch=1,EE,1031A220,extended,00000000
+
+// Slot 6
+//patch=1,EE,1031CADE,extended,00002000
+//patch=1,EE,0031CAE9,extended,00000063
+
+// Slot 6
+//patch=1,EE,1031A1B6,extended,00000000
+
+// Slot 60
+//patch=1,EE,1031A222,extended,00000000
+
+// Slot 61
+//patch=1,EE,1031A224,extended,00000000
+
+// Slot 62
+//patch=1,EE,1031A226,extended,00000000
+
+// Slot 63
+//patch=1,EE,1031A228,extended,00000000
+
+// Slot 64
+//patch=1,EE,1031A22A,extended,00000000
+
+// Slot 65
+//patch=1,EE,1031A22C,extended,00000000
+
+// Slot 66
+//patch=1,EE,1031A22E,extended,00000000
+
+// Slot 67
+//patch=1,EE,1031A230,extended,00000000
+
+// Slot 68
+//patch=1,EE,1031A232,extended,00000000
+
+// Slot 69
+//patch=1,EE,1031A234,extended,00000000
+
+// Slot 7
+//patch=1,EE,1031CAE0,extended,00002000
+//patch=1,EE,0031CAEA,extended,00000063
+
+// Slot 7
+//patch=1,EE,1031A1B8,extended,00000000
+
+// Slot 70
+//patch=1,EE,1031A236,extended,00000000
+
+// Slot 71
+//patch=1,EE,1031A238,extended,00000000
+
+// Slot 72
+//patch=1,EE,1031A23A,extended,00000000
+
+// Slot 73
+//patch=1,EE,1031A23C,extended,00000000
+
+// Slot 74
+//patch=1,EE,1031A23E,extended,00000000
+
+// Slot 75
+//patch=1,EE,1031A240,extended,00000000
+
+// Slot 76
+//patch=1,EE,1031A242,extended,00000000
+
+// Slot 77
+//patch=1,EE,1031A244,extended,00000000
+
+// Slot 78
+//patch=1,EE,1031A246,extended,00000000
+
+// Slot 79
+//patch=1,EE,1031A248,extended,00000000
+
+// Slot 8
+//patch=1,EE,1031CAE2,extended,00002000
+//patch=1,EE,0031CAEB,extended,00000063
+
+// Slot 8
+//patch=1,EE,1031A1BA,extended,00000000
+
+// Slot 80
+//patch=1,EE,1031A24A,extended,00000000
+
+// Slot 81
+//patch=1,EE,1031A24C,extended,00000000
+
+// Slot 82
+//patch=1,EE,1031A24E,extended,00000000
+
+// Slot 83
+//patch=1,EE,1031A250,extended,00000000
+
+// Slot 84
+//patch=1,EE,1031A252,extended,00000000
+
+// Slot 85
+//patch=1,EE,1031A254,extended,00000000
+
+// Slot 86
+//patch=1,EE,1031A256,extended,00000000
+
+// Slot 87
+//patch=1,EE,1031A258,extended,00000000
+
+// Slot 88
+//patch=1,EE,1031A25A,extended,00000000
+
+// Slot 89
+//patch=1,EE,1031A25C,extended,00000000
+
+// Slot 9
+//patch=1,EE,1031A1BC,extended,00000000
+
+// Slot 90
+//patch=1,EE,1031A25E,extended,00000000
+
+// Slot 91
+//patch=1,EE,1031A260,extended,00000000
+
+// Slot 92
+//patch=1,EE,1031A262,extended,00000000
+
+// Slot 93
+//patch=1,EE,1031A264,extended,00000000
+
+// Slot 94
+//patch=1,EE,1031A266,extended,00000000
+
+// Slot 95
+//patch=1,EE,1031A268,extended,00000000
+
+// Slot 96
+//patch=1,EE,1031A26A,extended,00000000
+
+// Slot 97
+//patch=1,EE,1031A26C,extended,00000000
+
+// Slot 98
+//patch=1,EE,1031A26E,extended,00000000
+
+// Slot 99
+//patch=1,EE,1031A270,extended,00000000
+
+// ============================================================================
+// Ixion Codes
+// ============================================================================
+
+// 0 Battles To Go
+//patch=1,EE,1031BEB0,extended,00000000
+
+// Full HP
+//patch=1,EE,1031BE90,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BE94,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BEA0,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031BEBA,extended,0000FFFE
+//patch=1,EE,0031BEBC,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BEFC,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BEB2,extended,0000FFFF
+//patch=1,EE,0031BEB4,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BEB2,extended,0000FFFF
+//patch=1,EE,2031BEB4,extended,FFFFFFFF
+//patch=1,EE,2031BEB8,extended,FFFFFFFF
+//patch=1,EE,0031BEBC,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BEB4,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BEB7,extended,000000F8
+//patch=1,EE,1031BEB8,extended,0000FFFF
+//patch=1,EE,0031BEBA,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BEA0,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BE90,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BE94,extended,0000270F
+
+// Ixion - Max Statistics
+//patch=1,EE,0031BEA3,extended,000000FF
+//patch=1,EE,2031BEA4,extended,FFFFFFFF
+//patch=1,EE,1031BEA8,extended,0000FFFF
+//patch=1,EE,0031BEAA,extended,000000FF
+
+// Ixion - Super HP
+//patch=1,EE,1031BE98,extended,0000270F
+
+// Ixion - Super MP
+//patch=1,EE,1031BE9C,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BEAA,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BEA7,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BEA4,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BEA9,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BE98,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BEA8,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BE9C,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BEA5,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BEA6,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BEAD,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BEA3,extended,000000FF
+
+// ============================================================================
+// Jyasshyu Codes
+// ============================================================================
+
+// Can Set 5 Abilities
+//patch=1,EE,00317862,extended,00000005
+
+// Have All Abilities
+//patch=1,EE,203174DC,extended,FFFFFFFF
+//patch=1,EE,203175CC,extended,FFFFFFFF
+
+// Level 99
+//patch=1,EE,0031789E,extended,00000063
+
+// Max Exp
+//patch=1,EE,10317A3C,extended,0000270F
+
+// ============================================================================
+// Kimahri Codes
+// ============================================================================
+
+// Always Low AP
+//patch=1,EE,1031BAA4,extended,00000000
+
+// Armor Swap Modifier
+//patch=1,EE,0031BA96,extended,00000000
+
+// Full HP
+//patch=1,EE,1031BA84,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BA88,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BA94,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031BAAE,extended,0000FFFE
+//patch=1,EE,0031BAB0,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BAF0,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BAA6,extended,0000FFFF
+//patch=1,EE,0031BAA8,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BAA6,extended,0000FFFF
+//patch=1,EE,2031BAA8,extended,FFFFFFFF
+//patch=1,EE,2031BAAC,extended,FFFFFFFF
+//patch=1,EE,0031BAB0,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BAA8,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BAAB,extended,000000F8
+//patch=1,EE,1031BAAC,extended,0000FFFF
+//patch=1,EE,0031BAAE,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BA94,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BA84,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BA88,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BA9E,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BA9B,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BA98,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BA9D,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BA8C,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BA9C,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BA90,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BA99,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BA9A,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BAA1,extended,000000FF
+
+// Max S. Level
+//patch=1,EE,0031BAA3,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BA97,extended,000000FF
+
+// Maximum Overdrive Mode
+//patch=1,EE,0031BAA0,extended,0000000F
+
+// Weapon Swap Modifier
+//patch=1,EE,0031BA95,extended,00000000
+
+// ============================================================================
+// Kippa Codes
+// ============================================================================
+
+// Can Set 5 Abilities
+//patch=1,EE,00317864,extended,00000005
+
+// Have All Abilities
+//patch=1,EE,203174E4,extended,FFFFFFFF
+//patch=1,EE,203175D4,extended,FFFFFFFF
+
+// Level 99
+//patch=1,EE,003178A0,extended,00000063
+
+// Max Exp
+//patch=1,EE,10317A40,extended,0000270F
+
+// ============================================================================
+// Lots Of AP Codes
+// ============================================================================
+
+// Auron
+//patch=1,EE,2031CA88,extended,0001869F
+
+// Kimahri
+//patch=1,EE,2031CA8C,extended,0001869F
+
+// Lulu
+//patch=1,EE,2031CA94,extended,0001869F
+
+// Rikku
+//patch=1,EE,2031CA98,extended,0001869F
+
+// Seymour
+//patch=1,EE,2031CA9C,extended,0001869F
+
+// Tidus
+//patch=1,EE,2031CA80,extended,0001869F
+
+// Wakka
+//patch=1,EE,2031CA90,extended,0001869F
+
+// Yuna
+//patch=1,EE,2031CA84,extended,0001869F
+
+// ============================================================================
+// Lulu Codes
+// ============================================================================
+
+// Always Low AP
+//patch=1,EE,1031BBCC,extended,00000000
+
+// Armor Swap Modifier
+//patch=1,EE,0031BBBE,extended,00000000
+
+// Full HP
+//patch=1,EE,1031BBAC,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BBB0,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BBBC,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031BBD6,extended,0000FFFE
+//patch=1,EE,0031BBD8,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BC18,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BBCE,extended,0000FFFF
+//patch=1,EE,0031BBD0,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BBCE,extended,0000FFFF
+//patch=1,EE,2031BBD0,extended,FFFFFFFF
+//patch=1,EE,2031BBD4,extended,FFFFFFFF
+//patch=1,EE,0031BBD8,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BBD0,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BBD3,extended,000000F8
+//patch=1,EE,1031BBD4,extended,0000FFFF
+//patch=1,EE,0031BBD6,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BBBC,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BBAC,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BBB0,extended,0000270F
+
+// Lulu - Max Sphere Level
+//patch=1,EE,0031BBCB,extended,00000063
+
+// Lulu - Max Statistics
+//patch=1,EE,0031BBBF,extended,000000FF
+//patch=1,EE,2031BBC0,extended,FFFFFFFF
+//patch=1,EE,1031BBC4,extended,0000FFFF
+//patch=1,EE,0031BBC6,extended,000000FF
+
+// Lulu - Super HP
+//patch=1,EE,1031BBB4,extended,0000270F
+
+// Lulu - Super MP
+//patch=1,EE,1031BBB8,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BBC6,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BBC3,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BBC0,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BBC5,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BBB4,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BBC4,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BBB8,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BBC1,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BBC2,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BBC9,extended,000000FF
+
+// Max S. Level
+//patch=1,EE,0031BBCB,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BBBF,extended,000000FF
+
+// Maximum Overdrive Mode
+//patch=1,EE,0031BBC8,extended,0000000F
+
+// Weapon Swap Modifier
+//patch=1,EE,0031BBBD,extended,00000000
+
+// ============================================================================
+// Max Item Codes
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,0031A3AC,extended,00000063
+
+// Slot 10
+//patch=1,EE,0031A3B5,extended,00000063
+
+// Slot 100
+//patch=1,EE,0031A40F,extended,00000063
+
+// Slot 101
+//patch=1,EE,0031A410,extended,00000063
+
+// Slot 102
+//patch=1,EE,0031A411,extended,00000063
+
+// Slot 103
+//patch=1,EE,0031A412,extended,00000063
+
+// Slot 104
+//patch=1,EE,0031A413,extended,00000063
+
+// Slot 105
+//patch=1,EE,0031A414,extended,00000063
+
+// Slot 106
+//patch=1,EE,0031A415,extended,00000063
+
+// Slot 107
+//patch=1,EE,0031A416,extended,00000063
+
+// Slot 108
+//patch=1,EE,0031A417,extended,00000063
+
+// Slot 109
+//patch=1,EE,0031A418,extended,00000063
+
+// Slot 11
+//patch=1,EE,0031A3B6,extended,00000063
+
+// Slot 110
+//patch=1,EE,0031A419,extended,00000063
+
+// Slot 111
+//patch=1,EE,0031A41A,extended,00000063
+
+// Slot 112
+//patch=1,EE,0031A41B,extended,00000063
+
+// Slot 12
+//patch=1,EE,0031A3B7,extended,00000063
+
+// Slot 13
+//patch=1,EE,0031A3B8,extended,00000063
+
+// Slot 14
+//patch=1,EE,0031A3B9,extended,00000063
+
+// Slot 15
+//patch=1,EE,0031A3BA,extended,00000063
+
+// Slot 16
+//patch=1,EE,0031A3BB,extended,00000063
+
+// Slot 17
+//patch=1,EE,0031A3BC,extended,00000063
+
+// Slot 18
+//patch=1,EE,0031A3BD,extended,00000063
+
+// Slot 19
+//patch=1,EE,0031A3BE,extended,00000063
+
+// Slot 2
+//patch=1,EE,0031A3AD,extended,00000063
+
+// Slot 20
+//patch=1,EE,0031A3BF,extended,00000063
+
+// Slot 21
+//patch=1,EE,0031A3C0,extended,00000063
+
+// Slot 22
+//patch=1,EE,0031A3C1,extended,00000063
+
+// Slot 23
+//patch=1,EE,0031A3C2,extended,00000063
+
+// Slot 24
+//patch=1,EE,0031A3C3,extended,00000063
+
+// Slot 25
+//patch=1,EE,0031A3C4,extended,00000063
+
+// Slot 26
+//patch=1,EE,0031A3C5,extended,00000063
+
+// Slot 27
+//patch=1,EE,0031A3C6,extended,00000063
+
+// Slot 28
+//patch=1,EE,0031A3C7,extended,00000063
+
+// Slot 29
+//patch=1,EE,0031A3C8,extended,00000063
+
+// Slot 3
+//patch=1,EE,0031A3AE,extended,00000063
+
+// Slot 30
+//patch=1,EE,0031A3C9,extended,00000063
+
+// Slot 31
+//patch=1,EE,0031A3CA,extended,00000063
+
+// Slot 32
+//patch=1,EE,0031A3CB,extended,00000063
+
+// Slot 33
+//patch=1,EE,0031A3CC,extended,00000063
+
+// Slot 34
+//patch=1,EE,0031A3CD,extended,00000063
+
+// Slot 35
+//patch=1,EE,0031A3CE,extended,00000063
+
+// Slot 36
+//patch=1,EE,0031A3CF,extended,00000063
+
+// Slot 37
+//patch=1,EE,0031A3D0,extended,00000063
+
+// Slot 38
+//patch=1,EE,0031A3D1,extended,00000063
+
+// Slot 39
+//patch=1,EE,0031A3D2,extended,00000063
+
+// Slot 4
+//patch=1,EE,0031A3AF,extended,00000063
+
+// Slot 40
+//patch=1,EE,0031A3D3,extended,00000063
+
+// Slot 41
+//patch=1,EE,0031A3D4,extended,00000063
+
+// Slot 42
+//patch=1,EE,0031A3D5,extended,00000063
+
+// Slot 43
+//patch=1,EE,0031A3D6,extended,00000063
+
+// Slot 44
+//patch=1,EE,0031A3D7,extended,00000063
+
+// Slot 45
+//patch=1,EE,0031A3D8,extended,00000063
+
+// Slot 46
+//patch=1,EE,0031A3D9,extended,00000063
+
+// Slot 47
+//patch=1,EE,0031A3DA,extended,00000063
+
+// Slot 48
+//patch=1,EE,0031A3DB,extended,00000063
+
+// Slot 49
+//patch=1,EE,0031A3DC,extended,00000063
+
+// Slot 5
+//patch=1,EE,0031A3B0,extended,00000063
+
+// Slot 50
+//patch=1,EE,0031A3DD,extended,00000063
+
+// Slot 51
+//patch=1,EE,0031A3DE,extended,00000063
+
+// Slot 52
+//patch=1,EE,0031A3DF,extended,00000063
+
+// Slot 53
+//patch=1,EE,0031A3E0,extended,00000063
+
+// Slot 54
+//patch=1,EE,0031A3E1,extended,00000063
+
+// Slot 55
+//patch=1,EE,0031A3E2,extended,00000063
+
+// Slot 56
+//patch=1,EE,0031A3E3,extended,00000063
+
+// Slot 57
+//patch=1,EE,0031A3E4,extended,00000063
+
+// Slot 58
+//patch=1,EE,0031A3E5,extended,00000063
+
+// Slot 59
+//patch=1,EE,0031A3E6,extended,00000063
+
+// Slot 6
+//patch=1,EE,0031A3B1,extended,00000063
+
+// Slot 60
+//patch=1,EE,0031A3E7,extended,00000063
+
+// Slot 61
+//patch=1,EE,0031A3E8,extended,00000063
+
+// Slot 62
+//patch=1,EE,0031A3E9,extended,00000063
+
+// Slot 63
+//patch=1,EE,0031A3EA,extended,00000063
+
+// Slot 64
+//patch=1,EE,0031A3EB,extended,00000063
+
+// Slot 65
+//patch=1,EE,0031A3EC,extended,00000063
+
+// Slot 66
+//patch=1,EE,0031A3ED,extended,00000063
+
+// Slot 67
+//patch=1,EE,0031A3EE,extended,00000063
+
+// Slot 68
+//patch=1,EE,0031A3EF,extended,00000063
+
+// Slot 69
+//patch=1,EE,0031A3F0,extended,00000063
+
+// Slot 7
+//patch=1,EE,0031A3B2,extended,00000063
+
+// Slot 70
+//patch=1,EE,0031A3F1,extended,00000063
+
+// Slot 71
+//patch=1,EE,0031A3F2,extended,00000063
+
+// Slot 72
+//patch=1,EE,0031A3F3,extended,00000063
+
+// Slot 73
+//patch=1,EE,0031A3F4,extended,00000063
+
+// Slot 74
+//patch=1,EE,0031A3F5,extended,00000063
+
+// Slot 75
+//patch=1,EE,0031A3F6,extended,00000063
+
+// Slot 76
+//patch=1,EE,0031A3F7,extended,00000063
+
+// Slot 77
+//patch=1,EE,0031A3F8,extended,00000063
+
+// Slot 78
+//patch=1,EE,0031A3F9,extended,00000063
+
+// Slot 79
+//patch=1,EE,0031A3FA,extended,00000063
+
+// Slot 8
+//patch=1,EE,0031A3B3,extended,00000063
+
+// Slot 80
+//patch=1,EE,0031A3FB,extended,00000063
+
+// Slot 81
+//patch=1,EE,0031A3FC,extended,00000063
+
+// Slot 82
+//patch=1,EE,0031A3FD,extended,00000063
+
+// Slot 83
+//patch=1,EE,0031A3FE,extended,00000063
+
+// Slot 84
+//patch=1,EE,0031A3FF,extended,00000063
+
+// Slot 85
+//patch=1,EE,0031A400,extended,00000063
+
+// Slot 86
+//patch=1,EE,0031A401,extended,00000063
+
+// Slot 87
+//patch=1,EE,0031A402,extended,00000063
+
+// Slot 88
+//patch=1,EE,0031A403,extended,00000063
+
+// Slot 89
+//patch=1,EE,0031A404,extended,00000063
+
+// Slot 9
+//patch=1,EE,0031A3B4,extended,00000063
+
+// Slot 90
+//patch=1,EE,0031A405,extended,00000063
+
+// Slot 91
+//patch=1,EE,0031A406,extended,00000063
+
+// Slot 92
+//patch=1,EE,0031A407,extended,00000063
+
+// Slot 93
+//patch=1,EE,0031A408,extended,00000063
+
+// Slot 94
+//patch=1,EE,0031A409,extended,00000063
+
+// Slot 95
+//patch=1,EE,0031A40A,extended,00000063
+
+// Slot 96
+//patch=1,EE,0031A40B,extended,00000063
+
+// Slot 97
+//patch=1,EE,0031A40C,extended,00000063
+
+// Slot 98
+//patch=1,EE,0031A40D,extended,00000063
+
+// Slot 99
+//patch=1,EE,0031A40E,extended,00000063
+
+// ============================================================================
+// Mindy Magus
+// ============================================================================
+
+// In Party
+//patch=1,EE,0031C2AC,extended,00000011
+
+// Not In Party
+//patch=1,EE,0031C2AC,extended,00000000
+
+// ============================================================================
+// Mindy Magus Codes
+// ============================================================================
+
+// Full HP
+//patch=1,EE,1031C29C,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031C2A0,extended,0000270F
+
+// Max Stats
+//patch=1,EE,0031C2AF,extended,000000FF
+//patch=1,EE,2031C2B0,extended,FFFFFFFF
+//patch=1,EE,1031C2B4,extended,0000FFFF
+//patch=1,EE,0031C2B6,extended,000000FF
+
+// Mindy Magus - Super HP
+//patch=1,EE,1031C2A4,extended,0000270F
+
+// Mindy Magus - Super MP
+//patch=1,EE,1031C2A8,extended,0000270F
+
+// ============================================================================
+// Mindy Magus Sister Codes
+// ============================================================================
+
+// Can Use Every Battle
+//patch=1,EE,1031C2BC,extended,00000000
+
+// Have All Black Magic
+//patch=1,EE,1031C2C6,extended,0000FFFE
+//patch=1,EE,0031C2C8,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031C308,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031C2BE,extended,0000FFFF
+//patch=1,EE,0031C2C0,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031C2BE,extended,0000FFFF
+//patch=1,EE,2031C2C0,extended,FFFFFFFF
+//patch=1,EE,2031C2C4,extended,FFFFFFFF
+//patch=1,EE,0031C2C8,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031C2C0,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031C2C3,extended,000000F8
+//patch=1,EE,1031C2C4,extended,0000FFFF
+//patch=1,EE,0031C2C6,extended,00000001
+
+// Infinite HP
+//patch=1,EE,2031C29C,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031C2A0,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031C2B6,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031C2B3,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031C2B0,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031C2B5,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031C2A4,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031C2B4,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031C2A8,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031C2B1,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031C2B2,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031C2B9,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031C2AF,extended,000000FF
+
+// ============================================================================
+// Miscellaneous Codes
+// ============================================================================
+
+// All Key Items
+//patch=1,EE,2031A76C,extended,FFFFFFFB
+//patch=1,EE,2031A770,extended,000FFFFB
+//patch=1,EE,0031664C,extended,00000001
+//patch=1,EE,0031664D,extended,00000001
+
+// Anima In Party
+//patch=1,EE,0031C05C,extended,00000011
+
+// Auron In Party
+//patch=1,EE,0031BA00,extended,00000011
+
+// Bahamut In Party
+//patch=1,EE,0031BFC8,extended,00000011
+
+// Cindy Magus In Party
+//patch=1,EE,0031C184,extended,00000011
+
+// Enemies Have No MP
+//patch=1,EE,201C70B4,extended,AE200280
+//patch=1,EE,201C70C0,extended,AE200394
+
+// Everyone Breaks Damage Limit (All Characters & Enemies)
+//patch=1,EE,201C134C,extended,00000000
+
+// Have All Overdrives
+//patch=1,EE,2031A04C,extended,FFFFFFFF
+//patch=1,EE,2031A050,extended,FFFFFFFF
+//patch=1,EE,2031A054,extended,FFFFFFFF
+//patch=1,EE,1031A058,extended,0000FFFF
+
+// Have All Three Magus Sisters Activated
+//patch=1,EE,0031C184,extended,00000011
+//patch=1,EE,0031C218,extended,00000011
+//patch=1,EE,0031C2AC,extended,00000011
+
+// Have All Three Magus Sisters Deactivated
+//patch=1,EE,0031C184,extended,00000000
+//patch=1,EE,0031C218,extended,00000000
+//patch=1,EE,0031C2AC,extended,00000000
+
+// Max All Items (Upon Usage/Buying)
+//patch=1,EE,201BEC38,extended,0806EFFE
+
+// Max Gil (After Using Some)
+//patch=1,EE,101BD65E,extended,0000ACA3
+
+// Room Modifier
+//patch=1,EE,1031639A,extended,00000000
+
+// Thunder Plains Lightning Dodged 200 Times After Dodged Once
+//patch=1,EE,103166E0,extended,000000C8
+
+// Yojimbo In Party
+//patch=1,EE,0031C0F0,extended,00000001
+
+// ============================================================================
+// Overdrive Codes
+// ============================================================================
+
+// Anima Full Overdrive
+//patch=1,EE,0031C069,extended,00000064
+
+// Auron Full Overdrive
+//patch=1,EE,0031BA0D,extended,00000064
+
+// Bahamut Full Overdrive
+//patch=1,EE,0031BFD5,extended,00000064
+
+// Cindy Magus Full Overdrive
+//patch=1,EE,0031C191,extended,00000064
+
+// Ifrit Full Overdrive
+//patch=1,EE,0031BE19,extended,00000064
+
+// Ixion Full Overdrive
+//patch=1,EE,0031BEAD,extended,00000064
+
+// Kimahri Full Overdrive
+//patch=1,EE,0031BAA1,extended,00000064
+
+// Lulu Full Overdrive
+//patch=1,EE,0031BBC9,extended,00000064
+
+// Mindy Magus Full Overdrive
+//patch=1,EE,0031C2B9,extended,00000064
+
+// Rikku Full Overdrive
+//patch=1,EE,0031BC5D,extended,00000064
+
+// Sandy Magus Full Overdrive
+//patch=1,EE,0031C225,extended,00000064
+
+// Seymour Full Overdrive
+//patch=1,EE,0031BCF1,extended,00000064
+
+// Shiva Full Overdrive
+//patch=1,EE,0031BF41,extended,00000064
+
+// Tidus Full Overdrive
+//patch=1,EE,0031B8E5,extended,00000064
+
+// Valefor Full Overdrive
+//patch=1,EE,0031BD85,extended,00000064
+
+// Wakka Full Overdrive
+//patch=1,EE,0031BB35,extended,00000064
+
+// Yojimbo Full Overdrive
+//patch=1,EE,0031C0FD,extended,00000064
+
+// Yuna Full Overdrive
+//patch=1,EE,0031B979,extended,00000064
+
+// ============================================================================
+// Retti Codes
+// ============================================================================
+
+// Can Set 5 Abilities
+//patch=1,EE,00317861,extended,00000005
+
+// Have All Abilities
+//patch=1,EE,203174D8,extended,FFFFFFFF
+//patch=1,EE,203175C8,extended,FFFFFFFF
+
+// Level 99
+//patch=1,EE,0031789D,extended,00000063
+
+// Max Exp
+//patch=1,EE,10317A3A,extended,0000270F
+
+// ============================================================================
+// Rikku Codes
+// ============================================================================
+
+// Always Low AP
+//patch=1,EE,1031BC60,extended,00000000
+
+// Armor Swap Modifier
+//patch=1,EE,0031BC52,extended,00000000
+
+// Costume Modifier
+//patch=1,EE,003163B1,extended,00000000
+
+// Full HP
+//patch=1,EE,1031BC40,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BC44,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BC50,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031BC6A,extended,0000FFFE
+//patch=1,EE,0031BC6C,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BCAC,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BC62,extended,0000FFFF
+//patch=1,EE,0031BC64,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BC62,extended,0000FFFF
+//patch=1,EE,2031BC64,extended,FFFFFFFF
+//patch=1,EE,2031BC68,extended,FFFFFFFF
+//patch=1,EE,0031BC6C,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BC64,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BC67,extended,000000F8
+//patch=1,EE,1031BC68,extended,0000FFFF
+//patch=1,EE,0031BC6A,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BC50,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BC40,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BC44,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BC5A,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BC57,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BC54,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BC59,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BC48,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BC58,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BC4C,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BC55,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BC56,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BC5D,extended,000000FF
+
+// Max S. Level
+//patch=1,EE,0031BC5F,extended,000000FF
+
+// Max Sphere Level
+//patch=1,EE,0031BC5F,extended,00000063
+
+// Max Stats
+//patch=1,EE,0031BC53,extended,000000FF
+//patch=1,EE,2031BC54,extended,FFFFFFFF
+//patch=1,EE,1031BC58,extended,0000FFFF
+//patch=1,EE,0031BC5A,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BC53,extended,000000FF
+
+// Maximum Overdrive Mode
+//patch=1,EE,0031BC5C,extended,0000000F
+
+// Rikku - Super HP
+//patch=1,EE,1031BC48,extended,0000270F
+
+// Rikku - Super MP
+//patch=1,EE,1031BC4C,extended,0000270F
+
+// Weapon Swap Modifier
+//patch=1,EE,0031BC51,extended,00000000
+
+// ============================================================================
+// Sandy Magus
+// ============================================================================
+
+// In Party
+//patch=1,EE,0031C218,extended,00000011
+
+// Not In Party
+//patch=1,EE,0031C218,extended,00000000
+
+// ============================================================================
+// Sandy Magus Codes
+// ============================================================================
+
+// Full HP
+//patch=1,EE,1031C208,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031C20C,extended,0000270F
+
+// Max Stats
+//patch=1,EE,0031C21B,extended,000000FF
+//patch=1,EE,2031C21C,extended,FFFFFFFF
+//patch=1,EE,1031C220,extended,0000FFFF
+//patch=1,EE,0031C222,extended,000000FF
+
+// Sandy Magus - Super HP
+//patch=1,EE,1031C210,extended,0000270F
+
+// Sandy Magus - Super MP
+//patch=1,EE,1031C214,extended,0000270F
+
+// ============================================================================
+// Sandy Magus Sister Codes
+// ============================================================================
+
+// Can Use Every Battle
+//patch=1,EE,1031C228,extended,00000000
+
+// Have All Black Magic
+//patch=1,EE,1031C232,extended,0000FFFE
+//patch=1,EE,0031C234,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031C274,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031C22A,extended,0000FFFF
+//patch=1,EE,0031C22C,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031C22A,extended,0000FFFF
+//patch=1,EE,2031C22C,extended,FFFFFFFF
+//patch=1,EE,2031C230,extended,FFFFFFFF
+//patch=1,EE,0031C234,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031C22C,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031C22F,extended,000000F8
+//patch=1,EE,1031C230,extended,0000FFFF
+//patch=1,EE,0031C232,extended,00000001
+
+// Infinite HP
+//patch=1,EE,2031C208,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031C20C,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031C222,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031C21F,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031C21C,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031C221,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031C210,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031C220,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031C214,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031C21D,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031C21E,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031C225,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031C21B,extended,000000FF
+
+// ============================================================================
+// Seymour Codes
+// ============================================================================
+
+// Always Low AP
+//patch=1,EE,1031BCF4,extended,00000000
+
+// Armor Swap Modifier
+//patch=1,EE,0031BCE6,extended,00000000
+
+// Full HP
+//patch=1,EE,1031BCD4,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BCD8,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BCE4,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031BCFE,extended,0000FFFE
+//patch=1,EE,0031BD00,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BD40,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BCF6,extended,0000FFFF
+//patch=1,EE,0031BCF8,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BCF6,extended,0000FFFF
+//patch=1,EE,2031BCF8,extended,FFFFFFFF
+//patch=1,EE,2031BCFC,extended,FFFFFFFF
+//patch=1,EE,0031BD00,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BCF8,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BCFB,extended,000000F8
+//patch=1,EE,1031BCFC,extended,0000FFFF
+//patch=1,EE,0031BCFE,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BCE4,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BCD4,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BCD8,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BCEE,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BCEB,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BCE8,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BCED,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BCDC,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BCEC,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BCE0,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BCE9,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BCEA,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BCF1,extended,000000FF
+
+// Max S. Level
+//patch=1,EE,0031BCF3,extended,000000FF
+
+// Max Stats
+//patch=1,EE,0031BCE7,extended,000000FF
+//patch=1,EE,2031BCE8,extended,FFFFFFFF
+//patch=1,EE,1031BCEC,extended,0000FFFF
+//patch=1,EE,0031BCEE,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BCE7,extended,000000FF
+
+// Maximum Overdrive Mode
+//patch=1,EE,0031BCF0,extended,0000000F
+
+// Seymour - Super HP
+//patch=1,EE,1031BCDC,extended,0000270F
+
+// Seymour - Super MP
+//patch=1,EE,1031BCE0,extended,0000270F
+
+// Weapon Swap Modifier
+//patch=1,EE,0031BCE5,extended,00000000
+
+// ============================================================================
+// Shiva Codes
+// ============================================================================
+
+// 0 Battles To Go
+//patch=1,EE,1031BF44,extended,00000000
+
+// Full HP
+//patch=1,EE,1031BF24,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BF28,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BF34,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031BF4E,extended,0000FFFE
+//patch=1,EE,0031BF50,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BF90,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BF46,extended,0000FFFF
+//patch=1,EE,0031BF48,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BF46,extended,0000FFFF
+//patch=1,EE,2031BF48,extended,FFFFFFFF
+//patch=1,EE,2031BF4C,extended,FFFFFFFF
+//patch=1,EE,0031BF50,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BF48,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BF4B,extended,000000F8
+//patch=1,EE,1031BF4C,extended,0000FFFF
+//patch=1,EE,0031BF4E,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BF34,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BF24,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BF28,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BF3E,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BF3B,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BF38,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BF3D,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BF2C,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BF3C,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BF30,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BF39,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BF3A,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BF41,extended,000000FF
+
+// Max Stats
+//patch=1,EE,0031BF37,extended,000000FF
+//patch=1,EE,2031BF38,extended,FFFFFFFF
+//patch=1,EE,1031BF3C,extended,0000FFFF
+//patch=1,EE,0031BF3E,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BF37,extended,000000FF
+
+// Shiva - Super HP
+//patch=1,EE,1031BF2C,extended,0000270F
+
+// Shiva - Super MP
+//patch=1,EE,1031BF30,extended,0000270F
+
+// ============================================================================
+// Tech Slots Codes
+// ============================================================================
+
+// Botta - 5 Tech Slots
+//patch=1,EE,00317863,extended,00000005
+
+// ============================================================================
+// Tidus Codes
+// ============================================================================
+
+// All Black Magic
+//patch=1,EE,0031B8F4,extended,0000000F
+//patch=1,EE,1031B8F2,extended,0000FFFE
+
+// All Skills
+//patch=1,EE,1031B8EA,extended,0000FFFF
+//patch=1,EE,0031B8EC,extended,0000003F
+
+// All Specials
+//patch=1,EE,2031B8EC,extended,7FFFFFC0
+
+// All White Magic
+//patch=1,EE,0031B8EF,extended,000000F8
+//patch=1,EE,0031B8F2,extended,00000001
+//patch=1,EE,1031B8F0,extended,0000FFFF
+
+// Always Low AP
+//patch=1,EE,1031B8E8,extended,00000000
+
+// Armor Swap Modifier
+//patch=1,EE,0031B8DA,extended,00000000
+
+// Can Set 5 Abilities
+//patch=1,EE,0031785E,extended,00000005
+
+// Full HP
+//patch=1,EE,1031B8C8,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031B8CC,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031B8D8,extended,00000011
+
+// Have All Abilities
+//patch=1,EE,203174CC,extended,FFFFFFFF
+//patch=1,EE,203175BC,extended,FFFFFFFF
+
+// Have All Black Magic
+//patch=1,EE,1031B8F2,extended,0000FFFE
+//patch=1,EE,0031B8F4,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031B934,extended,0001FFFF
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031B8EA,extended,0000FFFF
+//patch=1,EE,2031B8EC,extended,FFFFFFFF
+//patch=1,EE,2031B8F0,extended,FFFFFFFF
+//patch=1,EE,0031B8F4,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031B8EC,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031B8EF,extended,000000F8
+//patch=1,EE,1031B8F0,extended,0000FFFF
+//patch=1,EE,0031B8F2,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031B8D8,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031B8C8,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031B8CC,extended,0000270F
+
+// Level 99
+//patch=1,EE,0031789A,extended,00000063
+
+// Max Accuracy
+//patch=1,EE,0031B8E2,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031B8DF,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031B8DC,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031B8E1,extended,000000FF
+
+// Max Exp
+//patch=1,EE,10317A34,extended,0000270F
+
+// Max HP
+//patch=1,EE,2031B8D0,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031B8E0,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031B8D4,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031B8DD,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031B8DE,extended,000000FF
+
+// Max Overdrive
+//patch=1,EE,0031B8E5,extended,000000FF
+
+// Max S. Level
+//patch=1,EE,0031B8E7,extended,000000FF
+
+// Max Sphere Level
+//patch=1,EE,0031B8E7,extended,00000063
+
+// Max Stats
+//patch=1,EE,0031B8DB,extended,000000FF
+//patch=1,EE,2031B8DC,extended,FFFFFFFF
+//patch=1,EE,1031B8E0,extended,0000FFFF
+//patch=1,EE,0031B8E2,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031B8DB,extended,000000FF
+
+// Maximum Overdrive Mode
+//patch=1,EE,0031B8E4,extended,0000000F
+
+// Super HP
+//patch=1,EE,1031B8D0,extended,0000270F
+
+// Super MP
+//patch=1,EE,1031B8D4,extended,0000270F
+
+// Weapon Swap Modifier
+//patch=1,EE,0031B8D9,extended,00000000
+
+// ============================================================================
+// Valefor Codes
+// ============================================================================
+
+// 0 Battles To Go
+//patch=1,EE,1031BD88,extended,00000000
+
+// Full HP
+//patch=1,EE,1031BD68,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BD6C,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BD78,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031BD92,extended,0000FFFE
+//patch=1,EE,0031BD94,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BDD4,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BD8A,extended,0000FFFF
+//patch=1,EE,0031BD8C,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BD8A,extended,0000FFFF
+//patch=1,EE,2031BD8C,extended,FFFFFFFF
+//patch=1,EE,2031BD90,extended,FFFFFFFF
+//patch=1,EE,0031BD94,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BD8C,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BD8F,extended,000000F8
+//patch=1,EE,1031BD90,extended,0000FFFF
+//patch=1,EE,0031BD92,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BD78,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BD68,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BD6C,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031BD82,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BD7F,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BD7C,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BD81,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031BD70,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BD80,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BD74,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BD7D,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BD7E,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BD85,extended,000000FF
+
+// Max Stats
+//patch=1,EE,0031BD7B,extended,000000FF
+//patch=1,EE,2031BD7C,extended,FFFFFFFF
+//patch=1,EE,1031BD80,extended,0000FFFF
+//patch=1,EE,0031BD82,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BD7B,extended,000000FF
+
+// Super HP
+//patch=1,EE,1031BD70,extended,0000270F
+
+// Super MP
+//patch=1,EE,1031BD74,extended,0000270F
+
+// ============================================================================
+// Wakka Codes
+// ============================================================================
+
+// Always Low AP
+//patch=1,EE,1031BB38,extended,00000000
+
+// Armor Swap Modifier
+//patch=1,EE,0031BB2A,extended,00000000
+
+// Can Set 5 Abilities
+//patch=1,EE,0031785F,extended,00000005
+
+// Full HP
+//patch=1,EE,1031BB18,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031BB1C,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031BB28,extended,00000011
+
+// Have All Abilities
+//patch=1,EE,203174D0,extended,FFFFFFFF
+//patch=1,EE,203175C0,extended,FFFFFFFF
+
+// Have All Black Magic
+//patch=1,EE,1031BB42,extended,0000FFFE
+//patch=1,EE,0031BB44,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031BB84,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031BB3A,extended,0000FFFF
+//patch=1,EE,0031BB3C,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031BB3A,extended,0000FFFF
+//patch=1,EE,2031BB3C,extended,FFFFFFFF
+//patch=1,EE,2031BB40,extended,FFFFFFFF
+//patch=1,EE,0031BB44,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031BB3C,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031BB3F,extended,000000F8
+//patch=1,EE,1031BB40,extended,0000FFFF
+//patch=1,EE,0031BB42,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031BB28,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031BB18,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031BB1C,extended,0000270F
+
+// Level 99
+//patch=1,EE,0031789B,extended,00000063
+
+// Max Accuracy
+//patch=1,EE,0031BB32,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031BB2F,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031BB2C,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031BB31,extended,000000FF
+
+// Max Exp
+//patch=1,EE,10317A36,extended,0000270F
+
+// Max HP
+//patch=1,EE,2031BB20,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031BB30,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031BB24,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031BB2D,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031BB2E,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031BB35,extended,000000FF
+
+// Max S. Level
+//patch=1,EE,0031BB37,extended,000000FF
+
+// Max Sphere Level
+//patch=1,EE,0031BB37,extended,00000063
+
+// Max Stats
+//patch=1,EE,0031BB2B,extended,000000FF
+//patch=1,EE,2031BB2C,extended,FFFFFFFF
+//patch=1,EE,1031BB30,extended,0000FFFF
+//patch=1,EE,0031BB32,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031BB2B,extended,000000FF
+
+// Maximum Overdrive Mode
+//patch=1,EE,0031BB34,extended,0000000F
+
+// Super HP
+//patch=1,EE,1031BB20,extended,0000270F
+
+// Super MP
+//patch=1,EE,1031BB24,extended,0000270F
+
+// Weapon Swap Modifier
+//patch=1,EE,0031BB29,extended,00000000
+
+// ============================================================================
+// White Magic
+// ============================================================================
+
+// Anima
+//patch=1,EE,0031C073,extended,000000F8
+//patch=1,EE,0031C076,extended,00000001
+//patch=1,EE,1031C074,extended,0000FFFF
+
+// Auron
+//patch=1,EE,0031BA17,extended,000000F8
+//patch=1,EE,0031BA1A,extended,00000001
+//patch=1,EE,1031BA18,extended,0000FFFF
+
+// Bahamut
+//patch=1,EE,0031BFDF,extended,000000F8
+//patch=1,EE,0031BFE2,extended,00000001
+//patch=1,EE,1031BFE0,extended,0000FFFF
+
+// Cindy Magus
+//patch=1,EE,0031C19B,extended,000000F8
+//patch=1,EE,0031C19E,extended,00000001
+//patch=1,EE,1031C19C,extended,0000FFFF
+
+// Ifrit
+//patch=1,EE,0031BE23,extended,000000F8
+//patch=1,EE,0031BE26,extended,00000001
+//patch=1,EE,1031BE24,extended,0000FFFF
+
+// Ixion
+//patch=1,EE,0031BEB7,extended,000000F8
+//patch=1,EE,0031BEBA,extended,00000001
+//patch=1,EE,1031BEB8,extended,0000FFFF
+
+// Kimahri
+//patch=1,EE,0031BAAB,extended,000000F8
+//patch=1,EE,0031BAAE,extended,00000001
+//patch=1,EE,1031BAAC,extended,0000FFFF
+
+// Lulu
+//patch=1,EE,0031BBD3,extended,000000F8
+//patch=1,EE,0031BBD6,extended,00000001
+//patch=1,EE,1031BBD4,extended,0000FFFF
+
+// Mindy Magus
+//patch=1,EE,0031C2C3,extended,000000F8
+//patch=1,EE,0031C2C6,extended,00000001
+//patch=1,EE,1031C2C4,extended,0000FFFF
+
+// Rikku
+//patch=1,EE,0031BC67,extended,000000F8
+//patch=1,EE,0031BC6A,extended,00000001
+//patch=1,EE,1031BC68,extended,0000FFFF
+
+// Sandy Magus
+//patch=1,EE,0031C22F,extended,000000F8
+//patch=1,EE,0031C232,extended,00000001
+//patch=1,EE,1031C230,extended,0000FFFF
+
+// Seymour
+//patch=1,EE,0031BCFB,extended,000000F8
+//patch=1,EE,0031BCFE,extended,00000001
+//patch=1,EE,1031BCFC,extended,0000FFFF
+
+// Shiva
+//patch=1,EE,0031BF4B,extended,000000F8
+//patch=1,EE,0031BF4E,extended,00000001
+//patch=1,EE,1031BF4C,extended,0000FFFF
+
+// Valefor
+//patch=1,EE,0031BD8F,extended,000000F8
+//patch=1,EE,0031BD92,extended,00000001
+//patch=1,EE,1031BD90,extended,0000FFFF
+
+// Wakka
+//patch=1,EE,0031BB3F,extended,000000F8
+//patch=1,EE,0031BB42,extended,00000001
+//patch=1,EE,1031BB40,extended,0000FFFF
+
+// Yojimbo
+//patch=1,EE,0031C107,extended,000000F8
+//patch=1,EE,0031C10A,extended,00000001
+//patch=1,EE,1031C108,extended,0000FFFF
+
+// Yuna
+//patch=1,EE,0031B983,extended,000000F8
+//patch=1,EE,0031B986,extended,00000001
+//patch=1,EE,1031B984,extended,0000FFFF
+
+// ============================================================================
+// With These Codes Use 01-04
+// ============================================================================
+
+// Slot 1
+//patch=1,EE,0031A787,extended,00000000
+
+// Slot 10
+//patch=1,EE,0031A84D,extended,00000000
+
+// Slot 100
+//patch=1,EE,0031B009,extended,00000000
+
+// Slot 101
+//patch=1,EE,0031B01F,extended,00000000
+
+// Slot 102
+//patch=1,EE,0031B035,extended,00000000
+
+// Slot 103
+//patch=1,EE,0031B04B,extended,00000000
+
+// Slot 104
+//patch=1,EE,0031B061,extended,00000000
+
+// Slot 105
+//patch=1,EE,0031B077,extended,00000000
+
+// Slot 106
+//patch=1,EE,0031B08D,extended,00000000
+
+// Slot 107
+//patch=1,EE,0031B0A3,extended,00000000
+
+// Slot 108
+//patch=1,EE,0031B0B9,extended,00000000
+
+// Slot 109
+//patch=1,EE,0031B0CF,extended,00000000
+
+// Slot 11
+//patch=1,EE,0031A863,extended,00000000
+
+// Slot 110
+//patch=1,EE,0031B0E5,extended,00000000
+
+// Slot 111
+//patch=1,EE,0031B0FB,extended,00000000
+
+// Slot 112
+//patch=1,EE,0031B111,extended,00000000
+
+// Slot 113
+//patch=1,EE,0031B127,extended,00000000
+
+// Slot 114
+//patch=1,EE,0031B13D,extended,00000000
+
+// Slot 115
+//patch=1,EE,0031B153,extended,00000000
+
+// Slot 116
+//patch=1,EE,0031B169,extended,00000000
+
+// Slot 117
+//patch=1,EE,0031B17F,extended,00000000
+
+// Slot 118
+//patch=1,EE,0031B195,extended,00000000
+
+// Slot 119
+//patch=1,EE,0031B1AB,extended,00000000
+
+// Slot 12
+//patch=1,EE,0031A879,extended,00000000
+
+// Slot 120
+//patch=1,EE,0031B1C1,extended,00000000
+
+// Slot 121
+//patch=1,EE,0031B1D7,extended,00000000
+
+// Slot 122
+//patch=1,EE,0031B1ED,extended,00000000
+
+// Slot 123
+//patch=1,EE,0031B203,extended,00000000
+
+// Slot 124
+//patch=1,EE,0031B219,extended,00000000
+
+// Slot 125
+//patch=1,EE,0031B22F,extended,00000000
+
+// Slot 126
+//patch=1,EE,0031B245,extended,00000000
+
+// Slot 127
+//patch=1,EE,0031B25B,extended,00000000
+
+// Slot 128
+//patch=1,EE,0031B271,extended,00000000
+
+// Slot 129
+//patch=1,EE,0031B287,extended,00000000
+
+// Slot 13
+//patch=1,EE,0031A88F,extended,00000000
+
+// Slot 130
+//patch=1,EE,0031B29D,extended,00000000
+
+// Slot 131
+//patch=1,EE,0031B2B3,extended,00000000
+
+// Slot 132
+//patch=1,EE,0031B2C9,extended,00000000
+
+// Slot 133
+//patch=1,EE,0031B2DF,extended,00000000
+
+// Slot 134
+//patch=1,EE,0031B2F5,extended,00000000
+
+// Slot 135
+//patch=1,EE,0031B30B,extended,00000000
+
+// Slot 136
+//patch=1,EE,0031B321,extended,00000000
+
+// Slot 137
+//patch=1,EE,0031B337,extended,00000000
+
+// Slot 138
+//patch=1,EE,0031B34D,extended,00000000
+
+// Slot 139
+//patch=1,EE,0031B363,extended,00000000
+
+// Slot 14
+//patch=1,EE,0031A8A5,extended,00000000
+
+// Slot 140
+//patch=1,EE,0031B379,extended,00000000
+
+// Slot 141
+//patch=1,EE,0031B38F,extended,00000000
+
+// Slot 142
+//patch=1,EE,0031B3A5,extended,00000000
+
+// Slot 143
+//patch=1,EE,0031B3BB,extended,00000000
+
+// Slot 144
+//patch=1,EE,0031B3D1,extended,00000000
+
+// Slot 145
+//patch=1,EE,0031B3E7,extended,00000000
+
+// Slot 146
+//patch=1,EE,0031B3FD,extended,00000000
+
+// Slot 147
+//patch=1,EE,0031B413,extended,00000000
+
+// Slot 148
+//patch=1,EE,0031B429,extended,00000000
+
+// Slot 149
+//patch=1,EE,0031B43F,extended,00000000
+
+// Slot 15
+//patch=1,EE,0031A8BB,extended,00000000
+
+// Slot 150
+//patch=1,EE,0031B455,extended,00000000
+
+// Slot 151
+//patch=1,EE,0031B46B,extended,00000000
+
+// Slot 152
+//patch=1,EE,0031B481,extended,00000000
+
+// Slot 153
+//patch=1,EE,0031B497,extended,00000000
+
+// Slot 154
+//patch=1,EE,0031B4AD,extended,00000000
+
+// Slot 155
+//patch=1,EE,0031B4C3,extended,00000000
+
+// Slot 156
+//patch=1,EE,0031B4D9,extended,00000000
+
+// Slot 157
+//patch=1,EE,0031B4EF,extended,00000000
+
+// Slot 158
+//patch=1,EE,0031B505,extended,00000000
+
+// Slot 159
+//patch=1,EE,0031B51B,extended,00000000
+
+// Slot 16
+//patch=1,EE,0031A8D1,extended,00000000
+
+// Slot 160
+//patch=1,EE,0031B531,extended,00000000
+
+// Slot 161
+//patch=1,EE,0031B547,extended,00000000
+
+// Slot 162
+//patch=1,EE,0031B55D,extended,00000000
+
+// Slot 163
+//patch=1,EE,0031B573,extended,00000000
+
+// Slot 164
+//patch=1,EE,0031B589,extended,00000000
+
+// Slot 165
+//patch=1,EE,0031B59F,extended,00000000
+
+// Slot 166
+//patch=1,EE,0031B5B5,extended,00000000
+
+// Slot 167
+//patch=1,EE,0031B5CB,extended,00000000
+
+// Slot 168
+//patch=1,EE,0031B5E1,extended,00000000
+
+// Slot 169
+//patch=1,EE,0031B5F7,extended,00000000
+
+// Slot 17
+//patch=1,EE,0031A8E7,extended,00000000
+
+// Slot 170
+//patch=1,EE,0031B60D,extended,00000000
+
+// Slot 171
+//patch=1,EE,0031B623,extended,00000000
+
+// Slot 172
+//patch=1,EE,0031B639,extended,00000000
+
+// Slot 173
+//patch=1,EE,0031B64F,extended,00000000
+
+// Slot 174
+//patch=1,EE,0031B665,extended,00000000
+
+// Slot 175
+//patch=1,EE,0031B67B,extended,00000000
+
+// Slot 176
+//patch=1,EE,0031B691,extended,00000000
+
+// Slot 177
+//patch=1,EE,0031B6A7,extended,00000000
+
+// Slot 178
+//patch=1,EE,0031B6BD,extended,00000000
+
+// Slot 18
+//patch=1,EE,0031A8FD,extended,00000000
+
+// Slot 19
+//patch=1,EE,0031A913,extended,00000000
+
+// Slot 2
+//patch=1,EE,0031A79D,extended,00000000
+
+// Slot 20
+//patch=1,EE,0031A929,extended,00000000
+
+// Slot 21
+//patch=1,EE,0031A93F,extended,00000000
+
+// Slot 22
+//patch=1,EE,0031A955,extended,00000000
+
+// Slot 23
+//patch=1,EE,0031A96B,extended,00000000
+
+// Slot 24
+//patch=1,EE,0031A981,extended,00000000
+
+// Slot 25
+//patch=1,EE,0031A997,extended,00000000
+
+// Slot 26
+//patch=1,EE,0031A9AD,extended,00000000
+
+// Slot 27
+//patch=1,EE,0031A9C3,extended,00000000
+
+// Slot 28
+//patch=1,EE,0031A9D9,extended,00000000
+
+// Slot 29
+//patch=1,EE,0031A9EF,extended,00000000
+
+// Slot 3
+//patch=1,EE,0031A7B3,extended,00000000
+
+// Slot 30
+//patch=1,EE,0031AA05,extended,00000000
+
+// Slot 31
+//patch=1,EE,0031AA1B,extended,00000000
+
+// Slot 32
+//patch=1,EE,0031AA31,extended,00000000
+
+// Slot 33
+//patch=1,EE,0031AA47,extended,00000000
+
+// Slot 34
+//patch=1,EE,0031AA5D,extended,00000000
+
+// Slot 35
+//patch=1,EE,0031AA73,extended,00000000
+
+// Slot 36
+//patch=1,EE,0031AA89,extended,00000000
+
+// Slot 37
+//patch=1,EE,0031AA9F,extended,00000000
+
+// Slot 38
+//patch=1,EE,0031AAB5,extended,00000000
+
+// Slot 39
+//patch=1,EE,0031AACB,extended,00000000
+
+// Slot 4
+//patch=1,EE,0031A7C9,extended,00000000
+
+// Slot 40
+//patch=1,EE,0031AAE1,extended,00000000
+
+// Slot 41
+//patch=1,EE,0031AAF7,extended,00000000
+
+// Slot 42
+//patch=1,EE,0031AB0D,extended,00000000
+
+// Slot 43
+//patch=1,EE,0031AB23,extended,00000000
+
+// Slot 44
+//patch=1,EE,0031AB39,extended,00000000
+
+// Slot 45
+//patch=1,EE,0031AB4F,extended,00000000
+
+// Slot 46
+//patch=1,EE,0031AB65,extended,00000000
+
+// Slot 47
+//patch=1,EE,0031AB7B,extended,00000000
+
+// Slot 48
+//patch=1,EE,0031AB91,extended,00000000
+
+// Slot 49
+//patch=1,EE,0031ABA7,extended,00000000
+
+// Slot 5
+//patch=1,EE,0031A7DF,extended,00000000
+
+// Slot 50
+//patch=1,EE,0031ABBD,extended,00000000
+
+// Slot 51
+//patch=1,EE,0031ABD3,extended,00000000
+
+// Slot 52
+//patch=1,EE,0031ABE9,extended,00000000
+
+// Slot 53
+//patch=1,EE,0031ABFF,extended,00000000
+
+// Slot 54
+//patch=1,EE,0031AC15,extended,00000000
+
+// Slot 55
+//patch=1,EE,0031AC2B,extended,00000000
+
+// Slot 56
+//patch=1,EE,0031AC41,extended,00000000
+
+// Slot 57
+//patch=1,EE,0031AC57,extended,00000000
+
+// Slot 58
+//patch=1,EE,0031AC6D,extended,00000000
+
+// Slot 59
+//patch=1,EE,0031AC83,extended,00000000
+
+// Slot 6
+//patch=1,EE,0031A7F5,extended,00000000
+
+// Slot 60
+//patch=1,EE,0031AC99,extended,00000000
+
+// Slot 61
+//patch=1,EE,0031ACAF,extended,00000000
+
+// Slot 62
+//patch=1,EE,0031ACC5,extended,00000000
+
+// Slot 63
+//patch=1,EE,0031ACDB,extended,00000000
+
+// Slot 64
+//patch=1,EE,0031ACF1,extended,00000000
+
+// Slot 65
+//patch=1,EE,0031AD07,extended,00000000
+
+// Slot 66
+//patch=1,EE,0031AD1D,extended,00000000
+
+// Slot 67
+//patch=1,EE,0031AD33,extended,00000000
+
+// Slot 68
+//patch=1,EE,0031AD49,extended,00000000
+
+// Slot 69
+//patch=1,EE,0031AD5F,extended,00000000
+
+// Slot 7
+//patch=1,EE,0031A80B,extended,00000000
+
+// Slot 70
+//patch=1,EE,0031AD75,extended,00000000
+
+// Slot 71
+//patch=1,EE,0031AD8B,extended,00000000
+
+// Slot 72
+//patch=1,EE,0031ADA1,extended,00000000
+
+// Slot 73
+//patch=1,EE,0031ADB7,extended,00000000
+
+// Slot 74
+//patch=1,EE,0031ADCD,extended,00000000
+
+// Slot 75
+//patch=1,EE,0031ADE3,extended,00000000
+
+// Slot 76
+//patch=1,EE,0031ADF9,extended,00000000
+
+// Slot 77
+//patch=1,EE,0031AE0F,extended,00000000
+
+// Slot 78
+//patch=1,EE,0031AE25,extended,00000000
+
+// Slot 79
+//patch=1,EE,0031AE3B,extended,00000000
+
+// Slot 8
+//patch=1,EE,0031A821,extended,00000000
+
+// Slot 80
+//patch=1,EE,0031AE51,extended,00000000
+
+// Slot 81
+//patch=1,EE,0031AE67,extended,00000000
+
+// Slot 82
+//patch=1,EE,0031AE7D,extended,00000000
+
+// Slot 83
+//patch=1,EE,0031AE93,extended,00000000
+
+// Slot 84
+//patch=1,EE,0031AEA9,extended,00000000
+
+// Slot 85
+//patch=1,EE,0031AEBF,extended,00000000
+
+// Slot 86
+//patch=1,EE,0031AED5,extended,00000000
+
+// Slot 87
+//patch=1,EE,0031AEEB,extended,00000000
+
+// Slot 88
+//patch=1,EE,0031AF01,extended,00000000
+
+// Slot 89
+//patch=1,EE,0031AF17,extended,00000000
+
+// Slot 9
+//patch=1,EE,0031A837,extended,00000000
+
+// Slot 90
+//patch=1,EE,0031AF2D,extended,00000000
+
+// Slot 91
+//patch=1,EE,0031AF43,extended,00000000
+
+// Slot 92
+//patch=1,EE,0031AF59,extended,00000000
+
+// Slot 93
+//patch=1,EE,0031AF6F,extended,00000000
+
+// Slot 94
+//patch=1,EE,0031AF85,extended,00000000
+
+// Slot 95
+//patch=1,EE,0031AF9B,extended,00000000
+
+// Slot 96
+//patch=1,EE,0031AFB1,extended,00000000
+
+// Slot 97
+//patch=1,EE,0031AFC7,extended,00000000
+
+// Slot 98
+//patch=1,EE,0031AFDD,extended,00000000
+
+// Slot 99
+//patch=1,EE,0031AFF3,extended,00000000
+
+// ============================================================================
+// Yojimbo Codes
+// ============================================================================
+
+// Can Use Every Battle
+//patch=1,EE,1031C100,extended,00000000
+
+// Full HP
+//patch=1,EE,1031C0E0,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031C0E4,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031C0F0,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031C10A,extended,0000FFFE
+//patch=1,EE,0031C10C,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031C14C,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031C102,extended,0000FFFF
+//patch=1,EE,0031C104,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031C102,extended,0000FFFF
+//patch=1,EE,2031C104,extended,FFFFFFFF
+//patch=1,EE,2031C108,extended,FFFFFFFF
+//patch=1,EE,0031C10C,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031C104,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031C107,extended,000000F8
+//patch=1,EE,1031C108,extended,0000FFFF
+//patch=1,EE,0031C10A,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031C0F0,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031C0E0,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031C0E4,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031C0FA,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031C0F7,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031C0F4,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031C0F9,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031C0E8,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031C0F8,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031C0EC,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031C0F5,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031C0F6,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031C0FD,extended,000000FF
+
+// Max Stats
+//patch=1,EE,0031C0F3,extended,000000FF
+//patch=1,EE,2031C0F4,extended,FFFFFFFF
+//patch=1,EE,1031C0F8,extended,0000FFFF
+//patch=1,EE,0031C0FA,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031C0F3,extended,000000FF
+
+// Super HP
+//patch=1,EE,1031C0E8,extended,0000270F
+
+// Super MP
+//patch=1,EE,0031C0EC,extended,0000000F
+
+// ============================================================================
+// Yuna Codes
+// ============================================================================
+
+// Always Low AP
+//patch=1,EE,1031B97C,extended,00000000
+
+// Armor Swap Modifier
+//patch=1,EE,0031B96E,extended,00000000
+
+// Full HP
+//patch=1,EE,1031B95C,extended,0000270F
+
+// Full MP
+//patch=1,EE,1031B960,extended,0000270F
+
+// Have Activated
+//patch=1,EE,0031B96C,extended,00000011
+
+// Have All Black Magic
+//patch=1,EE,1031B986,extended,0000FFFE
+//patch=1,EE,0031B988,extended,0000000F
+
+// Have All Overdrive Modes
+//patch=1,EE,2031B9C8,extended,0001FFFF
+
+// Have All Skills
+//patch=1,EE,1031B97E,extended,0000FFFF
+//patch=1,EE,0031B980,extended,0000003F
+
+// Have All Skills/Specials/Black Magic/White Magic
+//patch=1,EE,1031B97E,extended,0000FFFF
+//patch=1,EE,2031B980,extended,FFFFFFFF
+//patch=1,EE,2031B984,extended,FFFFFFFF
+//patch=1,EE,0031B988,extended,0000000F
+
+// Have All Specials
+//patch=1,EE,2031B980,extended,07FFFFC0
+
+// Have All White Magic
+//patch=1,EE,0031B983,extended,000000F8
+//patch=1,EE,1031B984,extended,0000FFFF
+//patch=1,EE,0031B986,extended,00000001
+
+// Have Deactivated
+//patch=1,EE,0031B96C,extended,00000000
+
+// Infinite HP
+//patch=1,EE,2031B95C,extended,0001869F
+
+// Infinite MP
+//patch=1,EE,2031B960,extended,0000270F
+
+// Max Accuracy
+//patch=1,EE,0031B976,extended,000000FF
+
+// Max Agility
+//patch=1,EE,0031B973,extended,000000FF
+
+// Max Defense
+//patch=1,EE,0031B970,extended,000000FF
+
+// Max Evasion
+//patch=1,EE,0031B975,extended,000000FF
+
+// Max HP
+//patch=1,EE,2031B964,extended,0001869F
+
+// Max Luck
+//patch=1,EE,0031B974,extended,000000FF
+
+// Max MP
+//patch=1,EE,2031B968,extended,0000270F
+
+// Max Magic
+//patch=1,EE,0031B971,extended,000000FF
+
+// Max Magic Defense
+//patch=1,EE,0031B972,extended,000000FF
+
+// Max Overdrive Meter
+//patch=1,EE,0031B979,extended,000000FF
+
+// Max S. Level
+//patch=1,EE,0031B97B,extended,000000FF
+
+// Max Sphere Level
+//patch=1,EE,0031B97B,extended,00000063
+
+// Max Stats
+//patch=1,EE,0031B96F,extended,000000FF
+//patch=1,EE,2031B970,extended,FFFFFFFF
+//patch=1,EE,1031B974,extended,0000FFFF
+//patch=1,EE,0031B976,extended,000000FF
+
+// Max Strength
+//patch=1,EE,0031B96F,extended,000000FF
+
+// Maximum Overdrive Mode
+//patch=1,EE,0031B978,extended,0000000F
+
+// Super HP
+//patch=1,EE,1031B964,extended,0000270F
+
+// Super MP
+//patch=1,EE,1031B968,extended,0000270F
+
+// Weapon Swap Modifier
+//patch=1,EE,0031B96D,extended,00000000
+

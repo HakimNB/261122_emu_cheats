@@ -1,0 +1,733 @@
+cheats = 183
+
+cheat0_desc = "**Must Be Used!"
+cheat0_code = "8007DA48 0064+8009B87A 0064"
+cheat0_enable = false
+
+cheat1_desc = "1 Billion Dollars"
+cheat1_code = "8009B864 CA00+8009B866 3B9A"
+cheat1_enable = false
+
+cheat2_desc = "A"
+cheat2_code = "300816DC 0004"
+cheat2_enable = false
+
+cheat3_desc = "A"
+cheat3_code = "300816E0 0004"
+cheat3_enable = false
+
+cheat4_desc = "A"
+cheat4_code = "300816E4 0004"
+cheat4_enable = false
+
+cheat5_desc = "A"
+cheat5_code = "300816E8 0004"
+cheat5_enable = false
+
+cheat6_desc = "A"
+cheat6_code = "300816EC 0004"
+cheat6_enable = false
+
+cheat7_desc = "A"
+cheat7_code = "300816F0 0004"
+cheat7_enable = false
+
+cheat8_desc = "A"
+cheat8_code = "300816F4 0004"
+cheat8_enable = false
+
+cheat9_desc = "A License In Garage"
+cheat9_code = "80058634 007C"
+cheat9_enable = false
+
+cheat10_desc = "Able To Buy Concept Car"
+cheat10_code = "800806FC 0000"
+cheat10_enable = false
+
+cheat11_desc = "Always Buy Concept Car Body"
+cheat11_code = "800806F4 DC84"
+cheat11_enable = false
+
+cheat12_desc = "Always Buy Concept Car Logo"
+cheat12_code = "801F3C9C DC84"
+cheat12_enable = false
+
+cheat13_desc = "Always Have Picture of Viper At Car Dealership"
+cheat13_code = "80058634 003D"
+cheat13_enable = false
+
+cheat14_desc = "Always Place 1st (Arcade Mode)"
+cheat14_code = "D00B6F18 0600+800B6F18 0100"
+cheat14_enable = false
+
+cheat15_desc = "Auto Pilot"
+cheat15_code = "D00B6F18 0600+300B6F18 0001+D00B6F18 0100+300B6F18 0001"
+cheat15_enable = false
+
+cheat16_desc = "B"
+cheat16_code = "300816D9 0004"
+cheat16_enable = false
+
+cheat17_desc = "B"
+cheat17_code = "300816DD 0004"
+cheat17_enable = false
+
+cheat18_desc = "B"
+cheat18_code = "300816E1 0004"
+cheat18_enable = false
+
+cheat19_desc = "B"
+cheat19_code = "300816E5 0004"
+cheat19_enable = false
+
+cheat20_desc = "B"
+cheat20_code = "300816E9 0004"
+cheat20_enable = false
+
+cheat21_desc = "B"
+cheat21_code = "300816ED 0004"
+cheat21_enable = false
+
+cheat22_desc = "B"
+cheat22_code = "300816F1 0004"
+cheat22_enable = false
+
+cheat23_desc = "B"
+cheat23_code = "300816F5 0004"
+cheat23_enable = false
+
+cheat24_desc = "B License In Garage"
+cheat24_code = "80058634 007D"
+cheat24_enable = false
+
+cheat25_desc = "C"
+cheat25_code = "300816DA 0004"
+cheat25_enable = false
+
+cheat26_desc = "C"
+cheat26_code = "300816DE 0004"
+cheat26_enable = false
+
+cheat27_desc = "C"
+cheat27_code = "300816E2 0004"
+cheat27_enable = false
+
+cheat28_desc = "C"
+cheat28_code = "300816E6 0004"
+cheat28_enable = false
+
+cheat29_desc = "C"
+cheat29_code = "300816EA 0004"
+cheat29_enable = false
+
+cheat30_desc = "C"
+cheat30_code = "300816EE 0004"
+cheat30_enable = false
+
+cheat31_desc = "C"
+cheat31_code = "300816F2 0004"
+cheat31_enable = false
+
+cheat32_desc = "C"
+cheat32_code = "300816F6 0004"
+cheat32_enable = false
+
+cheat33_desc = "Change Brightness of Car's Logo"
+cheat33_code = "800588D0 0000"
+cheat33_enable = false
+
+cheat34_desc = "Change Brightness of Descriptive (Ie; 4WD, RWD, Etc.) Text"
+cheat34_code = "80058450 0000"
+cheat34_enable = false
+
+cheat35_desc = "Cruise Control"
+cheat35_code = "D00D6F18 0600+300B6F18 0001+D00B6F18 0100+300B6F18 0001"
+cheat35_enable = false
+
+cheat36_desc = "Drive through the Background"
+cheat36_code = "800243A2 1000"
+cheat36_enable = false
+
+cheat37_desc = "Engine Modifier"
+cheat37_code = "801CCFCC 0000"
+cheat37_enable = false
+
+cheat38_desc = "Garage Space 01"
+cheat38_code = "8009BA0C 0000"
+cheat38_enable = false
+
+cheat39_desc = "Garage Space 02"
+cheat39_code = "8009BA6C 0000"
+cheat39_enable = false
+
+cheat40_desc = "Garage Space 03"
+cheat40_code = "8009BACC 0000"
+cheat40_enable = false
+
+cheat41_desc = "Garage Space 04"
+cheat41_code = "8009BB2C 0055"
+cheat41_enable = false
+
+cheat42_desc = "Garage Space 05"
+cheat42_code = "8009BB8C 0000"
+cheat42_enable = false
+
+cheat43_desc = "Garage Space 06"
+cheat43_code = "8009BBEC 0000"
+cheat43_enable = false
+
+cheat44_desc = "Garage Space 07"
+cheat44_code = "8009BC4C 0000"
+cheat44_enable = false
+
+cheat45_desc = "Garage Space 08"
+cheat45_code = "8009BCAC 0000"
+cheat45_enable = false
+
+cheat46_desc = "Garage Space 09"
+cheat46_code = "8009BD0C 0000"
+cheat46_enable = false
+
+cheat47_desc = "Garage Space 10"
+cheat47_code = "8009BD6C 0000"
+cheat47_enable = false
+
+cheat48_desc = "Garage Space 100"
+cheat48_code = "8009DF2C 0000"
+cheat48_enable = false
+
+cheat49_desc = "Garage Space 11"
+cheat49_code = "8009BDCC 0000"
+cheat49_enable = false
+
+cheat50_desc = "Garage Space 12"
+cheat50_code = "8009BE2C 0000"
+cheat50_enable = false
+
+cheat51_desc = "Garage Space 13"
+cheat51_code = "8009BE8C 0000"
+cheat51_enable = false
+
+cheat52_desc = "Garage Space 14"
+cheat52_code = "8009BEEC 0000"
+cheat52_enable = false
+
+cheat53_desc = "Garage Space 15"
+cheat53_code = "8009BF4C 0000"
+cheat53_enable = false
+
+cheat54_desc = "Garage Space 16"
+cheat54_code = "8009BFAC 0000"
+cheat54_enable = false
+
+cheat55_desc = "Garage Space 17"
+cheat55_code = "8009C00C 0000"
+cheat55_enable = false
+
+cheat56_desc = "Garage Space 18"
+cheat56_code = "8009C06C 0000"
+cheat56_enable = false
+
+cheat57_desc = "Garage Space 19"
+cheat57_code = "8009C0CC 0000"
+cheat57_enable = false
+
+cheat58_desc = "Garage Space 20"
+cheat58_code = "8009C12C 0000"
+cheat58_enable = false
+
+cheat59_desc = "Garage Space 21"
+cheat59_code = "8009C18C 0000"
+cheat59_enable = false
+
+cheat60_desc = "Garage Space 22"
+cheat60_code = "8009C1EC 0000"
+cheat60_enable = false
+
+cheat61_desc = "Garage Space 23"
+cheat61_code = "8009C24C 0000"
+cheat61_enable = false
+
+cheat62_desc = "Garage Space 24"
+cheat62_code = "8009C2AC 0000"
+cheat62_enable = false
+
+cheat63_desc = "Garage Space 25"
+cheat63_code = "8009C30C 0000"
+cheat63_enable = false
+
+cheat64_desc = "Garage Space 26"
+cheat64_code = "8009C36C 0000"
+cheat64_enable = false
+
+cheat65_desc = "Garage Space 27"
+cheat65_code = "8009C3CC 0000"
+cheat65_enable = false
+
+cheat66_desc = "Garage Space 28"
+cheat66_code = "8009C42C 0000"
+cheat66_enable = false
+
+cheat67_desc = "Garage Space 29"
+cheat67_code = "8009C48C 0000"
+cheat67_enable = false
+
+cheat68_desc = "Garage Space 30"
+cheat68_code = "8009C4EC 0000"
+cheat68_enable = false
+
+cheat69_desc = "Garage Space 31"
+cheat69_code = "8009C54C 0000"
+cheat69_enable = false
+
+cheat70_desc = "Garage Space 32"
+cheat70_code = "8009C5AC 0000"
+cheat70_enable = false
+
+cheat71_desc = "Garage Space 33"
+cheat71_code = "8009C60C 0000"
+cheat71_enable = false
+
+cheat72_desc = "Garage Space 34"
+cheat72_code = "8009C66C 0000"
+cheat72_enable = false
+
+cheat73_desc = "Garage Space 35"
+cheat73_code = "8009C6CC 0000"
+cheat73_enable = false
+
+cheat74_desc = "Garage Space 36"
+cheat74_code = "8009C72C 0000"
+cheat74_enable = false
+
+cheat75_desc = "Garage Space 37"
+cheat75_code = "8009C78C 0000"
+cheat75_enable = false
+
+cheat76_desc = "Garage Space 38"
+cheat76_code = "8009C7EC 0000"
+cheat76_enable = false
+
+cheat77_desc = "Garage Space 39"
+cheat77_code = "8009C84C 0000"
+cheat77_enable = false
+
+cheat78_desc = "Garage Space 40"
+cheat78_code = "8009C8AC 0000"
+cheat78_enable = false
+
+cheat79_desc = "Garage Space 41"
+cheat79_code = "8009C90C 0000"
+cheat79_enable = false
+
+cheat80_desc = "Garage Space 42"
+cheat80_code = "8009C96C 0000"
+cheat80_enable = false
+
+cheat81_desc = "Garage Space 43"
+cheat81_code = "8009C9CC 0000"
+cheat81_enable = false
+
+cheat82_desc = "Garage Space 44"
+cheat82_code = "8009CA2C 0000"
+cheat82_enable = false
+
+cheat83_desc = "Garage Space 45"
+cheat83_code = "8009CA8C 0000"
+cheat83_enable = false
+
+cheat84_desc = "Garage Space 46"
+cheat84_code = "8009CAEC 0000"
+cheat84_enable = false
+
+cheat85_desc = "Garage Space 47"
+cheat85_code = "8009CB4C 0000"
+cheat85_enable = false
+
+cheat86_desc = "Garage Space 48"
+cheat86_code = "8009CBAC 0000"
+cheat86_enable = false
+
+cheat87_desc = "Garage Space 49"
+cheat87_code = "8009CC0C 0000"
+cheat87_enable = false
+
+cheat88_desc = "Garage Space 50"
+cheat88_code = "8009CC6C 0000"
+cheat88_enable = false
+
+cheat89_desc = "Garage Space 51"
+cheat89_code = "8009CCCC 0000"
+cheat89_enable = false
+
+cheat90_desc = "Garage Space 52"
+cheat90_code = "8009CD2C 0000"
+cheat90_enable = false
+
+cheat91_desc = "Garage Space 53"
+cheat91_code = "8009CD8C 0000"
+cheat91_enable = false
+
+cheat92_desc = "Garage Space 54"
+cheat92_code = "8009CDEC 0000"
+cheat92_enable = false
+
+cheat93_desc = "Garage Space 55"
+cheat93_code = "8009CE4C 0000"
+cheat93_enable = false
+
+cheat94_desc = "Garage Space 56"
+cheat94_code = "8009CEAC 0000"
+cheat94_enable = false
+
+cheat95_desc = "Garage Space 57"
+cheat95_code = "8009CF0C 0000"
+cheat95_enable = false
+
+cheat96_desc = "Garage Space 58"
+cheat96_code = "8009CF6C 0000"
+cheat96_enable = false
+
+cheat97_desc = "Garage Space 59"
+cheat97_code = "8009CFCC 0000"
+cheat97_enable = false
+
+cheat98_desc = "Garage Space 60"
+cheat98_code = "8009D02C 0000"
+cheat98_enable = false
+
+cheat99_desc = "Garage Space 61"
+cheat99_code = "8009D08C 0000"
+cheat99_enable = false
+
+cheat100_desc = "Garage Space 62"
+cheat100_code = "8009D0EC 0000"
+cheat100_enable = false
+
+cheat101_desc = "Garage Space 63"
+cheat101_code = "8009D14C 0000"
+cheat101_enable = false
+
+cheat102_desc = "Garage Space 64"
+cheat102_code = "8009D1AC 0000"
+cheat102_enable = false
+
+cheat103_desc = "Garage Space 65"
+cheat103_code = "8009D20C 0000"
+cheat103_enable = false
+
+cheat104_desc = "Garage Space 66"
+cheat104_code = "8009D26C 0000"
+cheat104_enable = false
+
+cheat105_desc = "Garage Space 67"
+cheat105_code = "8009D2CC 0000"
+cheat105_enable = false
+
+cheat106_desc = "Garage Space 68"
+cheat106_code = "8009D32C 0000"
+cheat106_enable = false
+
+cheat107_desc = "Garage Space 69"
+cheat107_code = "8009D38C 0000"
+cheat107_enable = false
+
+cheat108_desc = "Garage Space 70"
+cheat108_code = "8009D3EC 0000"
+cheat108_enable = false
+
+cheat109_desc = "Garage Space 71"
+cheat109_code = "8009D44C 0000"
+cheat109_enable = false
+
+cheat110_desc = "Garage Space 72"
+cheat110_code = "8009D4AC 0000"
+cheat110_enable = false
+
+cheat111_desc = "Garage Space 73"
+cheat111_code = "8009D50C 0000"
+cheat111_enable = false
+
+cheat112_desc = "Garage Space 74"
+cheat112_code = "8009D56C 0000"
+cheat112_enable = false
+
+cheat113_desc = "Garage Space 75"
+cheat113_code = "8009D5CC 0000"
+cheat113_enable = false
+
+cheat114_desc = "Garage Space 76"
+cheat114_code = "8009D62C 0000"
+cheat114_enable = false
+
+cheat115_desc = "Garage Space 77"
+cheat115_code = "8009D68C 0000"
+cheat115_enable = false
+
+cheat116_desc = "Garage Space 78"
+cheat116_code = "8009D6EC 0000"
+cheat116_enable = false
+
+cheat117_desc = "Garage Space 79"
+cheat117_code = "8009D74C 0000"
+cheat117_enable = false
+
+cheat118_desc = "Garage Space 80"
+cheat118_code = "8009D7AC 0000"
+cheat118_enable = false
+
+cheat119_desc = "Garage Space 81"
+cheat119_code = "8009D80C 0000"
+cheat119_enable = false
+
+cheat120_desc = "Garage Space 82"
+cheat120_code = "8009D86C 0000"
+cheat120_enable = false
+
+cheat121_desc = "Garage Space 83"
+cheat121_code = "8009D8CC 0000"
+cheat121_enable = false
+
+cheat122_desc = "Garage Space 84"
+cheat122_code = "8009D92C 0000"
+cheat122_enable = false
+
+cheat123_desc = "Garage Space 85"
+cheat123_code = "8009D98C 0000"
+cheat123_enable = false
+
+cheat124_desc = "Garage Space 86"
+cheat124_code = "8009D9EC 0000"
+cheat124_enable = false
+
+cheat125_desc = "Garage Space 87"
+cheat125_code = "8009DA4C 0000"
+cheat125_enable = false
+
+cheat126_desc = "Garage Space 88"
+cheat126_code = "8009DAAC 0000"
+cheat126_enable = false
+
+cheat127_desc = "Garage Space 89"
+cheat127_code = "8009DB0C 0000"
+cheat127_enable = false
+
+cheat128_desc = "Garage Space 90"
+cheat128_code = "8009DB6C 0000"
+cheat128_enable = false
+
+cheat129_desc = "Garage Space 91"
+cheat129_code = "8009DBCC 0000"
+cheat129_enable = false
+
+cheat130_desc = "Garage Space 92"
+cheat130_code = "8009DC2C 0000"
+cheat130_enable = false
+
+cheat131_desc = "Garage Space 93"
+cheat131_code = "8009DC8C 0000"
+cheat131_enable = false
+
+cheat132_desc = "Garage Space 94"
+cheat132_code = "8009DCEC 0000"
+cheat132_enable = false
+
+cheat133_desc = "Garage Space 95"
+cheat133_code = "8009DD4C 0000"
+cheat133_enable = false
+
+cheat134_desc = "Garage Space 96"
+cheat134_code = "8009DDAC 0000"
+cheat134_enable = false
+
+cheat135_desc = "Garage Space 97"
+cheat135_code = "8009DE0C 0000"
+cheat135_enable = false
+
+cheat136_desc = "Garage Space 98"
+cheat136_code = "8009DE6C 0000"
+cheat136_enable = false
+
+cheat137_desc = "Garage Space 99"
+cheat137_code = "8009DECC 0000"
+cheat137_enable = false
+
+cheat138_desc = "Have Bronze GT Logo In Garage"
+cheat138_code = "80058634 0000"
+cheat138_enable = false
+
+cheat139_desc = "IA License In Garage"
+cheat139_code = "80058634 007E"
+cheat139_enable = false
+
+cheat140_desc = "Master Code (For Use With Simulation Mode Only!)"
+cheat140_code = "D000E200 0002"
+cheat140_enable = false
+
+cheat141_desc = "No Car Image (In Garage)"
+cheat141_code = "80058640 0000"
+cheat141_enable = false
+
+cheat142_desc = "P1 Press R3 For Nitrous Boost"
+cheat142_code = "D00BC1C6 0004+800B6F3E 0006+D00BC1C6 0004+800B6F42 0006"
+cheat142_enable = false
+
+cheat143_desc = "P1 Press R3 For Nitrous Boost"
+cheat143_code = "D00BC1C6 0004+800B6F3E 0006+D00BC1C6 0004+800B6F42 0006"
+cheat143_enable = false
+
+cheat144_desc = "P2 Press R3 For Nitrous Boost"
+cheat144_code = "D00BC286 0004+800B7C72 0006+D00BC286 0004+800B7C76 0006"
+cheat144_enable = false
+
+cheat145_desc = "P2 Press R3 For Nitrous Boost [See Above Note]"
+cheat145_code = "D00BC286 0004+800B7C72 0006+D00BC286 0004+800B7C76 0006"
+cheat145_enable = false
+
+cheat146_desc = "Press Start & Select For Cash"
+cheat146_code = "D009AACE 0009+8009B866 00FF"
+cheat146_enable = false
+
+cheat147_desc = "Press Start &amp; Select At &quot;Home&quot; For '67 427 Coupe Corvette"
+cheat147_code = "D009AACE 0009+8007DA48 0001+D009AACE 0009+8009B87A 0001+D009AACE 0009+8009BA0C 00B0"
+cheat147_enable = false
+
+cheat148_desc = "R3 For Improved Nitro (320 mph)"
+cheat148_code = "D00BC1C6 0004+800B6F3E 0009+D00BC1C6 0004+800B6F42 0009"
+cheat148_enable = false
+
+cheat149_desc = "Realtime Car Color Modifier"
+cheat149_code = "80058638 0000"
+cheat149_enable = false
+
+cheat150_desc = "Start & Select For A License"
+cheat150_code = "D009AACE 0009+8009E3BC 0303+D009AACE 0009+8009E3BE 0303+D009AACE 0009+8009E3C0 0303+D009AACE 0009+8009E3C2 0303"
+cheat150_enable = false
+
+cheat151_desc = "Start & Select For B License"
+cheat151_code = "D009AACE 0009+8009E3B4 0303+D009AACE 0009+8009E3B6 0303+D009AACE 0009+8009E3B8 0303+D009AACE 0009+8009E3BA 0303"
+cheat151_enable = false
+
+cheat152_desc = "Start & Select For Int. License"
+cheat152_code = "D009AACE 0009+8009E3C4 0303+D009AACE 0009+8009E3C6 0303+D009AACE 0009+8009E3C8 0303+D009AACE 0009+8009E3CA 0303"
+cheat152_enable = false
+
+cheat153_desc = "Start On 2nd Lap"
+cheat153_code = "D00B68B0 0000+800B68B0 0002"
+cheat153_enable = false
+
+cheat154_desc = "Start With Bonus Items A"
+cheat154_code = "D00816D8 0000+800816D8 0405+D00816DA 0000+800816DA 0004+D00816DC 0000+800816DC 0405+D00816DE 0000+800816DE 0004+D00816E0 0000+800816E0 0405+D00816E2 0000+800816E2 0004"
+cheat154_enable = false
+
+cheat155_desc = "Start With Bonus Items B"
+cheat155_code = "D00816E4 0000+800816E4 0404+D00816E6 0000+800816E6 0004+D00816E8 0000+800816E8 0404+D00816EA 0000+800816EA 0004+D00816EC 0000+800816EC 0404+D00816EE 0000+800816EE 0004"
+cheat155_enable = false
+
+cheat156_desc = "Start With Bonus Items C"
+cheat156_code = "D00816F0 0000+800816F0 0404+D00816F2 0000+800816F2 0004+D00816F4 0000+800816F4 0404+D00816F6 0000+800816F6 0004"
+cheat156_enable = false
+
+cheat157_desc = "Stop Timer"
+cheat157_code = "80093D78 048C"
+cheat157_enable = false
+
+cheat158_desc = "Test 1"
+cheat158_code = "3009E3B4 0003"
+cheat158_enable = false
+
+cheat159_desc = "Test 1"
+cheat159_code = "3009E3BC 0003"
+cheat159_enable = false
+
+cheat160_desc = "Test 1"
+cheat160_code = "3009E3C4 0003"
+cheat160_enable = false
+
+cheat161_desc = "Test 2"
+cheat161_code = "3009E3B5 0003"
+cheat161_enable = false
+
+cheat162_desc = "Test 2"
+cheat162_code = "3009E3BD 0003"
+cheat162_enable = false
+
+cheat163_desc = "Test 2"
+cheat163_code = "3009E3C5 0003"
+cheat163_enable = false
+
+cheat164_desc = "Test 3"
+cheat164_code = "3009E3B6 0003"
+cheat164_enable = false
+
+cheat165_desc = "Test 3"
+cheat165_code = "3009E3BE 0003"
+cheat165_enable = false
+
+cheat166_desc = "Test 3"
+cheat166_code = "3009E3C6 0003"
+cheat166_enable = false
+
+cheat167_desc = "Test 4"
+cheat167_code = "3009E3B7 0003"
+cheat167_enable = false
+
+cheat168_desc = "Test 4"
+cheat168_code = "3009E3BF 0003"
+cheat168_enable = false
+
+cheat169_desc = "Test 4"
+cheat169_code = "3009E3C7 0003"
+cheat169_enable = false
+
+cheat170_desc = "Test 5"
+cheat170_code = "3009E3B8 0003"
+cheat170_enable = false
+
+cheat171_desc = "Test 5"
+cheat171_code = "3009E3C0 0003"
+cheat171_enable = false
+
+cheat172_desc = "Test 5"
+cheat172_code = "3009E3C8 0003"
+cheat172_enable = false
+
+cheat173_desc = "Test 6"
+cheat173_code = "3009E3B9 0003"
+cheat173_enable = false
+
+cheat174_desc = "Test 6"
+cheat174_code = "3009E3C1 0003"
+cheat174_enable = false
+
+cheat175_desc = "Test 6"
+cheat175_code = "3009E3C9 0003"
+cheat175_enable = false
+
+cheat176_desc = "Test 7"
+cheat176_code = "3009E3BA 0003"
+cheat176_enable = false
+
+cheat177_desc = "Test 7"
+cheat177_code = "3009E3C2 0003"
+cheat177_enable = false
+
+cheat178_desc = "Test 7"
+cheat178_code = "3009E3CA 0003"
+cheat178_enable = false
+
+cheat179_desc = "Test 8"
+cheat179_code = "3009E3BB 0003"
+cheat179_enable = false
+
+cheat180_desc = "Test 8"
+cheat180_code = "3009E3C3 0003"
+cheat180_enable = false
+
+cheat181_desc = "Test 8"
+cheat181_code = "3009E3CB 0003"
+cheat181_enable = false
+
+cheat182_desc = "Track Nodifier"
+cheat182_code = "800B63BC 0000"
+cheat182_enable = false

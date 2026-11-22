@@ -1,0 +1,81 @@
+cheats = 20
+
+cheat0_desc = "Extra Arms Ammo"
+cheat0_code = "8002DCD8 0001"
+cheat0_enable = false
+
+cheat1_desc = "Extra Bombs"
+cheat1_code = "800398B4 0001"
+cheat1_enable = false
+
+cheat2_desc = "Extra Lives"
+cheat2_code = "800475A8 0001"
+cheat2_enable = false
+
+cheat3_desc = "Extra Time"
+cheat3_code = "800295F8 0002"
+cheat3_enable = false
+
+cheat4_desc = "Hit Anywhere"
+cheat4_code = "8003A984 0000+800852D8 FF00+800852DA FF00+800852DC 7F00+800852DE 7F00+800401F4 0000+800401F6 3404+80085700 FF00+80085702 FF00+80085704 7F00+80085706 7F00+80085870 FF00+80085872 FF00+80085874 7F00+80085876 7F00"
+cheat4_enable = false
+
+cheat5_desc = "Infinite Arms Ammo"
+cheat5_code = "8002DCE6 2400"
+cheat5_enable = false
+
+cheat6_desc = "Infinite Bombs"
+cheat6_code = "800398BE 2400"
+cheat6_enable = false
+
+cheat7_desc = "Infinite Lives"
+cheat7_code = "800475AE 2400"
+cheat7_enable = false
+
+cheat8_desc = "Infinite Time"
+cheat8_code = "8002962A 2400"
+cheat8_enable = false
+
+cheat9_desc = "Invincible"
+cheat9_code = "8003273E 2400+80032764 00C8+80032766 2405"
+cheat9_enable = false
+
+cheat10_desc = "Max Score P1"
+cheat10_code = "800EE318 E0FF+800EE31A 05F5"
+cheat10_enable = false
+
+cheat11_desc = "Max Score P1"
+cheat11_code = "800EE320 E0FF+800EE322 05F5"
+cheat11_enable = false
+
+cheat12_desc = "P1 Tons of Prisoners Saved"
+cheat12_code = "80087A78 00FF"
+cheat12_enable = false
+
+cheat13_desc = "P2 Tons of Prisoners Saved"
+cheat13_code = "80087A7C 00FF"
+cheat13_enable = false
+
+cheat14_desc = "Rapid Fire (Arms Ammo)"
+cheat14_code = "D00D4948 8000+800D4948 0000"
+cheat14_enable = false
+
+cheat15_desc = "Reverse Joker Command"
+cheat15_code = "D00D4948 0000"
+cheat15_enable = false
+
+cheat16_desc = "Score Modifier P1"
+cheat16_code = "800EE318 0000"
+cheat16_enable = false
+
+cheat17_desc = "Score Modifier P1"
+cheat17_code = "800EE320 0000"
+cheat17_enable = false
+
+cheat18_desc = "Unlock Another Mission"
+cheat18_code = "300D4213 00FF"
+cheat18_enable = false
+
+cheat19_desc = "Weapon Modifier"
+cheat19_code = "8002D93A A083+8002D92E 2403+8002D92C 0000"
+cheat19_enable = false
